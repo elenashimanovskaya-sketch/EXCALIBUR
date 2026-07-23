@@ -10,6 +10,8 @@
 Оркестратор (Директор) — не выполняй роли worker сам.
 
 ОБЯЗАТЕЛЬНО: EXCALIBUR_BLOG_ALLOW_PUBLISH=yes — публикуем live в WordPress сразу после QA PASS.
+ОБЯЗАТЕЛЬНО: PUBLIC_SITE_URL=https://naturallift.store — publish на mayai.ru ЗАПРЕЩЁН (скрипт exit 4).
+Никогда не передавай --site-base https://mayai.ru (legacy репо учителя).
 
 0. Прочитай AGENTS.md и shared/agent-pipeline-pitfalls.md.
 1. python3 scripts/excalibur_blog_doctor.py — preflight PASS.

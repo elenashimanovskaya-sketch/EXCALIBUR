@@ -18,6 +18,14 @@ shell today + research_start
   → excalibur-blog-publish (автоматически после Indexer; skip только publish:no)
 ```
 
+## Publish target (NaturalLift)
+
+Production publish **только** на `https://naturallift.store`. Репозиторий EXCALIBUR — форк учебного пайплайна; в skills могли остаться примеры `mayai.ru` — **игнорировать**.
+
+- `PUBLIC_SITE_URL` / `--site-base` / `--public-base` → только `naturallift.store`
+- `scripts/excalibur_blog_wp_publish.py` и `excalibur_blog_doctor.py` блокируют другие домены (exit 4)
+- link-verify / interlinker: `--site-base https://naturallift.store`
+
 ## Cloud Task fallback
 
 Если Cloud API не принимает `excalibur-blog-research`, `excalibur-blog-writer`, … как Task types:

@@ -13,26 +13,13 @@ from pathlib import Path
 
 from asset_download import download_url_bytes
 from excalibur_blog_article_format import format_article_html
+from excalibur_env import assert_naturallift_publish_target, load_env
 from excalibur_repo_paths import repo_relative
 from image_validate import sniff_image_format, validate_image_file
 
 
 def project_root() -> Path:
     return Path(__file__).resolve().parents[1]
-
-
-def load_env(root: Path) -> dict[str, str]:
-    for name in ("memory/site.env.local", "memory/site.env.local.example"):
-        p = root / name
-        if p.is_file():
-            env: dict[str, str] = {}
-            for line in p.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if "=" in line and not line.startswith("#"):
-                    k, v = line.split("=", 1)
-                    env[k.strip()] = v.strip()
-            return env
-    raise FileNotFoundError("site.env.local not found under memory/")
 
 
 def cover_url_from_registry(registry_path: Path) -> str:
@@ -419,13 +406,22 @@ def main() -> int:
         return 0
 
     env = load_env(root)
-    if env.get("EXCALIBUR_BLOG_ALLOW_PUBLISH", "").strip().lower() != "yes":
-        print("BLOCKER: EXCALIBUR_BLOG_ALLOW_PUBLISH != yes", file=sys.stderr)
+    allow = env.get("EXCALIBUR_BLOG_ALLOW_PUBLISH", "").strip().lower()
+    if allow != "yes":
+        print(f"BLOCKER: EXCALIBUR_BLOG_ALLOW_PUBLISH={allow!r} (нужно латинское yes)", file=sys.stderr)
         return 1
     public = args.public_base or env.get("PUBLIC_SITE_URL") or env.get("WP_HOME") or ""
     if not public:
         print("PUBLIC_SITE_URL or --public-base required", file=sys.stderr)
         return 2
+    try:
+        assert_naturallift_publish_target(public)
+    except RuntimeError as exc:
+        print(str(exc), file=sys.stderr)
+        return 4
+    if not env.get("FTP_HOST") or not env.get("FTP_USER") or not env.get("FTP_PASS"):
+        print("BLOCKER: FTP_HOST / FTP_USER / FTP_PASS не заданы (Secrets или site.env.local)", file=sys.stderr)
+        return 5
     out = publish_via_ftp(env, php, public)
     print(out)
 

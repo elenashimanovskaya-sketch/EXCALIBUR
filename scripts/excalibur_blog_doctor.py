@@ -6,6 +6,8 @@ import os
 import sys
 from pathlib import Path
 
+from excalibur_env import assert_naturallift_publish_target, load_env
+
 REQUIRED_DIRS = (
     "agents",
     ".cursor/agents",
@@ -66,15 +68,16 @@ def main() -> int:
             print(f"ERR missing file {rel}", file=sys.stderr)
             errors += 1
 
+    env = load_env(root)
     for key in OPTIONAL_ENV:
-        val = os.environ.get(key, "").strip()
+        val = env.get(key, "").strip()
         if val:
             print(f"OK env {key}=configured")
         else:
             print(f"WARN env {key} not set")
             warnings += 1
 
-    allow = os.environ.get("EXCALIBUR_BLOG_ALLOW_PUBLISH", "").strip().lower()
+    allow = env.get("EXCALIBUR_BLOG_ALLOW_PUBLISH", "").strip().lower()
     if allow == "yes":
         print("OK publish_mode=production")
     elif allow == "no":
@@ -83,6 +86,18 @@ def main() -> int:
     else:
         print("WARN publish_mode=unset (set EXCALIBUR_BLOG_ALLOW_PUBLISH=yes for live)")
         warnings += 1
+
+    public = env.get("PUBLIC_SITE_URL") or env.get("WP_SITE_URL") or ""
+    if public:
+        try:
+            assert_naturallift_publish_target(public)
+            print("OK publish_target=naturallift.store")
+        except RuntimeError as exc:
+            print(f"ERR {exc}", file=sys.stderr)
+            errors += 1
+    else:
+        print("ERR PUBLIC_SITE_URL not set (нужен https://naturallift.store)", file=sys.stderr)
+        errors += 1
 
     print(f"SUMMARY errors={errors} warnings={warnings}")
     return 1 if errors else 0

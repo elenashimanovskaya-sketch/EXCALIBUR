@@ -20,10 +20,12 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 | Links | `link-verify.json` → pass |
 | Cover | `cover/cover.png` + alt в `cover-registry.json` |
 | Schema | `schema.jsonld` |
-| Credentials | `memory/site.env.local`: `FTP_*`, `FTP_ROOT`, `PUBLIC_SITE_URL` |
-| Allow flag | `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` |
+| Credentials | Cloud Secrets или `memory/site.env.local`: `FTP_*`, `FTP_ROOT`, `PUBLIC_SITE_URL` |
+| Allow flag | `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` (латиница, не «нуы») |
+| **Target site** | **только** `https://naturallift.store` — **никогда** `mayai.ru` |
 
 Если allow flag ≠ yes → **`❌ PUBLISH BLOCKER`** (не silent skip).
+Скрипт publish **блокирует** любой `--public-base` / `PUBLIC_SITE_URL` не на `naturallift.store`.
 
 ## Алгоритм
 
@@ -33,7 +35,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 python scripts/excalibur_blog_link_verify.py \
   memory/blog/articles/<topic_id>-<slug>/article.html \
   -o memory/blog/articles/<topic_id>-<slug>/link-verify.json \
-  --site-base https://mayai.ru
+  --site-base https://naturallift.store
 ```
 
 Gate: `link-verify.json` → pass. Иначе FIX (writer/QA) или BLOCKER.
@@ -91,7 +93,7 @@ SEO (Rank Math / Yoast) заполняется скриптом из `article.me
 ```bash
 python scripts/excalibur_blog_interlinker.py --apply \
   --blog-dir memory/blog/articles \
-  --site-base https://mayai.ru
+  --site-base https://naturallift.store
 ```
 
 Inbound-ссылки из старых статей на новую.
