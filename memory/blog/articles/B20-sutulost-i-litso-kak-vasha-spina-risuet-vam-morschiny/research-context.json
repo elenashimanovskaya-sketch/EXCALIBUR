@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-09",
+    "today_ru": "09.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-10",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-09 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B20",
+    "priority": "P1",
+    "slug": "sutulost-i-litso-kak-vasha-spina-risuet-vam-morschiny",
+    "h1": "Сутулость и лицо: как ваша спина «рисует» вам морщины",
+    "primary_query": "сутулость и морщины на лице",
+    "secondary_queries": [
+      "сутулость дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B20",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "сутулость и морщины на лице 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "сутулость и морщины на лице июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "сутулость и морщины на лице новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "сутулость дома 2026",
+      "purpose": "вторичный запрос: сутулость дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Сутулость и лицо: как ваша спина «рисует» вам морщины 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B20-sutulost-i-litso-kak-vasha-spina-risuet-vam-morschiny",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

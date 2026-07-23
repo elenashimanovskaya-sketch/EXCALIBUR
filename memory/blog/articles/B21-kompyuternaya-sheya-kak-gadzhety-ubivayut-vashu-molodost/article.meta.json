@@ -1,0 +1,38 @@
+{
+  "topic_id": "B21",
+  "slug": "kompyuternaya-sheya-kak-gadzhety-ubivayut-vashu-molodost",
+  "h1": "Компьютерная шея: как гаджеты убивают вашу молодость",
+  "title": "Компьютерная шея: как гаджеты убивают вашу молодость",
+  "description": "Компьютерная шея и упражнения дома: разминка за 5 минут пошагово, эргономика и ошибки. Без обещаний «новая шея за три дня».",
+  "primary_query": "компьютерная шея упражнения",
+  "focus_keyword": "компьютерная шея упражнения",
+  "secondary_queries": [
+    "разминка для шеи за компьютером",
+    "упражнения для шеи дома"
+  ],
+  "char_count": 14123,
+  "writer_engine": "grok+attention-format",
+  "writer_model": "cursor-grok-4.5-high-fast",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "publish",
+  "has_exercise": true,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Женщина 45-55 за ноутбуком: слева «компьютерная шея» forward head, справа мягкая разминка. Елена на exercise inline в yoga-set.",
+  "anchor_variants": [
+    "компьютерная шея упражнения",
+    "разминка для шеи за компьютером",
+    "упражнения для шеи дома",
+    "text neck упражнения"
+  ],
+  "meta_ab": {
+    "title_seo": "Компьютерная шея: упражнения и разминка дома",
+    "title_ctr": "Шея «съехала» от ноутбука? Разминка за 5 минут",
+    "title_aeo": "Какие упражнения помогают при компьютерной шее?",
+    "description_seo": "Компьютерная шея: упражнения пошагово, эргономика, ошибки. Разминка 5 минут дома от мастера фейс-йоги.",
+    "description_ctr": "Гаджеты крадут молодость через шею? Показываю разминку, которую делаю сама.",
+    "description_aeo": "Компьютерная шея - forward head. Упражнения и разминка 5 минут, эргономика стола."
+  },
+  "cover_family": "problem_hero",
+  "cover_variant": "ghost_correct_overlay"
+}

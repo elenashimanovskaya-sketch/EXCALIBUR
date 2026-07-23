@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B20-sutulost-i-litso-kak-vasha-spina-risuet-vam-morschiny/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1021,
+      573
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 573,
+        "end": 580
+      },
+      "v_gutter_px": {
+        "start": 1021,
+        "end": 1027
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1021,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1021,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Сутулость и лицо: как ваша спина «рисует» вам морщины",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1027,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 1027,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Как спина «рисует» морщины на лице",
+        "h2_anchor": "Как спина «рисует» морщины на лице"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 580,
+          "right": 1021,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 580,
+          "right": 1021,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Простой тест: сутулость за 2 минуты",
+        "h2_anchor": "Простой тест: сутулость за 2 минуты"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1027,
+          "top": 580,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1027,
+          "top": 580,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Упражнение пошагово с ведущей: Комплекс для осанки пошагово",
+        "h2_anchor": "Комплекс для осанки пошагово"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Как спина «рисует» морщины на лице",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Простой тест: сутулость за 2 минуты",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Комплекс для осанки пошагово"
+  ],
+  "figure_validation": []
+}

@@ -1,0 +1,35 @@
+{
+  "source": "memory/blog/articles/B10-ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli/article.html",
+  "total_links": 3,
+  "failed_count": 3,
+  "verdict": "fail",
+  "links": [
+    {
+      "url": "https://naturallift.store/massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/diagnostika-kozhi/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    }
+  ]
+}

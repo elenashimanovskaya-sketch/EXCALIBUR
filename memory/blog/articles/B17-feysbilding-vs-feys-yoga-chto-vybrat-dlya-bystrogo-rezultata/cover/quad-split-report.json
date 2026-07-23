@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B17-feysbilding-vs-feys-yoga-chto-vybrat-dlya-bystrogo-rezultata/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1017,
+      571
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 571,
+        "end": 582
+      },
+      "v_gutter_px": {
+        "start": 1017,
+        "end": 1028
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1017,
+          "bottom": 571
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1017,
+          "bottom": 571
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Фейсбилдинг vs Фейс-йога: что выбрать для быстрого результата?",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1028,
+          "top": 0,
+          "right": 2048,
+          "bottom": 571
+        },
+        "raw_box_px": {
+          "left": 1028,
+          "top": 0,
+          "right": 2048,
+          "bottom": 571
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Разберитесь, чем фейсбилдинг отличается от фейс-йоги",
+        "h2_anchor": "Разберитесь, чем фейсбилдинг отличается от фейс-йоги"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 582,
+          "right": 1017,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 582,
+          "right": 1017,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Оцените плюсы и минусы фейсбилдинга дома",
+        "h2_anchor": "Оцените плюсы и минусы фейсбилдинга дома"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1031,
+          "top": 582,
+          "right": 2044,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1028,
+          "top": 582,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Сравните фейс-йогу по критериям без мифов о скорости",
+        "h2_anchor": "Сравните фейс-йогу по критериям без мифов о скорости"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Разберитесь, чем фейсбилдинг отличается от фейс-йоги",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Оцените плюсы и минусы фейсбилдинга дома",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Сравните фейс-йогу по критериям без мифов о скорости"
+  ],
+  "figure_validation": []
+}

@@ -87,7 +87,7 @@ Task(excalibur-blog-writer)
 
 Промпт: «topic_id B01. По research-notes + контракт → article.html + article.meta.json. Блок === EXCALIBUR BLOG WRITER === в handoff.»
 
-**Gate:** article.html 8500–9500 символов, режим B, шаги + рекомендации (см. editorial-policy).
+**Gate:** article.html **6000–7200** символов, режим B, шаги + рекомендации (см. editorial-policy).
 
 ### Шаг 3 — GEO QA (Task)
 

@@ -1,0 +1,52 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "fetched_at": "2026-07-21",
+  "phrases": [
+    "омоложение лица",
+    "как омолодить лицо",
+    "омоложение",
+    "омоложение как образ жizni"
+  ],
+  "runs": [
+    {
+      "phrase": "омоложение лица",
+      "ok": true,
+      "response": {
+        "totalCount": 22080,
+        "results": [
+          {"phrase": "омоложение лица", "count": 22080},
+          {"phrase": "для омоложения кожи лица", "count": 2345},
+          {"phrase": "домашний омоложения лица", "count": 835}
+        ],
+        "associations": [
+          {"phrase": "омоложение", "count": 90432},
+          {"phrase": "как омолодить лицо", "count": 1886}
+        ]
+      }
+    },
+    {
+      "phrase": "как омолодить лицо",
+      "ok": true,
+      "response": {
+        "totalCount": 1886,
+        "results": [
+          {"phrase": "как омолодить лицо", "count": 1886},
+          {"phrase": "как омолодить лицо в домашних условиях", "count": 408},
+          {"phrase": "как омолодить лицо после 40", "count": 103}
+        ]
+      }
+    },
+    {
+      "phrase": "привычки которые старят",
+      "ok": true,
+      "response": {
+        "totalCount": 65,
+        "results": [{"phrase": "привычки которые старят", "count": 65}]
+      }
+    }
+  ],
+  "errors": [],
+  "note": "topic primary «омоложение как образ жизни» пусто в MCP. Title hook «Омоложение лица» 22080 PASS."
+}

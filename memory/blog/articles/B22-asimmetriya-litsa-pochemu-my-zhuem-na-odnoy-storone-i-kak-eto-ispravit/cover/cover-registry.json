@@ -1,0 +1,50 @@
+{
+  "topic_id": "B22",
+  "slug": "asimmetriya-litsa-pochemu-my-zhuem-na-odnoy-storone-i-kak-eto-ispravit",
+  "cover_family": "brand_collage",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Асимметрия лица: почему мы жуем на одной стороне и как это исправить",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-18T17:46:56+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Асимметрия лица: почему мы жуем на одной стороне и как это исправить",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Почему лицо выглядит асимметричным (и это не всегда «кривое лицо»)",
+      "h2_anchor": "Почему лицо выглядит асимметричным (и это не всегда «кривое лицо»)",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Жевательная привычка: что меняется, когда вы жуёте на одной стороне",
+      "h2_anchor": "Жевательная привычка: что меняется, когда вы жуёте на одной стороне",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Упражнение пошагово с ведущей: Упражнения и привычки: пошаговый план на две недели",
+      "h2_anchor": "Упражнения и привычки: пошаговый план на две недели",
+      "visual_type": "exercise_steps_host",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

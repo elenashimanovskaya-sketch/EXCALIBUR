@@ -1,27 +1,52 @@
 {
-  "hero_id": "blog-host",
-  "name_ru": "Артур Хорошев",
+  "hero_id": "elena-shimanovskaya",
+  "name_ru": "Елена Шимановская",
   "reference_image": "memory/cover/assets/blog-hero-reference.png",
-  "reference_notes": "Reference = только лицо (очки, quiff, борода). Одежду агент меняет свободно под крючок и тему статьи — не копировать костюм с фото.",
+  "reference_notes": "Reference = узнаваемое лицо Елены (возраст 40+, тёплая улыбка, естественный вид). Одежду и фон агент меняет под тему статьи — не копировать наряд с фото.",
   "visual_lock": {
-    "face": "овальное лицо, дружелюбная улыбка",
-    "glasses": "круглые чёрные очки",
-    "hair": "густая светло-русый/пепельный quiff, зачёс вверх и вправо",
-    "beard": "аккуратная короткая борода с сединой",
-    "energy": "харизматичный ведущий, ироничный, не клоун"
+    "face": "зрелая женщина 40+, мягкие черты, доброжелательная улыбка",
+    "hair": "светлые/русые волосы, естественная укладка",
+    "skin": "живая кожа без «пластикового» ретуша, естественное сияние",
+    "energy": "наставница, спокойная уверенность, wellness premium, активный цвет в образе, не глянец 20 лет"
   },
-  "outfit_rule": "Свободный выбор агента: костюм, casual, мем-костюм, реквизит — по cover_hook и scene_hint. Reference photo outfit is NOT mandatory.",
-  "reference_outfit_hint": "На эталонном фото — красный пиджак и бабочка; это лишь один из вариантов, не lock.",
-  "prompt_fragment": "Blog host on COVER ONLY: preserve EXACT face likeness from reference — round black glasses, ash-blonde quiff, salt-and-pepper beard. Outfit, pose, props: agent's creative choice for the meme hook — do NOT copy reference photo clothing unless scene_hint asks.",
+  "outfit_rule": "Мастер фейс-йоги: всегда йога-костюм (легgings + спортивный топ/бра), цвет меняется по статье (fuchsia, cobalt, terracotta, emerald). Лицо — с reference, одежду с reference НЕ копировать. НЕ кардigan, НЕ уличная одежда.",
+  "reference_outfit_hint": "Reference — только лицо и энергия. Каждая статья: новый йoga-set, ротация reference_url по topic_id (один портрет на генерацию).",
+  "prompt_fragment": "Blog host Elena — face yoga master: preserve EXACT face from reference, NEW yoga outfit each article (matching leggings + sports top), fuchsia/cobalt/terracotta rotation, studio wellness light, NOT street clothes, NOT copying reference outfit.",
   "cover_hook_rules": [
-    "Обложка = крючок: провокация, узнаваемая боль SEOшника, желание кликнуть",
-    "Крупный русский meme-caption на обложке (2–6 слов), читаемый",
-    "Герой смотрит в камеру или жестом указывает на текст",
-    "Не спойлерить весь гайд — намекнуть на конфликт SEO vs GEO / «текст не читают»",
-    "Одежда героя — на усмотрение агента (мем-костюм, casual, пиджак, худи…) — лицо с reference обязательно",
-    "Design code: fake скрины (Wordstat, отзывы, Telegram), рваная бумага, скотч, розовый маркер, разные мем-реакции — «сделал человек», 16:9"
+    "Обложка = фраза из primary_query или топ Wordstat/Ядрышко (2–6 слов), как люди ищут",
+    "Запрещено: выдуманные метафоры («глушит лоб», «маскирует») — их нет в поиске",
+    "Крупный русский caption на cover-панели, читаемый",
+    "Герой смотрит в камеру или жестом указывает на текст/зеркало",
+    "Не спойлерить весь протокол — намекнуть на «утро / 10 минут / без патчей»",
+    "Design code: fake зеркало selfie, sticky note «5 минут», таймер, мягкое до/после — «сделала сама», 16:9",
+    "Тон: premium wellness, rose-gold (#d4a3a5), без IT/SEO мемов и Drake"
   ],
-  "reference_url_hosted": "https://files.catbox.moe/yjlmip.png",
-  "reference_url_source": "catbox",
-  "reference_url_updated_at": "2026-06-11T01:15:30+00:00"
+  "reference_url_hosted": "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9022.jpg",
+  "reference_urls_primary": [
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9022.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9019.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9039.jpg"
+  ],
+  "reference_urls_hosted": [
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0472.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0480.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0490.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0522.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0529.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0550.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-8949.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-8971.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9001.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9019.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9022.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9039.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9106.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9123.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9132.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9137.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/05/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%814-%E2%80%94-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png"
+  ],
+  "reference_url_source": "naturallift.store",
+  "reference_url_updated_at": "2026-06-19T00:00:00+00:00"
 }

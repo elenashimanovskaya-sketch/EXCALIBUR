@@ -1,0 +1,48 @@
+{
+  "topic_id": "B12",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Мешки часто от застоя, не от крема",
+  "cover_scheme_id": "S2_prop_in_hands",
+  "reference_urls_hosted": [
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9022.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9019.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9039.jpg"
+  ],
+  "mcp_note": "ONE gpt-image-2 call with input_urls=reference_urls_hosted (3 WP refs), then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Обложка: Мешки под глазами: лимфодренаж височной зоны как спасение",
+      "scene_hint": "Елена в йога-костюме, холодный компресс/полотенце и крем на столе у зеркала утром, rose-gold свет, без SEO.",
+      "meme_caption_ru": "5 минут утром"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Разберите отёк и мешки: в чём разница",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица: утренний отёк vs хронические мешки vs грыжи — признаки и что делать, зона под глазами, без гуаша",
+      "alt": "Сравнительная таблица / UI-мокап: Разберите отёк и мешки: в чём разница"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Сделайте лимфодренаж височной зоны пошагово",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Схема лимфодренажа: стрелки от переносицы и под глазами к вискам и ключицам, 4–6 шагов, давление 2–3/10, силуэт лица",
+      "alt": "Схема workflow / шаги: Сделайте лимфодренаж височной зоны пошагово"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Проведите утренний протокол за 5-7 минут",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист «Утро 5–7 минут»: прохладное умывание → лимфодренаж височной зоны → лёгкий крем без втирания → 10 мин без телефона лицом вниз. Таймер 7:00. Реквизит: полотенце, крем. БЕЗ гуаша, БЕЗ скребка, БЕЗ розового камня гуаша.",
+      "alt": "Чеклист / printable board: Проведите утренний протокол за 5-7 минут"
+    }
+  }
+}

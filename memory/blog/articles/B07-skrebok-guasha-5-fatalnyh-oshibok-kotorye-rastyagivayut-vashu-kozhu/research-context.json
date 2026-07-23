@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-06-17",
+    "today_ru": "17.06.2026",
+    "year": 2026,
+    "month": 6,
+    "month_name_ru": "июнь",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-03-19",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-06-17 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B07",
+    "priority": "P0",
+    "slug": "skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu",
+    "h1": "Скребок Гуаша: 5 фатальных ошибок, которые растягивают вашу кожу",
+    "primary_query": "скребок гуаша ошибки",
+    "secondary_queries": [
+      "скребок дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B07",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "скребок гуаша ошибки 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "скребок гуаша ошибки июнь 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "скребок гуаша ошибки новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "скребок дома 2026",
+      "purpose": "вторичный запрос: скребок дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Скребок Гуаша: 5 фатальных ошибок, которые растягивают вашу кожу 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B07-skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

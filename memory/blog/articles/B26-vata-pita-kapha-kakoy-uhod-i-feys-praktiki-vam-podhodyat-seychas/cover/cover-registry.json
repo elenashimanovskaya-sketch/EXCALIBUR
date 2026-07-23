@@ -1,0 +1,50 @@
+{
+  "topic_id": "B26",
+  "slug": "vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Как определить дошу по коже: Вата, Пита, Капха — уход и фейс-практики дома",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-21T19:00:27+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Как определить дошу по коже: Вата, Пита, Капха — уход и фейс-практики дома",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Три доши простыми словами: что видно на лице",
+      "h2_anchor": "Три доши простыми словами: что видно на лице",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Как определить свою дошу сейчас: быстрый тест по коже",
+      "h2_anchor": "Как определить свою дошу сейчас: быстрый тест по коже",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Таблица: уход и фейс-практики по типу",
+      "h2_anchor": "Таблица: уход и фейс-практики по типу",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

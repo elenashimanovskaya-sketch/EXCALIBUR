@@ -1,0 +1,130 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B07-skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1023,
+      570
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 570,
+        "end": 578
+      },
+      "v_gutter_px": {
+        "start": 1023,
+        "end": 1031
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 5,
+          "top": 0,
+          "right": 1018,
+          "bottom": 570
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1023,
+          "bottom": 570
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: гуаша без ошибок — мягкое давление и йога-образ",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1031,
+          "top": 0,
+          "right": 2048,
+          "bottom": 570
+        },
+        "raw_box_px": {
+          "left": 1031,
+          "top": 0,
+          "right": 2048,
+          "bottom": 570
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Инфографика: ошибка давления гуаша → процесс → результат на лице",
+        "h2_anchor": "Ошибка 1. Давить скребком \"до результата\""
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 578,
+          "right": 1023,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 578,
+          "right": 1023,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема 7-минутного протокола гуаша",
+        "h2_anchor": "7-минутный домашний протокол: как делать правильно"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1031,
+          "top": 578,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1031,
+          "top": 578,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист перед сеансом гуаша",
+        "h2_anchor": "Сверьте технику по таблице перед каждой сессией"
+      }
+    }
+  },
+  "html_inject": [
+    "injected inline_1 after H2 — Ошибка 1. Давить скребком \"до результата\"",
+    "injected inline_2 after H2 — 7-минутный домашний протокол: как делать правильно",
+    "injected inline_3 after H2 — Сверьте технику по таблице перед каждой сессией"
+  ]
+}

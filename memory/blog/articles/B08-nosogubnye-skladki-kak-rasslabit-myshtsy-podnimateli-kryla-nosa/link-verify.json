@@ -1,0 +1,26 @@
+{
+  "source": "memory/blog/articles/B08-nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/article.html",
+  "total_links": 2,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/kak-rasslabit-liczo-za-5-minut-i-ubrat/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    }
+  ]
+}

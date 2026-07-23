@@ -1,0 +1,42 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B28",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B28-sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+  "status": "PASS",
+  "primary_query": "сахар и кожа",
+  "primary_shows": 776,
+  "title_hook": "Сахар и кожа",
+  "title_hook_shows": 776,
+  "approved_title_phrase": "отказ от сахара",
+  "approved_title_shows": 5163,
+  "top_phrases": [
+    {
+      "phrase": "отказ от сахара",
+      "shows": 5163
+    },
+    {
+      "phrase": "сахар и кожа",
+      "shows": 776
+    },
+    {
+      "phrase": "польза отказа от сахара",
+      "shows": 221
+    },
+    {
+      "phrase": "сахар и кожа лица",
+      "shows": 53
+    },
+    {
+      "phrase": "гликирование коллагена",
+      "shows": 44
+    },
+    {
+      "phrase": "сахар и старение кожи",
+      "shows": 16
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "title/h1 не содержит топ-фразу Wordstat «отказ от сахара» (5163/мес)"
+  ]
+}

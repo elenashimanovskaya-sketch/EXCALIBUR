@@ -1,4 +1,4 @@
-﻿# Excalibur BLOG — WordPress publish contract
+# Excalibur BLOG — WordPress publish contract
 
 Excalibur BLOG готовит артефакты локально; публикация — через `scripts/excalibur_blog_wp_publish.py` и FTP bootstrap.
 
@@ -26,11 +26,12 @@ python scripts/excalibur_blog_wp_publish.py \
 
 ## Что делает publish
 
-1. `wp_insert_post` / `wp_update_post` — title, slug, content, excerpt
-2. Featured image из `cover/cover.png` + alt
-3. **Inline images** — все локальные `<img src="cover/...">` загружаются в Media Library, `src` заменяется на WP URL
-4. Post meta `_excalibur_blog_schema_jsonld` — JSON-LD для `single.php`
-5. Post meta `_excalibur_blog_skip_theme_faq` = `1` — сигнал теме **не** добавлять глобальный FAQ-блок
+1. `wp_insert_post` / `wp_update_post` — title, slug, content, `post_excerpt`
+2. SEO meta (Rank Math + Yoast): `meta_ab.title_seo`, `meta_ab.description_seo`, `primary_query` → focus keyword
+3. Featured image из `cover/cover.png` + alt
+4. **Inline images** — все локальные `<img src="cover/...">` загружаются в Media Library, `src` заменяется на WP URL
+5. Post meta `_excalibur_blog_schema_jsonld` — JSON-LD для `single.php`
+6. Post meta `_excalibur_blog_skip_theme_faq` = `1` — сигнал теме **не** добавлять глобальный FAQ-блок
 
 ## Дубли FAQ на live-странице (важно)
 

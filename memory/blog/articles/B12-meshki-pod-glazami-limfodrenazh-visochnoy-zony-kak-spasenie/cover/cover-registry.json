@@ -1,0 +1,50 @@
+{
+  "topic_id": "B12",
+  "slug": "meshki-pod-glazami-limfodrenazh-visochnoy-zony-kak-spasenie",
+  "cover_family": "brand_collage",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Мешки под глазами: лимфодренаж височной зоны как спасение",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-06-22T11:13:15+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Мешки под глазами: лимфодренаж височной зоны как спасение",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Разберите отёк и мешки: в чём разница",
+      "h2_anchor": "Разберите отёк и мешки: в чём разница",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема workflow / шаги: Сделайте лимфодренаж височной зоны пошагово",
+      "h2_anchor": "Сделайте лимфодренаж височной зоны пошагово",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Проведите утренний протокол за 5-7 минут",
+      "h2_anchor": "Проведите утренний протокол за 5-7 минут",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

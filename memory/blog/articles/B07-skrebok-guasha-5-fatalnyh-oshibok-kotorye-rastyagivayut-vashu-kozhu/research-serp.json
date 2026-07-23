@@ -1,0 +1,349 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-06-17",
+    "today_ru": "17.06.2026",
+    "year": 2026,
+    "month": 6,
+    "month_name_ru": "июнь",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-03-19",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-06-17 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B07",
+    "priority": "P0",
+    "slug": "skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu",
+    "h1": "Скребок Гуаша: 5 фатальных ошибок, которые растягивают вашу кожу",
+    "primary_query": "скребок гуаша ошибки",
+    "secondary_queries": [
+      "скребок дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "скребок гуаша ошибки 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Скребок гуаша для лица 2026: какой выбрать и как пользоваться",
+          "url": "https://market.yandex.ru/journal/skrebok-guasha-dlya-lica-2026-kakoy-vybrat-i-kak-polzovatsya",
+          "snippet": ""
+        },
+        {
+          "title": "Скребок гуаша: как выбрать и пользоваться массажером для лица",
+          "url": "https://rest.lviv.ua/ru/blog/skrebok-guasha-dlya-lica-kak-vybrat-ispolzovat-i-ne-navredit-246",
+          "snippet": "Обзор скребков гуаша для лица в 2026 году: как выбрать подходящий инструмент, избежать ошибок в технике и добиться заметной подтяжки кожи."
+        },
+        {
+          "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+          "url": "https://llan.ru/8-oshibok-kotorye-mnogie-dopyskaut-pri-ispolzovanii-skrebka-gyasha.html",
+          "snippet": "Узнайте, какой скребок гуаша выбрать, как делать массаж лица без ошибок и кому процедура не подходит. Читайте гид и подберите свой аксессуар для ухода."
+        },
+        {
+          "title": "8 ошибок, возможных при использовании скребка гуаша при уходе за собой ...",
+          "url": "https://medaboutme.ru/articles/8_oshibok_kotorye_mnogie_dopuskayut_pri_ispolzovanii_skrebka_guasha/",
+          "snippet": "Для получения положительного результата необходимо использовать скребок гуаша правильно. Какие ошибки достигаются чаще всего?"
+        },
+        {
+          "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+          "url": "https://heroine.ru/8-oshibok-kotorye-mnogie-dopuskayut-pri-ispolzovanii-skrebka-guasha/",
+          "snippet": "Тем, кто планирует использовать скребок гуаша для массажа лица, имеет смысл узнать, какие ошибки можно допустить при выполнении этой техники."
+        },
+        {
+          "title": "Топ-10 лучших скребков гуаша для лица 2026: какие выбрать, рейтинг ...",
+          "url": "https://lady.mail.ru/compilations/552946-luchshie-skrebki-guasha-dlya-litsa/",
+          "snippet": "Неправильный уход за массажером, резкие движения: рассказываем о самых распространенных ошибках при использовании скребка гуаша."
+        }
+      ],
+      "searched_at": "2026-06-17"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "скребок гуаша ошибки июнь 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+          "url": "https://llan.ru/8-oshibok-kotorye-mnogie-dopyskaut-pri-ispolzovanii-skrebka-gyasha.html",
+          "snippet": ""
+        },
+        {
+          "title": "Топ-10 лучших скребков гуаша для лица 2026: какие выбрать, рейтинг ...",
+          "url": "https://lady.mail.ru/compilations/552946-luchshie-skrebki-guasha-dlya-litsa/",
+          "snippet": "Для получения положительного результата необходимо использовать скребок гуаша правильно. Какие ошибки достигаются чаще всего?"
+        },
+        {
+          "title": "Скребок гуаша для лица 2026: какой выбрать и как пользоваться",
+          "url": "https://market.yandex.ru/journal/skrebok-guasha-dlya-lica-2026-kakoy-vybrat-i-kak-polzovatsya",
+          "snippet": "Лучшие скребки гуаша для лица 2026 года не только совершенствуют внешний вид кожи, но и способствуют ее оздоровлению. С помощью гуаша можно эффективно уменьшить отечность, подтянуть контур лица и даже улучшить кровообращение."
+        },
+        {
+          "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+          "url": "https://heroine.ru/8-oshibok-kotorye-mnogie-dopuskayut-pri-ispolzovanii-skrebka-guasha/",
+          "snippet": "Обзор скребков гуаша для лица в 2026 году: как выбрать подходящий инструмент, избежать ошибок в технике и добиться заметной подтяжки кожи."
+        },
+        {
+          "title": "8 ошибок, возможных при использовании скребка гуаша при уходе за собой ...",
+          "url": "https://medaboutme.ru/articles/8_oshibok_kotorye_mnogie_dopuskayut_pri_ispolzovanii_skrebka_guasha/",
+          "snippet": "Неправильный уход за массажером, резкие движения: рассказываем о самых распространенных ошибках при использовании скребка гуаша."
+        },
+        {
+          "title": "⚠️ Неправильный массаж гуаша — основные ошибки",
+          "url": "https://dzen.ru/a/aenhitEzPT5BOnVY",
+          "snippet": "Относящаяся к традиционной китайской медицине, практика гуаша используется для оздоровления тела, а в косметологии её применяют для ухода за лицом. Не все используют специальный скребок правильно, допуская 8 распространенных ошибок."
+        }
+      ],
+      "searched_at": "2026-06-17"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "скребок гуаша ошибки новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Скребок гуаша для лица 2026: какой выбрать и как пользоваться",
+          "url": "https://market.yandex.ru/journal/skrebok-guasha-dlya-lica-2026-kakoy-vybrat-i-kak-polzovatsya",
+          "snippet": ""
+        },
+        {
+          "title": "Топ-10 лучших скребков гуаша для лица 2026: какие выбрать, рейтинг ...",
+          "url": "https://lady.mail.ru/compilations/552946-luchshie-skrebki-guasha-dlya-litsa/",
+          "snippet": "Обзор скребков гуаша для лица в 2026 году: как выбрать подходящий инструмент, избежать ошибок в технике и добиться заметной подтяжки кожи."
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/p/DZg71dJjav2/",
+          "snippet": "Лучшие скребки гуаша для лица 2026 года не только совершенствуют внешний вид кожи, но и способствуют ее оздоровлению. С помощью гуаша можно эффективно уменьшить отечность, подтянуть контур лица и даже улучшить кровообращение."
+        },
+        {
+          "title": "10 лучших скребков гуаша для лица в 2026 году",
+          "url": "https://www.kp.ru/woman/krasota/luchshie-skrebki-guasha-dlya-litsa/",
+          "snippet": "26 likes, 6 comments - synbeauty.by on June 12, 2026: \"Напишите в комментариях кодовое слово «ПРОВАЛ» и получите доступ к закрытому эфиру, где разбираю: • Когда массаж действительно помогает, а когда может дать обратный эффект • Почему ..."
+        },
+        {
+          "title": "8 ошибок, возможных при использовании скребка гуаша при уходе за собой ...",
+          "url": "https://medaboutme.ru/articles/8_oshibok_kotorye_mnogie_dopuskayut_pri_ispolzovanii_skrebka_guasha/",
+          "snippet": "Хотите избавиться от отеков под глазами, выглядеть молодо и свежо? Обратите внимание на проверенные временем средства для антивозрастного ухода и сохранения здоровья кожи. Собрали лучшие скребки гуаша для лица 2026. Лучшие скребки гуаша для лица. Фото: Sofia Zhuravetc / Shutterstock / Fotodom."
+        },
+        {
+          "title": "Модный скребок Гуаша — как не навредить коже при самостоятельном ...",
+          "url": "https://vk.com/video-235445634_456244105",
+          "snippet": "Тем, кто планирует использовать скребок гуаша для массажа лица, имеет смысл узнать, какие ошибки можно допустить при выполнении этой техники."
+        }
+      ],
+      "searched_at": "2026-06-17"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "скребок дома 2026",
+      "purpose": "вторичный запрос: скребок дома",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Лучшие строительные скребки и цикли - выбор и рейтинг 2026 года",
+          "url": "https://vyborok.com/rejting-luchshih-stroitelnyh-skrebkov-i-czikel/",
+          "snippet": ""
+        },
+        {
+          "title": "PROLine Скребок для удаления снега с крыши, телескопический,1,9 - 5,8 м ...",
+          "url": "https://www.vseinstrumenti.ru/product/proline-skrebok-dlya-udaleniya-snega-s-kryshi-teleskopicheskij-1-9-5-8-m-620-mm-grinda-39945-21878372/",
+          "snippet": "Скребок или цикля - важное приспособление при работах по отделке помещений. Благодаря ему легко удаляются лакокрасочные покрытия, счищаются застывшие растворы. Этот строительный инструмент считается видом шпателя. Он представлен в виде рукоятки с острыми лезвиями, которые могут быть сменными."
+        },
+        {
+          "title": "Щетка Для Мытья Окон 3 В 1, Скребок С ... - Ozon",
+          "url": "https://www.ozon.ru/product/shchetka-dlya-mytya-okon-3-v-1-skrebok-s-vodosgonom-dlya-stekla-i-zerkal-udobnaya-dlya-doma-3351029376/",
+          "snippet": "Четырехсоставная алюминиевая ручка раздвигающуюся от 1,9 м до 5,8 м позволяет безопасно осуществлять очистку крыш, не используя лестниц. Ручка выполнена из прочного алюминиевого сплава и дополнительно покрашена серебряной краской, она не гнется и не подвержена коррозии."
+        },
+        {
+          "title": "Скребок Для Снега С Крыши Купить На Ozon По Низкой Цене",
+          "url": "https://www.ozon.ru/category/skrebok-dlya-snega-s-kryshi/",
+          "snippet": "Щетка для мытья окон 3 в 1, скребок с водосгоном для стекла и зеркал, удобная для дома и машины - покупайте на OZON по выгодным ценам!"
+        },
+        {
+          "title": "Скребок Для Удаления Мха И Сорняков С Брусчатки 2026 | Stl-ка || 3d ...",
+          "url": "https://vk.com/wall-235934962_720",
+          "snippet": "Скребок для снега с крыши - покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей."
+        },
+        {
+          "title": "Скребок Для Удаления Снега С Крыши Truper Roof-rk 33901",
+          "url": "https://www.vseinstrumenti.ru/product/skrebok-dlya-udaleniya-snega-s-kryshi-truper-roof-rk-33901-791687/",
+          "snippet": "Приложение на телефон Применяются рекомендательные технологии STL-ка || 3D Модели для дома и семьи вернуться к странице Посты сообществаВсе постыПост на стене"
+        }
+      ],
+      "searched_at": "2026-06-17"
+    },
+    {
+      "query_id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Как подготовить свои финансы к 2026 году: практическое руководство",
+          "url": "https://vc.ru/money/2191049-podgotovka-finansov-k-2026-godu",
+          "snippet": ""
+        },
+        {
+          "title": "Карта желаний на 2026 год: когда и как правильно сделать, чтобы ...",
+          "url": "https://yamal-media.ru/narrative/karta-zhelanij-na-2026-god-kogda-i-kak-pravilno-sdelat-chtoby-srabotalo",
+          "snippet": "В таких условиях готовиться к 2026-му — значит заранее расставить приоритеты, перестроить бюджет и портфель, навести порядок в долгах и перестать полагаться на «авось». Ниже — практический план, который можно выполнить за 30-60 дней и закрепить как финансовую рутину."
+        },
+        {
+          "title": "Оформление списка литературы по ГОСТ 2026: полное руководство",
+          "url": "https://blog.rosdiplom.ru/rd/pubdiplom/view.aspx?id=3602",
+          "snippet": "Когда лучше делать карту желаний на 2026 год? Традиционно карту желаний составляют в период «между годами» — с конца декабря по середину января, что символизирует новое начало."
+        },
+        {
+          "title": "Инструкция: как сделать 2026 лучшим годом в жизни| Соломин, Агаларов ...",
+          "url": "https://rutube.ru/video/ecec8871d2e4dcd7de3957e92b73d9b4/",
+          "snippet": "Пошаговое руководство по оформлению списка литературы в студенческих работах по новому ГОСТ 2026. Разберём примеры, типичные ошибки и обновлённые требования к источникам."
+        },
+        {
+          "title": "Как ставить цели на 2026 год, чтобы они реально сбывались?",
+          "url": "https://vc.ru/life/2694448-kak-pravilno-stavit-tseli-na-2026-god",
+          "snippet": "Смотрите видео онлайн «Инструкция: как сделать 2026 лучшим годом в жизни| Соломин, Агаларов, Гузенюк, Лапшина, Спиро, Алиев» на канале «Основатели» в хорошем качестве и бесплатно ..."
+        },
+        {
+          "title": "Карта желаний: как правильно сделать, как составить на 2026 год, чтобы ...",
+          "url": "https://lenta.ru/articles/2025/12/16/karta-zhelaniy/",
+          "snippet": "Я собрала этот подход в понятный пошаговый алгоритм — без эзотерики, сложных терминов и «надо напрячься». Коротко он выглядит так: 1. Очистить голову от шума и напряжения. 2. Вернуться в контакт с телом и собой. 3. Выбрать состояния, в которых хочется жить."
+        }
+      ],
+      "searched_at": "2026-06-17"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Скребок Гуаша: 5 фатальных ошибок, которые растягивают вашу кожу 2026",
+      "purpose": "SERP по H1",
+      "result_count": 0,
+      "results": [],
+      "searched_at": "2026-06-17"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://market.yandex.ru/journal/skrebok-guasha-dlya-lica-2026-kakoy-vybrat-i-kak-polzovatsya",
+      "title": "Скребок гуаша для лица 2026: какой выбрать и как пользоваться",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://rest.lviv.ua/ru/blog/skrebok-guasha-dlya-lica-kak-vybrat-ispolzovat-i-ne-navredit-246",
+      "title": "Скребок гуаша: как выбрать и пользоваться массажером для лица",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://llan.ru/8-oshibok-kotorye-mnogie-dopyskaut-pri-ispolzovanii-skrebka-gyasha.html",
+      "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://medaboutme.ru/articles/8_oshibok_kotorye_mnogie_dopuskayut_pri_ispolzovanii_skrebka_guasha/",
+      "title": "8 ошибок, возможных при использовании скребка гуаша при уходе за собой ...",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://heroine.ru/8-oshibok-kotorye-mnogie-dopuskayut-pri-ispolzovanii-skrebka-guasha/",
+      "title": "8 ошибок, которые многие допускают при использовании скребка гуаша",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://lady.mail.ru/compilations/552946-luchshie-skrebki-guasha-dlya-litsa/",
+      "title": "Топ-10 лучших скребков гуаша для лица 2026: какие выбрать, рейтинг ...",
+      "from_query": "скребок гуаша ошибки 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/aenhitEzPT5BOnVY",
+      "title": "⚠️ Неправильный массаж гуаша — основные ошибки",
+      "from_query": "скребок гуаша ошибки июнь 2026"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZg71dJjav2/",
+      "title": "Instagram",
+      "from_query": "скребок гуаша ошибки новости 2026"
+    },
+    {
+      "url": "https://www.kp.ru/woman/krasota/luchshie-skrebki-guasha-dlya-litsa/",
+      "title": "10 лучших скребков гуаша для лица в 2026 году",
+      "from_query": "скребок гуаша ошибки новости 2026"
+    },
+    {
+      "url": "https://vk.com/video-235445634_456244105",
+      "title": "Модный скребок Гуаша — как не навредить коже при самостоятельном ...",
+      "from_query": "скребок гуаша ошибки новости 2026"
+    },
+    {
+      "url": "https://vyborok.com/rejting-luchshih-stroitelnyh-skrebkov-i-czikel/",
+      "title": "Лучшие строительные скребки и цикли - выбор и рейтинг 2026 года",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://www.vseinstrumenti.ru/product/proline-skrebok-dlya-udaleniya-snega-s-kryshi-teleskopicheskij-1-9-5-8-m-620-mm-grinda-39945-21878372/",
+      "title": "PROLine Скребок для удаления снега с крыши, телескопический,1,9 - 5,8 м ...",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://www.ozon.ru/product/shchetka-dlya-mytya-okon-3-v-1-skrebok-s-vodosgonom-dlya-stekla-i-zerkal-udobnaya-dlya-doma-3351029376/",
+      "title": "Щетка Для Мытья Окон 3 В 1, Скребок С ... - Ozon",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://www.ozon.ru/category/skrebok-dlya-snega-s-kryshi/",
+      "title": "Скребок Для Снега С Крыши Купить На Ozon По Низкой Цене",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://vk.com/wall-235934962_720",
+      "title": "Скребок Для Удаления Мха И Сорняков С Брусчатки 2026 | Stl-ка || 3d ...",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://www.vseinstrumenti.ru/product/skrebok-dlya-udaleniya-snega-s-kryshi-truper-roof-rk-33901-791687/",
+      "title": "Скребок Для Удаления Снега С Крыши Truper Roof-rk 33901",
+      "from_query": "скребок дома 2026"
+    },
+    {
+      "url": "https://vc.ru/money/2191049-podgotovka-finansov-k-2026-godu",
+      "title": "Как подготовить свои финансы к 2026 году: практическое руководство",
+      "from_query": "как делать правильно 2026"
+    },
+    {
+      "url": "https://yamal-media.ru/narrative/karta-zhelanij-na-2026-god-kogda-i-kak-pravilno-sdelat-chtoby-srabotalo",
+      "title": "Карта желаний на 2026 год: когда и как правильно сделать, чтобы ...",
+      "from_query": "как делать правильно 2026"
+    },
+    {
+      "url": "https://blog.rosdiplom.ru/rd/pubdiplom/view.aspx?id=3602",
+      "title": "Оформление списка литературы по ГОСТ 2026: полное руководство",
+      "from_query": "как делать правильно 2026"
+    },
+    {
+      "url": "https://rutube.ru/video/ecec8871d2e4dcd7de3957e92b73d9b4/",
+      "title": "Инструкция: как сделать 2026 лучшим годом в жизни| Соломин, Агаларов ...",
+      "from_query": "как делать правильно 2026"
+    },
+    {
+      "url": "https://vc.ru/life/2694448-kak-pravilno-stavit-tseli-na-2026-god",
+      "title": "Как ставить цели на 2026 год, чтобы они реально сбывались?",
+      "from_query": "как делать правильно 2026"
+    },
+    {
+      "url": "https://lenta.ru/articles/2025/12/16/karta-zhelaniy/",
+      "title": "Карта желаний: как правильно сделать, как составить на 2026 год, чтобы ...",
+      "from_query": "как делать правильно 2026"
+    }
+  ]
+}

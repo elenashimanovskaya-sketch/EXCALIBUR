@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B14-mezhbrovnyy-zalom-psihosomatika-gneva-i-uprazhnenie-na-rasslablenie/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1019,
+      571
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 571,
+        "end": 583
+      },
+      "v_gutter_px": {
+        "start": 1019,
+        "end": 1030
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 571
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 571
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Межбровный залом: психосоматика гнева и упражнение на расслабление",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1030,
+          "top": 0,
+          "right": 2048,
+          "bottom": 571
+        },
+        "raw_box_px": {
+          "left": 1030,
+          "top": 0,
+          "right": 2048,
+          "bottom": 571
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Поймите связь гнева и межбровья",
+        "h2_anchor": "Поймите связь гнева и межбровья"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 3,
+          "top": 583,
+          "right": 1015,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 583,
+          "right": 1019,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Пройдите тест на зажим межбровья",
+        "h2_anchor": "Пройдите тест на зажим межбровья"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1033,
+          "top": 583,
+          "right": 2045,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1030,
+          "top": 583,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Сделайте упражнение на расслабление пошагово",
+        "h2_anchor": "Сделайте упражнение на расслабление пошагово"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Поймите связь гнева и межбровья",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Пройдите тест на зажим межбровья",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Сделайте упражнение на расслабление пошагово"
+  ],
+  "figure_validation": []
+}

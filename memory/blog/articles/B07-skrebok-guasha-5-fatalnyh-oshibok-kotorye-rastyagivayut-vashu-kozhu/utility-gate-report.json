@@ -1,0 +1,25 @@
+{
+  "policy_id": "utility_only_v1",
+  "overall": "PASS",
+  "reports": [
+    {
+      "gate": "article",
+      "article_dir": "memory/blog/articles/B07-skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu",
+      "status": "PASS",
+      "metrics": {
+        "numbered_list_items": 7,
+        "h2_sections": 7,
+        "faq_h3": 5,
+        "tables": 1,
+        "blockquotes": 3,
+        "ul_lists": 0,
+        "action_markers": 11,
+        "water_hits": []
+      },
+      "errors": [],
+      "warnings": [
+        "meta_ab.title_seo не содержит ключевые слова из primary_query: ['ошибки']"
+      ]
+    }
+  ]
+}

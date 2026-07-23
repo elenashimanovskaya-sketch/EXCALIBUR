@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B26-vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1052,
+      600
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 600,
+        "end": 623
+      },
+      "v_gutter_px": {
+        "start": 1052,
+        "end": 1079
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 4,
+          "right": 1052,
+          "bottom": 596
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1052,
+          "bottom": 600
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Как определить дошу по коже: Вата, Пита, Капха — уход и фейс-практики дома",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1079,
+          "top": 27,
+          "right": 2048,
+          "bottom": 572
+        },
+        "raw_box_px": {
+          "left": 1079,
+          "top": 0,
+          "right": 2048,
+          "bottom": 600
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Три доши простыми словами: что видно на лице",
+        "h2_anchor": "Три доши простыми словами: что видно на лице"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 56,
+          "top": 623,
+          "right": 996,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 623,
+          "right": 1052,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Как определить свою дошу сейчас: быстрый тест по коже",
+        "h2_anchor": "Как определить свою дошу сейчас: быстрый тест по коже"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1093,
+          "top": 623,
+          "right": 2033,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1079,
+          "top": 623,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Таблица: уход и фейс-практики по типу",
+        "h2_anchor": "Таблица: уход и фейс-практики по типу"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Три доши простыми словами: что видно на лице",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Как определить свою дошу сейчас: быстрый тест по коже",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Таблица: уход и фейс-практики по типу"
+  ],
+  "figure_validation": []
+}

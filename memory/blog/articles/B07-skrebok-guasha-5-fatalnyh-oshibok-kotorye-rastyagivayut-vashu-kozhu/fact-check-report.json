@@ -1,0 +1,24 @@
+{
+  "article": "memory/blog/articles/B07-skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/article.html",
+  "fact_bank_source": "memory/brief/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 2,
+  "verified_facts_count": 0,
+  "unverified_facts_count": 2,
+  "facts": [
+    {
+      "fact": "7 минут",
+      "kind": "metric_or_duration",
+      "context": "\" сессия. Как делать правильно: ставьте таймер на 7 минут и держите спокойный ритм. На одну линию хватит 3-",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "48 часов",
+      "kind": "metric_or_duration",
+      "context": "ть. Как делать правильно: перенесите сессию на 24-48 часов и выберите мягкий уход. Если есть сомнения по чув",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

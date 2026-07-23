@@ -1,0 +1,40 @@
+{
+  "topic_id": "B27",
+  "slug": "pochemu-pit-2-litra-ne-uvlazhnyaet-kozhu-voda-mineraly-i-ph",
+  "h1": "Как увлажнить кожу: почему 2 литра воды не спасают сухость — минералы и pH",
+  "title": "Как увлажнить кожу: почему 2 литра воды не спасают сухость — минералы и pH",
+  "description": "Как увлажнить кожу изнутри: почему 2 литра воды не работают, роль мембран и минералов, протокол на 7 дней без фанатизма.",
+  "primary_query": "как увлажнить кожу",
+  "focus_keyword": "как увлажнить кожу",
+  "secondary_queries": [
+    "как увлажнить кожу изнутри",
+    "сколько пить воды в день",
+    "сухость кожи лица"
+  ],
+  "char_count": 11301,
+  "writer_engine": "cursor-composer",
+  "writer_model": "composer-2.5-fast",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "publish",
+  "has_exercise": false,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Generic woman 45-55: сухие щёки vs стакан воды, cobalt yoga set. Без текста на cover.",
+  "anchor_variants": [
+    "как увлажнить кожу",
+    "как увлажнить кожу изнутри",
+    "сколько пить воды в день",
+    "сухость кожи лица"
+  ],
+  "meta_ab": {
+    "title_seo": "Как увлажнить кожу: почему 2 литра воды не работают",
+    "title_ctr": "Пьёте 2 литра, а лицо сухое? Как увлажнить кожу изнутри 💧",
+    "title_aeo": "Почему вода не увлажняет кожу и что делать дома?",
+    "description_seo": "Как увлажнить кожу: мембраны, минералы, pH, протокол 7 дней. Почему литры воды не равны уходу.",
+    "description_ctr": "2 литра не помогают? Показываю, как увлажнить кожу изнутри без фанатизма.",
+    "description_aeo": "Как увлажнить кожу, если пить достаточно, а лицо всё равно стянуто."
+  },
+  "cover_family": "problem_hero",
+  "cover_variant": "ghost_correct_overlay",
+  "wp_post_id": 602
+}

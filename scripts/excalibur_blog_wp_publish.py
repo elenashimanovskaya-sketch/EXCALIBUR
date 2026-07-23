@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Publish one Excalibur blog article to WordPress (FTP bootstrap)."""
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ import urllib.request
 from pathlib import Path
 
 from asset_download import download_url_bytes
+from excalibur_blog_article_format import format_article_html
 from excalibur_repo_paths import repo_relative
 from image_validate import sniff_image_format, validate_image_file
 
@@ -113,7 +114,7 @@ def load_article(article_dir: Path) -> dict:
     if not meta_path.is_file() or not html_path.is_file():
         raise FileNotFoundError("article.meta.json and article.html required")
     meta = json.loads(meta_path.read_text(encoding="utf-8"))
-    content = html_path.read_text(encoding="utf-8").strip()
+    content = format_article_html(html_path.read_text(encoding="utf-8").strip())
     cover_path = article_dir / "cover" / "cover.png"
     schema_path = article_dir / "schema.jsonld"
     cover_b64 = ""
@@ -128,12 +129,23 @@ def load_article(article_dir: Path) -> dict:
     cover_alt = meta.get("cover_alt") or meta.get("cover_alt_text") or ""
     if cover_reg.is_file():
         reg = json.loads(cover_reg.read_text(encoding="utf-8"))
-        cover_alt = cover_alt or reg.get("cover_alt_text", "")
+        cover_alt = cover_alt or reg.get("cover_alt_text") or reg.get("alt", "")
+        if not cover_alt:
+            for asset in reg.get("assets") or []:
+                if asset.get("role") == "cover" and asset.get("alt"):
+                    cover_alt = asset["alt"]
+                    break
 
     import re
-    img_srcs = re.findall(r'<img\s+[^>]*src=["\']([^"\']+)["\']', content)
+    img_tags = re.findall(r"<img\s+[^>]*>", content, flags=re.I)
     inline_images = []
-    for src in img_srcs:
+    for tag in img_tags:
+        src_m = re.search(r'src=["\']([^"\']+)["\']', tag, flags=re.I)
+        if not src_m:
+            continue
+        src = src_m.group(1)
+        alt_m = re.search(r'alt=["\']([^"\']*)["\']', tag, flags=re.I)
+        alt_text = alt_m.group(1) if alt_m else ""
         if not src.startswith(("http://", "https://", "data:")):
             local_path = article_dir / src
             if local_path.is_file():
@@ -142,13 +154,23 @@ def load_article(article_dir: Path) -> dict:
                 inline_images.append({
                     "src": src,
                     "b64": b64_data,
-                    "filename": local_path.name
+                    "filename": local_path.name,
+                    "alt": alt_text,
                 })
+
+    meta_ab = meta.get("meta_ab") or {}
+    excerpt = meta.get("description") or meta_ab.get("description_seo") or ""
+    seo_title = meta_ab.get("title_seo") or meta.get("title") or meta.get("h1", "")
+    seo_description = meta_ab.get("description_seo") or excerpt
+    focus_keyword = meta.get("focus_keyword") or meta_ab.get("focus_keyword") or meta.get("primary_query") or ""
 
     return {
         "slug": meta["slug"],
         "title": meta.get("title") or meta.get("h1", ""),
-        "excerpt": meta.get("description", ""),
+        "excerpt": excerpt,
+        "seo_title": seo_title,
+        "seo_description": seo_description,
+        "focus_keyword": focus_keyword,
         "content": content,
         "cover_b64": cover_b64,
         "cover_evidence": cover_evidence,
@@ -156,6 +178,7 @@ def load_article(article_dir: Path) -> dict:
         "schema_jsonld": schema_raw,
         "topic_id": meta.get("topic_id", ""),
         "inline_images": inline_images,
+        "post_status": meta.get("post_status", "publish"),
     }
 
 
@@ -179,7 +202,7 @@ if ($existing instanceof WP_Post) {{
         'post_name' => $slug,
         'post_content' => $p['content'],
         'post_excerpt' => $p['excerpt'],
-        'post_status' => 'publish',
+        'post_status' => $p['post_status'] ?? 'publish',
     ]);
 }} else {{
     $post_id = (int) wp_insert_post([
@@ -187,7 +210,7 @@ if ($existing instanceof WP_Post) {{
         'post_name' => $slug,
         'post_content' => $p['content'],
         'post_excerpt' => $p['excerpt'],
-        'post_status' => 'publish',
+        'post_status' => $p['post_status'] ?? 'publish',
         'post_type' => 'post',
     ], true);
 }}
@@ -230,6 +253,22 @@ if (!empty($p['schema_jsonld'])) {{
     echo 'OK skip_theme_faq_meta=1' . PHP_EOL;
 }}
 
+if (!empty($p['seo_title']) || !empty($p['seo_description']) || !empty($p['focus_keyword'])) {{
+    if (!empty($p['seo_title'])) {{
+        update_post_meta($post_id, 'rank_math_title', sanitize_text_field($p['seo_title']));
+        update_post_meta($post_id, '_yoast_wpseo_title', sanitize_text_field($p['seo_title']));
+    }}
+    if (!empty($p['seo_description'])) {{
+        update_post_meta($post_id, 'rank_math_description', sanitize_textarea_field($p['seo_description']));
+        update_post_meta($post_id, '_yoast_wpseo_metadesc', sanitize_textarea_field($p['seo_description']));
+    }}
+    if (!empty($p['focus_keyword'])) {{
+        update_post_meta($post_id, 'rank_math_focus_keyword', sanitize_text_field($p['focus_keyword']));
+        update_post_meta($post_id, '_yoast_wpseo_focuskw', sanitize_text_field($p['focus_keyword']));
+    }}
+    echo 'OK seo_meta=1 title=' . strlen($p['seo_title'] ?? '') . ' desc=' . strlen($p['seo_description'] ?? '') . PHP_EOL;
+}}
+
 if (!empty($p['inline_images'])) {{
     $content_updated = $p['content'];
     foreach ($p['inline_images'] as $img) {{
@@ -255,6 +294,9 @@ if (!empty($p['inline_images'])) {{
         if (is_wp_error($att_id)) {{
             echo 'WARN inline_img_upload: ' . $att_id->get_error_message() . ' for ' . $src . PHP_EOL;
         }} else {{
+            if (!empty($img['alt'])) {{
+                update_post_meta((int) $att_id, '_wp_attachment_image_alt', sanitize_text_field($img['alt']));
+            }}
             $new_url = wp_get_attachment_url((int) $att_id);
             if ($new_url) {{
                 $content_updated = str_replace('src="' . $src . '"', 'src="' . $new_url . '"', $content_updated);
@@ -338,10 +380,37 @@ def main() -> int:
     ap.add_argument("--article-dir", type=Path, required=True)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--public-base", type=str, default=None, help="Override PUBLIC_SITE_URL")
+    ap.add_argument("--draft", action="store_true", help="WP post_status=draft (не публиковать)")
+    ap.add_argument(
+        "--skip-wordstat-gate",
+        action="store_true",
+        help="Не проверять Wordstat gate (только аварийно)",
+    )
     args = ap.parse_args()
     root = project_root()
     article_dir = args.article_dir if args.article_dir.is_absolute() else root / args.article_dir
+
+    if not args.skip_wordstat_gate and not args.dry_run:
+        scripts_dir = Path(__file__).resolve().parent
+        if str(scripts_dir) not in sys.path:
+            sys.path.insert(0, str(scripts_dir))
+        from excalibur_blog_wordstat_gate import gate_article as wordstat_gate
+
+        policy_path = root / "memory/brief/editorial-policy.json"
+        policy = json.loads(policy_path.read_text(encoding="utf-8"))
+        ws_report = wordstat_gate(article_dir, policy, fetch_missing=True)
+        print(f"wordstat gate: {ws_report['status']}")
+        for err in ws_report.get("errors") or []:
+            print(f"  ERROR: {err}", file=sys.stderr)
+        for warn in ws_report.get("warnings") or []:
+            print(f"  WARN: {warn}", file=sys.stderr)
+        if ws_report["status"] != "PASS":
+            print("BLOCKER: WORDSTAT GATE — исправь title/primary или research-wordstat.json", file=sys.stderr)
+            return 3
+
     payload = load_article(article_dir)
+    if args.draft:
+        payload["post_status"] = "draft"
     php = build_php(payload)
 
     if args.dry_run:

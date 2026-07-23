@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1021,
+      573
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 573,
+        "end": 579
+      },
+      "v_gutter_px": {
+        "start": 1021,
+        "end": 1026
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1021,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1021,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Как составить распорядок дня после 45: диночарья и утренний ритуал без фанатизма",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1026,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 1026,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Как работает диночарья: простые правила для лица",
+        "h2_anchor": "Как работает диночарья: простые правила для лица"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 579,
+          "right": 1021,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 579,
+          "right": 1021,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Как выстроить утро после 45",
+        "h2_anchor": "Как выстроить утро после 45"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1026,
+          "top": 579,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1026,
+          "top": 579,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Как провести день без перегруза",
+        "h2_anchor": "Как провести день без перегруза"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Как работает диночарья: простые правила для лица",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Как выстроить утро после 45",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Как провести день без перегруза"
+  ],
+  "figure_validation": []
+}

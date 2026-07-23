@@ -1,0 +1,46 @@
+{
+  "topic_id": "B23",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "буккальный массаж лица",
+  "cover_problem": "буккальный массаж лица",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": true,
+  "exercise_inline_slot": null,
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: Буккальный массаж: почему нужно массировать лицо изнутри?",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план зоны проблемы статьи: буккальный массаж лица. Жест показывает зону, чистый studio фон."
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Что такое буккальный массаж лица (простыми словами)",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица «ошибка / что происходит / как исправить» по теме секции — «Что такое буккальный массаж лица (простыми словами)»",
+      "alt": "Сравнительная таблица / UI-мокап: Что такое буккальный массаж лица (простыми словами)"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Почему «изнутри» меняет овал сильнее, чем только крем снаружи",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема с стрелками и номерами по теме секции — «Почему «изнутри» меняет овал сильнее, чем только крем снаружи»",
+      "alt": "Схема шагов: Почему «изнутри» меняет овал сильнее, чем только крем снаружи"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Кому подходит буккальный массаж (и кому нельзя)",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде по теме секции (без чужих инструментов) — «Кому подходит буккальный массаж (и кому нельзя)»",
+      "alt": "Чеклист / printable board: Кому подходит буккальный массаж (и кому нельзя)"
+    }
+  }
+}

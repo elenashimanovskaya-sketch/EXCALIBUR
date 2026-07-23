@@ -1,0 +1,53 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "fetched_at": "2026-07-23",
+  "phrases": [
+    "утренний ритуал",
+    "распорядок дня",
+    "диночарья аюрведа распорядок дня",
+    "режим дня для кожи"
+  ],
+  "runs": [
+    {
+      "phrase": "утренний ритуал",
+      "ok": true,
+      "response": {
+        "totalCount": 4264,
+        "results": [
+          {"phrase": "утренний ритуал", "count": 4264},
+          {"phrase": "утренние и вечерние ритуалы", "count": 38},
+          {"phrase": "утренние ритуалы для продуктивного дня", "count": 36}
+        ]
+      }
+    },
+    {
+      "phrase": "распорядок дня",
+      "ok": true,
+      "response": {
+        "totalCount": 63108,
+        "results": [
+          {"phrase": "распорядок дня", "count": 63108},
+          {"phrase": "распорядок дня для женщины", "count": 141}
+        ]
+      }
+    },
+    {
+      "phrase": "диночарья аюрведа распорядок дня",
+      "ok": true,
+      "response": {
+        "totalCount": 0,
+        "results": []
+      }
+    },
+    {
+      "phrase": "режим дня для кожи",
+      "ok": true,
+      "response": {
+        "totalCount": 23,
+        "results": []
+      }
+    }
+  ]
+}

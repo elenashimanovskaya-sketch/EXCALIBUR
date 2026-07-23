@@ -68,17 +68,27 @@ agent worker start --pool --pool-name excalibur-blog --idle-release-timeout 600
 
 Не коммитить: `memory/site.env.local`, реальные ключи MCP.
 
-## Automation schedule
+## Automation schedule (NaturalLift / Дзен)
 
-Cursor Automation → Schedule, пример:
+**3 поста в день по Europe/Moscow:** 09:00, 13:00, 18:00.
 
-```text
-0 10,15,20 * * *
-```
+Создай **три** Cursor Automation (Schedule) или одну с тремя cron-триггерами:
 
-- Repository: ваш fork `excalibur-blog` / EXCALIBUR
-- Worker pool: `excalibur-blog`
-- Branch: `main`
+| Слот | Cron (UTC) | MSK | Имя |
+|------|------------|-----|-----|
+| Утро | `0 6 * * *` | 09:00 | `naturallift-dzen-09` |
+| День | `0 10 * * *` | 13:00 | `naturallift-dzen-13` |
+| Вечер | `0 15 * * *` | 18:00 | `naturallift-dzen-18` |
+
+> Cursor cron обычно в UTC. MSK = UTC+3 (летом). При смене часового пояса скорректируй cron.
+
+Настройки каждой Automation:
+
+- **Repository:** `elenashimanovskaya-sketch/EXCALIBUR`
+- **Branch:** `master`
+- **Worker pool:** `excalibur-blog` (self-hosted, если нужны MCP gpt-image-2 + FTP)
+- **Secrets:** `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes`, `PUBLIC_SITE_URL`, `FTP_*`, Wordstat/Yandex Cloud
+- **Prompt:** см. `shared/automation-prompt-dzen-production.md`
 
 ## Automation prompt (шаблон)
 

@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-21",
+    "today_ru": "21.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "вторник",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-22",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-21 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B25",
+    "priority": "P2",
+    "slug": "omolozhenie-kak-obraz-zhizni-7-privychek-kotorye-starjat-silnee-morschin",
+    "h1": "Омоложение как образ жизни: 7 привычек, которые старят сильнее морщин",
+    "primary_query": "омоложение как образ жизни",
+    "secondary_queries": [
+      "привычки старения лица",
+      "антивозрастной образ жизни"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B25",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "омоложение как образ жизни 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "омоложение как образ жизни июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "омоложение как образ жизни новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "привычки старения лица 2026",
+      "purpose": "вторичный запрос: привычки старения лица"
+    },
+    {
+      "id": "secondary_2",
+      "query": "антивозрастной образ жизни 2026",
+      "purpose": "вторичный запрос: антивозрастной образ жизни"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Омоложение как образ жизни: 7 привычек, которые старят сильнее морщин 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B25-omolozhenie-kak-obraz-zhizni-7-privychek-kotorye-starjat-silnee-morschin",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

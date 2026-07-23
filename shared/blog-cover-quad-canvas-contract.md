@@ -79,3 +79,28 @@ Inline panels: полезный UI + лёгкий human layer (стикер, tap
 - **4 отдельных MCP** на cover+inline — запрещено
 - inline-панель с meme/host вместо UI/схемы
 - обложка без крючка / без `meme_caption_ru`
+- `❌ QUAD FIGURE BLOCKER` — после `--inject-html` картинка не под своим H2 (см. ниже)
+
+## Привязка inline → H2 (100% match)
+
+Каноническая карта (не менять порядок без правки manifest):
+
+| Слот manifest | Файл после split | Квадрант | H2 в `article.html` |
+|---------------|------------------|----------|---------------------|
+| `inline_1` | `cover/inline-01.png` | top_right | `slots.inline_1.h2_anchor` = **1-й** иллюстрируемый H2 (до FAQ) |
+| `inline_2` | `cover/inline-02.png` | bottom_left | `slots.inline_2.h2_anchor` = **2-й** H2 |
+| `inline_3` | `cover/inline-03.png` | bottom_right | `slots.inline_3.h2_anchor` = **3-й** H2 |
+
+`excalibur_blog_quad_manifest.py` берёт первые 3 `<h2>` до FAQ. Текст H2 в статье и `h2_anchor` в manifest должны совпадать **символ в символ**.
+
+### Writer (②)
+
+- **Не вставлять** `<figure class="inline-quad">` и `<img src="cover/inline-…">` в `article.html`.
+- Иллюстрации ставит только cover-агент на шаге ⑤ (`quad_apply --inject-html`).
+
+### Cover-агент (④a)
+
+1. После split `inject_figures` **удаляет** все старые `inline-quad` и вставляет заново по `h2_anchor`.
+2. `scene_hint` / `alt` inline-панели описывают **ту же** секцию, что и `h2_anchor` (не соседний H2).
+3. Промпт quad: top_right = inline_1, bottom_left = inline_2, bottom_right = inline_3 — контент панели = контент H2.
+4. Если validation FAIL — **не публиковать**, править manifest или H2 в статье.

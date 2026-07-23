@@ -12,6 +12,7 @@ from typing import Any
 
 
 from excalibur_repo_paths import repo_relative
+from excalibur_blog_topics import parse_topic_card
 
 
 def project_root() -> Path:
@@ -24,31 +25,6 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def save_json(path: Path, data: dict[str, Any]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-
-def parse_topic_card(topics_path: Path, topic_id: str) -> dict[str, str]:
-    text = topics_path.read_text(encoding="utf-8")
-    pattern = rf"##\s+{re.escape(topic_id)}\s+—[^\n]*\n(.*?)(?=\n---|\n##\s+[A-Z]\d+|\Z)"
-    match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
-    if not match:
-        raise ValueError(f"topic card not found: {topic_id}")
-
-    block = match.group(1)
-
-    def field(name: str, default: str = "") -> str:
-        m = re.search(rf"-\s*\*\*{re.escape(name)}:\*\*\s*(.+)", block, re.IGNORECASE)
-        return m.group(1).strip() if m else default
-
-    return {
-        "topic_id": topic_id.upper(),
-        "priority": field("priority"),
-        "slug": field("slug"),
-        "h1": field("h1"),
-        "primary_query": field("primary_query"),
-        "search_intent": field("search_intent"),
-        "article_mode": field("article_mode"),
-        "h2_outline": field("h2_outline"),
-    }
 
 
 def strip_html(html: str) -> str:
@@ -264,8 +240,8 @@ def gate_article(article_dir: Path, policy: dict[str, Any]) -> dict[str, Any]:
         errors.append(f"article_mode={mode} — utility-only требует B")
 
     char_count = meta.get("char_count")
-    if isinstance(char_count, int) and (char_count < 8500 or char_count > 9500):
-        warnings.append(f"char_count={char_count} вне 8500–9500")
+    if isinstance(char_count, int) and (char_count < 6000 or char_count > 7500):
+        warnings.append(f"char_count={char_count} вне 6000–7500")
 
     status = "PASS" if not errors else "BLOCK"
     return {

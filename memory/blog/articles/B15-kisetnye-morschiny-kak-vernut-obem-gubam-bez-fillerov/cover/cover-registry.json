@@ -1,0 +1,50 @@
+{
+  "topic_id": "B15",
+  "slug": "kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: B15-kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-02T21:29:03+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: B15-kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Поймите, почему над губой появляются кисетные морщинки",
+      "h2_anchor": "Поймите, почему над губой появляются кисетные морщинки",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Пройдите тест: морщины или сухость",
+      "h2_anchor": "Пройдите тест: морщины или сухость",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Сделайте мягкий массаж периоральной зоны с кремом",
+      "h2_anchor": "Сделайте мягкий массаж периоральной зоны с кремом",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

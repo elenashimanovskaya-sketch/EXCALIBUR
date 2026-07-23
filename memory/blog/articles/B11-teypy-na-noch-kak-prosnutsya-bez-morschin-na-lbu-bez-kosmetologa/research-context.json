@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-06-18",
+    "today_ru": "18.06.2026",
+    "year": 2026,
+    "month": 6,
+    "month_name_ru": "июнь",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-03-20",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-06-18 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "teypy-na-noch-kak-prosnutsya-bez-morschin-na-lbu-bez-kosmetologa",
+    "h1": "Тейпы на ночь: как проснуться без морщин на лбу без косметолога",
+    "primary_query": "тейпы для лица от морщин",
+    "secondary_queries": [
+      "тейпы дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B11",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "тейпы для лица от морщин 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "тейпы для лица от морщин июнь 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "тейпы для лица от морщин новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "тейпы дома 2026",
+      "purpose": "вторичный запрос: тейпы дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Тейпы на ночь: как проснуться без морщин на лбу без косметолога 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B11-teypy-na-noch-kak-prosnutsya-bez-morschin-na-lbu-bez-kosmetologa",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

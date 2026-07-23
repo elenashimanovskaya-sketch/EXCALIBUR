@@ -1,0 +1,13 @@
+{
+  "url": "https://tempfile.aiquickdraw.com/r/64c6c4a3a36735158977ba46aa6d2f77_1783016300_siuecchw.png",
+  "bytes": 2959891,
+  "evidence": {
+    "status": 206,
+    "content_type": "image/png",
+    "content_length": "16",
+    "content_range": "bytes 0-15/2959891",
+    "range_supported": true,
+    "total_bytes": 2959891,
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  }
+}

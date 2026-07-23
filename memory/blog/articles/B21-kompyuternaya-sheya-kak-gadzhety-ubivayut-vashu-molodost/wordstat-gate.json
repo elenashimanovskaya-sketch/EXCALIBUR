@@ -1,0 +1,40 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B21",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B21-kompyuternaya-sheya-kak-gadzhety-ubivayut-vashu-molodost",
+  "status": "PASS",
+  "primary_query": "компьютерная шея упражнения",
+  "primary_shows": 379,
+  "title_hook": "Компьютерная шея",
+  "title_hook_shows": null,
+  "approved_title_phrase": "гимнастика шейного отдела по шишонину",
+  "approved_title_shows": 893,
+  "top_phrases": [
+    {
+      "phrase": "гимнастика шейного отдела по шишонину",
+      "shows": 893
+    },
+    {
+      "phrase": "гимнастика по шишонину для шейного отдела позвоночника",
+      "shows": 403
+    },
+    {
+      "phrase": "компьютерная шея упражнения",
+      "shows": 379
+    },
+    {
+      "phrase": "упражнения от компьютерной шеи",
+      "shows": 202
+    },
+    {
+      "phrase": "компьютерная шея как исправить упражнения",
+      "shows": 29
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "primary_query «компьютерная шея упражнения» = 379/мес — ниже целевых 500+ для Дзена",
+    "title hook «Компьютерная шея» — нет данных Wordstat; проверь вручную",
+    "title/h1 не содержит топ-фразу Wordstat «гимнастика шейного отдела по шишонину» (893/мес)"
+  ]
+}

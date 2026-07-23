@@ -1,0 +1,35 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B22",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B22-asimmetriya-litsa-pochemu-my-zhuem-na-odnoy-storone-i-kak-eto-ispravit",
+  "status": "PASS",
+  "primary_query": "асимметрия лица упражнения",
+  "primary_shows": 533,
+  "title_hook": "Асимметрия лица",
+  "title_hook_shows": null,
+  "approved_title_phrase": "фейсбилдинг",
+  "approved_title_shows": 2625,
+  "top_phrases": [
+    {
+      "phrase": "фейсбилдинг",
+      "shows": 2625
+    },
+    {
+      "phrase": "асимметрия лица упражнения",
+      "shows": 533
+    },
+    {
+      "phrase": "упражнения от асимметрии лица",
+      "shows": 206
+    },
+    {
+      "phrase": "как убрать асимметрию лица упражнениями",
+      "shows": 112
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "title hook «Асимметрия лица» — нет данных Wordstat; проверь вручную",
+    "title/h1 не содержит топ-фразу Wordstat «фейсбилдинг» (2625/мес)"
+  ]
+}

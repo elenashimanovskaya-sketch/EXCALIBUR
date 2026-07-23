@@ -1,0 +1,50 @@
+{
+  "topic_id": "B07",
+  "slug": "skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu",
+  "cover_family": "brand_collage",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: гуаша без ошибок — мягкое давление и йога-образ",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-06-17T13:29:53+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: гуаша без ошибок — мягкое давление и йога-образ",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Инфографика: ошибка давления гуаша → процесс → результат на лице",
+      "h2_anchor": "Ошибка 1. Давить скребком \"до результата\"",
+      "visual_type": "infographic_card",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема 7-минутного протокола гуаша",
+      "h2_anchor": "7-минутный домашний протокол: как делать правильно",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист перед сеансом гуаша",
+      "h2_anchor": "Сверьте технику по таблице перед каждой сессией",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

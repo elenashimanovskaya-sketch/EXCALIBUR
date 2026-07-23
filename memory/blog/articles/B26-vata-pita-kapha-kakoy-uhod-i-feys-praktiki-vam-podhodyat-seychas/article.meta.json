@@ -1,0 +1,40 @@
+{
+  "topic_id": "B26",
+  "slug": "vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas",
+  "h1": "Как определить дошу по коже: Вата, Пита, Капха — уход и фейс-практики дома",
+  "title": "Как определить дошу по коже: Вата, Пита, Капха — уход и фейс-практики дома",
+  "description": "Как определить дошу по коже: быстрый тест Вата Пита Капха, таблица ухода и фейс-практик, план на 7 дней без эзотерики.",
+  "primary_query": "как определить дошу",
+  "focus_keyword": "как определить дошу",
+  "secondary_queries": [
+    "вата пита капха",
+    "как определить дошу по аюрведе",
+    "уход по типу доши"
+  ],
+  "char_count": 12013,
+  "writer_engine": "cursor-composer",
+  "writer_model": "composer-2.5-fast",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "publish",
+  "has_exercise": true,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Generic woman 45-55: три мягких зоны лица — сухость, покраснение, отёк. Елена в emerald yoga set, без текста на cover.",
+  "anchor_variants": [
+    "как определить дошу",
+    "вата пита капха",
+    "как определить дошу по аюрведе",
+    "уход по типу доши"
+  ],
+  "meta_ab": {
+    "title_seo": "Как определить дошу по коже: Вата Пита Капха",
+    "title_ctr": "Ваш тип — Вата, Пита или Капха? Тест по коже за 5 минут ✨",
+    "title_aeo": "Как определить дошу по коже и подобрать уход дома?",
+    "description_seo": "Как определить дошу: тест по коже, таблица ухода и фейс-практик, план на 7 дней. Вата, Пита, Капха.",
+    "description_ctr": "Крем подруге, а вам хуже? Показываю, как определить дошу по лицу.",
+    "description_aeo": "Чем отличаются Вата, Пита и Капха на коже и что делать дома."
+  },
+  "cover_family": "problem_hero",
+  "cover_variant": "ghost_correct_overlay",
+  "wp_post_id": 596
+}

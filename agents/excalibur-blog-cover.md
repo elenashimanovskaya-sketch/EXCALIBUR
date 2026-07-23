@@ -51,7 +51,8 @@ Cover-агент генерирует **один** quad-холст 2×2 (MCP `gp
 3. **Cover (top-left):** reference **лицо**; **одежда/поза** — на усмотрение агента в `scene_hint`.
 4. **Design code:** `memory/cover/cover-design-code.json` — fake скрины, стикеры, скотч, мемы, «сделал человек», **16:9**.
 5. **Inline 1–3:** полезность по `visual_type` — **без** лица героя.
-6. Не трогать `schema.jsonld`, не переписывать текст статьи.
+6. **H2↔PNG 1:1:** `inline_1`→`inline-01.png` под `h2_anchor` #1, `inline_2`→`inline-02.png` под #2, `inline_3`→`inline-03.png` под #3. `scene_hint` = та же секция. Writer **не** ставит `<figure class="inline-quad">` — только inject после split.
+7. Не трогать `schema.jsonld`, не переписывать текст статьи.
 
 ---
 
@@ -170,6 +171,7 @@ summary: ...
 | ------------------ | --------------------------------------------------- |
 | COVER HERO BLOCKER | нет `reference_url_hosted` или MCP без `input_urls` |
 | QUAD SPLIT BLOCKER | нет canvas / не 2×2 16:9 / нет alt в manifest       |
+| QUAD FIGURE BLOCKER | inline-N не под своим H2 после inject                |
 | COVER BLOCKER      | 4 отдельных MCP                                     |
 | COVER BLOCKER      | inline с героем вместо UI/схемы                     |
 | COVER BLOCKER      | cover без hook / meme_caption_ru                    |

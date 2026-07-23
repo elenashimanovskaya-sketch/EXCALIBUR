@@ -1,0 +1,40 @@
+{
+  "topic_id": "B25",
+  "slug": "omolozhenie-kak-obraz-zhizni-7-privychek-kotorye-starjat-silnee-morschin",
+  "h1": "Омоложение лица: 7 привычек, которые старят сильнее морщин - с чего начать дома",
+  "title": "Омоложение лица: 7 привычек, которые старят сильнее морщин - с чего начать дома",
+  "description": "Омоложение лица как образ жизни: 7 привычек, которые старят сильнее морщин, план на 14 дней и чеклист без гонки за процедурами.",
+  "primary_query": "омоложение лица",
+  "focus_keyword": "омоложение лица",
+  "secondary_queries": [
+    "как омолодить лицо",
+    "привычки которые старят",
+    "омоложение как образ жизни"
+  ],
+  "char_count": 12024,
+  "writer_engine": "cursor-composer",
+  "writer_model": "composer-2.5-fast",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "publish",
+  "has_exercise": true,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Generic woman 45-55: слева усталое офисное лицо к вечеру, справа свежее после системы привычек. Елена в terracotta yoga set, без текста на cover.",
+  "anchor_variants": [
+    "омоложение лица",
+    "как омолодить лицо",
+    "привычки которые старят",
+    "омоложение как образ жизни"
+  ],
+  "meta_ab": {
+    "title_seo": "Омоложение лица: 7 привычек, которые старят",
+    "title_ctr": "7 привычек старят быстрее морщин? Омоложение лица дома ✨",
+    "title_aeo": "Какие привычки старят лицо сильнее морщин и что делать?",
+    "description_seo": "Омоложение лица: 7 привычек, чеклист 14 дней, замены без фанатизма. SPF, сон, осанка.",
+    "description_ctr": "Маски не спасают? Показываю 7 привычек, которые старят быстрее крема.",
+    "description_aeo": "Почему омоложение - образ жизни и с чего начать дома после 40."
+  },
+  "cover_family": "problem_hero",
+  "cover_variant": "ghost_correct_overlay",
+  "wp_post_id": 590
+}

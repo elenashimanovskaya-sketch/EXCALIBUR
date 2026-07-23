@@ -1,0 +1,132 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B09-massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1016,
+      569
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 569,
+        "end": 583
+      },
+      "v_gutter_px": {
+        "start": 1016,
+        "end": 1030
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1016,
+          "bottom": 569
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1016,
+          "bottom": 569
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Массаж Асахи (Зоган): секрет вечной молодости японских женщин",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1033,
+          "top": 0,
+          "right": 2045,
+          "bottom": 569
+        },
+        "raw_box_px": {
+          "left": 1030,
+          "top": 0,
+          "right": 2048,
+          "bottom": 569
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Что такое массаж Асахи простыми словами",
+        "h2_anchor": "Что такое массаж Асахи простыми словами"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 583,
+          "right": 1016,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 583,
+          "right": 1016,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема workflow / шаги: Подготовка кожи и рук",
+        "h2_anchor": "Подготовка кожи и рук"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1033,
+          "top": 583,
+          "right": 2045,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1030,
+          "top": 583,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Базовая последовательность",
+        "h2_anchor": "Базовая последовательность"
+      }
+    }
+  },
+  "html_inject": [
+    "removed 3 stale inline-quad figure(s)",
+    "injected inline_1 (cover/inline-01.png) after H2 — Что такое массаж Асахи простыми словами",
+    "injected inline_2 (cover/inline-02.png) after H2 — Подготовка кожи и рук",
+    "injected inline_3 (cover/inline-03.png) after H2 — Базовая последовательность"
+  ],
+  "figure_validation": []
+}

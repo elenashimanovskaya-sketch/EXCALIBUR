@@ -1,0 +1,50 @@
+{
+  "topic_id": "B08",
+  "slug": "nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa",
+  "cover_family": "brand_collage",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: носогубные складки — мягкая проработка зоны крыла носа",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-06-17T18:38:33+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: носогубные складки — мягкая проработка зоны крыла носа",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Инфографика: зажим у носа → процесс → носогубная складка",
+      "h2_anchor": "Какие мышцы перенапряжены и как проверить себя",
+      "visual_type": "infographic_card",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема пошаговой проработки носогубной зоны за 5–7 минут",
+      "h2_anchor": "Пошаговая проработка на 5–7 минут",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист перед проработкой носогубной зоны",
+      "h2_anchor": "Сверьте технику по таблице перед каждой сессией",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

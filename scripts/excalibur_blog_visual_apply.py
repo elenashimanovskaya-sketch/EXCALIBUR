@@ -48,11 +48,11 @@ def inject_figures(article_html: Path, manifest: dict[str, Any]) -> list[str]:
         if not slot_key or not h2:
             continue
         figure = (
-            f'\n<figure class="inline-visual" data-slot="{slot_key}" data-type="{slot.get("visual_type", "")}">\n'
+            f'\n<figure class="inline-visual" data-slot="{slot_key}" data-type="{slot.get("visual_type", "")}" data-h2-anchor="{h2}">\n'
             f'  <img src="{src}" alt="{alt}" loading="lazy">\n'
             f"</figure>\n"
         )
-        pattern = re.compile(rf"(<h2[^>]*>\s*{re.escape(h2)}\s*</h2>)", re.I | re.S)
+        h2_pattern = re.compile(rf"<h2[^>]*>\s*{re.escape(h2)}\s*</h2>", re.I | re.S)
         if f'data-slot="{slot_key}"' in html:
             html = re.sub(
                 rf'<figure class="inline-(?:quad|visual)" data-slot="{re.escape(slot_key)}"[\s\S]*?</figure>\s*',
@@ -60,11 +60,11 @@ def inject_figures(article_html: Path, manifest: dict[str, Any]) -> list[str]:
                 html,
                 count=1,
             )
-        if not pattern.search(html):
+        if h2_pattern.search(html):
+            html = h2_pattern.sub(figure, html, count=1)
+            changes.append(f"replaced H2 with {slot_key} — {h2}")
+        else:
             changes.append(f"skip {slot_key}: H2 not found — {h2}")
-            continue
-        html = pattern.sub(r"\1" + figure, html, count=1)
-        changes.append(f"injected {slot_key} after H2 — {h2}")
 
     article_html.write_text(html, encoding="utf-8", newline="\n")
     return changes

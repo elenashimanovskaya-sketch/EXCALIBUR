@@ -20,6 +20,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from excalibur_repo_paths import repo_relative
+from excalibur_blog_topics import parse_topic_card
 
 USER_AGENT = "ExcaliburBlogResearch/1.0 (+research-start)"
 DDG_HTML = "https://html.duckduckgo.com/html/"
@@ -74,37 +75,6 @@ def now_context(tz_name: str) -> dict[str, Any]:
             f"Все даты, версии и статистика в статье должны быть проверены на {now.date().isoformat()} "
             f"({now.year} год)."
         ),
-    }
-
-
-def parse_topic_card(topics_path: Path, topic_id: str) -> dict[str, Any]:
-    if not topics_path.is_file():
-        raise FileNotFoundError(f"topics file not found: {topics_path}")
-
-    text = topics_path.read_text(encoding="utf-8")
-    pattern = rf"##\s+{re.escape(topic_id)}\s+—[^\n]*\n(.*?)(?=\n---|\n##\s+[A-Z]\d+|\Z)"
-    match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
-    if not match:
-        raise ValueError(f"topic_id {topic_id!r} not found in {topics_path}")
-
-    block = match.group(1)
-
-    def field(name: str, default: str = "") -> str:
-        m = re.search(rf"-\s*\*\*{re.escape(name)}:\*\*\s*(.+)", block, re.IGNORECASE)
-        return m.group(1).strip() if m else default
-
-    secondary_raw = field("secondary_queries")
-    secondary = [q.strip() for q in re.split(r",|;", secondary_raw) if q.strip()]
-
-    return {
-        "topic_id": topic_id.upper(),
-        "priority": field("priority"),
-        "slug": field("slug"),
-        "h1": field("h1"),
-        "primary_query": field("primary_query"),
-        "secondary_queries": secondary,
-        "search_intent": field("search_intent"),
-        "article_mode": field("article_mode"),
     }
 
 
@@ -249,6 +219,8 @@ def run_research_start(
     tz_name: str,
     max_results: int,
     dry_run: bool,
+    wordstat: bool = False,
+    wordstat_region: str = "225",
 ) -> dict[str, Any]:
     ctx = now_context(tz_name)
     topic = parse_topic_card(topics_path, topic_id)
@@ -333,13 +305,90 @@ def run_research_start(
         save_utility = out_dir / "utility-gate-topic.json"
         save_utility.write_text(json.dumps(utility_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    wordstat_path: Path | None = None
+    wordstat_payload: dict[str, Any] | None = None
+    wordstat_error: str | None = None
+
+    if wordstat and not dry_run:
+        wordstat_path, wordstat_payload, wordstat_error = fetch_wordstat_for_topic(
+            topic, out_dir, region=wordstat_region
+        )
+
     return {
         "context_path": str(context_path),
         "serp_path": str(serp_path),
+        "wordstat_path": str(wordstat_path) if wordstat_path else None,
+        "wordstat_error": wordstat_error,
         "context": payload_context,
         "serp": payload_serp,
+        "wordstat": wordstat_payload,
         "dry_run": dry_run,
+        "out_dir": out_dir,
+        "topic": topic,
     }
+
+
+def fetch_wordstat_for_topic(
+    topic: dict[str, str],
+    out_dir: Path,
+    *,
+    region: str = "225",
+    num_phrases: int = 20,
+) -> tuple[Path | None, dict[str, Any] | None, str | None]:
+    """Wordstat Search API v2 — локальный обход MCP-KV SSL на api.wordstat.yandex.net."""
+    scripts_dir = Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    from excalibur_wordstat import load_credentials, top_requests
+
+    api_key, folder_id = load_credentials(project_root())
+    if not api_key or not folder_id:
+        return None, None, (
+            "YANDEX_CLOUD_API_KEY / YANDEX_CLOUD_FOLDER_ID не заданы "
+            "(memory/site.env.local или teya-memory/teya.env.local)"
+        )
+
+    phrases: list[str] = []
+    for key in ("primary_query",):
+        val = (topic.get(key) or "").strip()
+        if val and val not in phrases:
+            phrases.append(val)
+    secondary = topic.get("secondary_queries") or ""
+    if isinstance(secondary, str):
+        for part in re.split(r"[;,]", secondary):
+            val = part.strip()
+            if val and val not in phrases:
+                phrases.append(val)
+
+    runs: list[dict[str, Any]] = []
+    errors: list[str] = []
+    for phrase in phrases[:3]:
+        try:
+            data = top_requests(
+                phrase,
+                api_key=api_key,
+                folder_id=folder_id,
+                num_phrases=num_phrases,
+                regions=[region],
+            )
+            runs.append({"phrase": phrase, "ok": True, "response": data})
+        except RuntimeError as exc:
+            errors.append(f"{phrase}: {exc}")
+            runs.append({"phrase": phrase, "ok": False, "error": str(exc)})
+
+    payload = {
+        "source": "excalibur_wordstat.py",
+        "endpoint": "searchapi.api.cloud.yandex.net/v2/wordstat/topRequests",
+        "region": region,
+        "phrases": phrases,
+        "runs": runs,
+        "errors": errors,
+    }
+    path = out_dir / "research-wordstat.json"
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if runs and not any(r.get("ok") for r in runs):
+        return path, payload, "; ".join(errors) or "all wordstat calls failed"
+    return path, payload, None
 
 
 def _unique_urls(serp_runs: list[dict[str, Any]]) -> list[dict[str, str]]:
@@ -367,6 +416,13 @@ def main() -> int:
     ap.add_argument("--timezone", default=DEFAULT_TZ, help=f"IANA timezone (default: {DEFAULT_TZ})")
     ap.add_argument("--max-results", type=int, default=6, help="Max SERP results per query")
     ap.add_argument("--dry-run", action="store_true", help="Only print date context and queries, no HTTP")
+    ap.add_argument(
+        "--wordstat",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Fetch Wordstat via Search API v2 → research-wordstat.json (default: on)",
+    )
+    ap.add_argument("--wordstat-region", default="225", help="Wordstat region id (default 225 Russia)")
     args = ap.parse_args()
 
     root = project_root()
@@ -380,6 +436,8 @@ def main() -> int:
             tz_name=args.timezone,
             max_results=args.max_results,
             dry_run=args.dry_run,
+            wordstat=args.wordstat,
+            wordstat_region=args.wordstat_region,
         )
     except (FileNotFoundError, ValueError) as exc:
         print(f"BLOCKER: {exc}", file=sys.stderr)
@@ -397,6 +455,12 @@ def main() -> int:
     print(f"serp_unique_urls={unique}")
     print(f"context={result['context_path']}")
     print(f"serp={result['serp_path']}")
+    if args.wordstat:
+        if result.get("wordstat_path"):
+            print(f"wordstat={result['wordstat_path']}")
+        if result.get("wordstat_error"):
+            print(f"WARN wordstat: {result['wordstat_error']}", file=sys.stderr)
+            return 2
     if result["serp"].get("errors"):
         print("WARN: some queries failed; see research-serp.json", file=sys.stderr)
         return 2 if unique == 0 else 0

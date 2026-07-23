@@ -1,0 +1,41 @@
+{
+  "topic_id": "B28",
+  "slug": "sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+  "h1": "Сахар и кожа: как гликирование бьёт по коллагену — план на 14 дней дома",
+  "title": "Сахар и кожа: как гликирование бьёт по коллагену — план на 14 дней дома",
+  "description": "Сахар и кожа: что такое гликирование, как сладкое бьёт по коллагену, признаки на лице и мягкий план на 14 дней без срывов.",
+  "primary_query": "сахар и кожа",
+  "focus_keyword": "сахар и кожа",
+  "secondary_queries": [
+    "отказ от сахара",
+    "гликирование коллагена",
+    "сахар и старение кожи"
+  ],
+  "char_count": 12493,
+  "writer_engine": "cursor-composer",
+  "writer_model": "composer-2.5-fast",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "publish",
+  "has_exercise": false,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Generic woman 45-55: сладкое vs сухая «сеточка» на щеке, cobalt yoga set. Без текста на cover.",
+  "anchor_variants": [
+    "сахар и кожа",
+    "отказ от сахара",
+    "гликирование коллагена",
+    "сахар и старение кожи"
+  ],
+  "meta_ab": {
+    "title_seo": "Сахар и кожа: гликирование и коллаген — что делать",
+    "title_ctr": "Сладкое «старит» лицо? Сахар, кожа и план на 14 дней 🍬",
+    "title_aeo": "Как сахар влияет на кожу лица и коллаген?",
+    "description_seo": "Сахар и кожа: гликирование, коллаген, признаки на лице, замены сладкому, протокол 14 дней дома.",
+    "description_ctr": "Показываю, как сахар бьёт по коллагену — и что менять без фанатизма.",
+    "description_aeo": "Почему сладкое сушит и «сетит» лицо и с чего начать отказ от сахара."
+  },
+  "cover_family": "problem_hero",
+  "cover_variant": "ghost_correct_overlay",
+  "format_reference": "memory/brief/samples/article-format-reference-b27.html",
+  "wp_post_id": 608
+}

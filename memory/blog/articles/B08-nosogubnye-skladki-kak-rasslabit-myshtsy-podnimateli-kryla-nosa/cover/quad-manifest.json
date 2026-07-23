@@ -1,0 +1,42 @@
+{
+  "topic_id": "B08",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Носогубка не от возраста — от зажима у носа",
+  "mcp_note": "ONE gpt-image-2 call with reference_urls_hosted, then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Обложка: носогубные складки — мягкая проработка зоны крыла носа",
+      "scene_hint": "Елена 55+ в современном йога-костюме (бежевый/rose set, НЕ свитер), мягко касается зоны крыла носа пальцами, уютная ванная/спальня, rose-gold #fdf6f5 #d4a3a5, зеркало, таймер 7 мин, без SEO и ноутбука.",
+      "meme_caption_ru": "Давление 2 из 10"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Какие мышцы перенапряжены и как проверить себя",
+      "visual_type": "infographic_card",
+      "scene_hint": "Русская инфографика 3 колонки: ПРИВЫЧКА «зажим крыла носа и губ» → ПРОЦЕСС «гипертонус, застой, усталый контур» → РЕЗУЛЬТАТ «глубже носогубка». Мягкие пастели #fdf6f5 #d4a3a5, стрелки, только кириллица, 16:9, БЕЗ SEO.",
+      "alt": "Инфографика: зажим у носа → процесс → носогубная складка"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Пошаговая проработка на 5–7 минут",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Схема проработки носогубной зоны: подготовка → крыло носа → носогубная линия → верхняя губа → уголки рта → завершение. Номера 1-6, стрелки, кириллица, rose-gold wellness, 16:9.",
+      "alt": "Схема пошаговой проработки носогубной зоны за 5–7 минут"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Сверьте технику по таблице перед каждой сессией",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде перед массажем носогубки: губы расслаблены, скольжение есть, давление 2-3/10, таймер 7 мин, не давить по складке. Красные пометки, стикер «тест перед стартом», rose-gold, 16:9.",
+      "alt": "Чеклист перед проработкой носогубной зоны"
+    }
+  }
+}

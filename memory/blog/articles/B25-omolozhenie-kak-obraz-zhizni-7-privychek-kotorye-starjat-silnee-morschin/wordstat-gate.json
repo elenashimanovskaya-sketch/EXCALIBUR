@@ -1,0 +1,48 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B25",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B25-omolozhenie-kak-obraz-zhizni-7-privychek-kotorye-starjat-silnee-morschin",
+  "status": "PASS",
+  "primary_query": "омоложение лица",
+  "primary_shows": 22080,
+  "title_hook": "Омоложение лица",
+  "title_hook_shows": 22080,
+  "approved_title_phrase": "омоложение",
+  "approved_title_shows": 90432,
+  "top_phrases": [
+    {
+      "phrase": "омоложение",
+      "shows": 90432
+    },
+    {
+      "phrase": "омоложение лица",
+      "shows": 22080
+    },
+    {
+      "phrase": "для омоложения кожи лица",
+      "shows": 2345
+    },
+    {
+      "phrase": "как омолодить лицо",
+      "shows": 1886
+    },
+    {
+      "phrase": "домашний омоложения лица",
+      "shows": 835
+    },
+    {
+      "phrase": "как омолодить лицо в домашних условиях",
+      "shows": 408
+    },
+    {
+      "phrase": "как омолодить лицо после 40",
+      "shows": 103
+    },
+    {
+      "phrase": "привычки которые старят",
+      "shows": 65
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

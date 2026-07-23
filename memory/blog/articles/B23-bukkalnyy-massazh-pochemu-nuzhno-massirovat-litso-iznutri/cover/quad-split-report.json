@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B23-bukkalnyy-massazh-pochemu-nuzhno-massirovat-litso-iznutri/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1019,
+      573
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 573,
+        "end": 578
+      },
+      "v_gutter_px": {
+        "start": 1019,
+        "end": 1024
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Буккальный массаж: почему нужно массировать лицо изнутри?",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1024,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 1024,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Что такое буккальный массаж лица (простыми словами)",
+        "h2_anchor": "Что такое буккальный массаж лица (простыми словами)"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 578,
+          "right": 1019,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 578,
+          "right": 1019,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Почему «изнутри» меняет овал сильнее, чем только крем снаружи",
+        "h2_anchor": "Почему «изнутри» меняет овал сильнее, чем только крем снаружи"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1024,
+          "top": 578,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1024,
+          "top": 578,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Кому подходит буккальный массаж (и кому нельзя)",
+        "h2_anchor": "Кому подходит буккальный массаж (и кому нельзя)"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Что такое буккальный массаж лица (простыми словами)",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Почему «изнутри» меняет овал сильнее, чем только крем снаружи",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Кому подходит буккальный массаж (и кому нельзя)"
+  ],
+  "figure_validation": []
+}

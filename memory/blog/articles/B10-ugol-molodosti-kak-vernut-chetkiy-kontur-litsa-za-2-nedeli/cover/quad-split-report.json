@@ -1,0 +1,126 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B10-ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli/cover/canvas-quad.png",
+    "source_size_px": [
+      1672,
+      941
+    ],
+    "panel_size_px": [
+      836,
+      470
+    ],
+    "split_meta": {
+      "split_mode": "mechanical_center",
+      "h_gutter_px": null,
+      "v_gutter_px": null
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 836,
+          "bottom": 470
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 836,
+          "bottom": 470
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Угол молодости: как вернуть четкий контур лица за 2 недели",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 836,
+          "top": 0,
+          "right": 1672,
+          "bottom": 470
+        },
+        "raw_box_px": {
+          "left": 836,
+          "top": 0,
+          "right": 1672,
+          "bottom": 470
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Что такое угол молодости",
+        "h2_anchor": "Что такое угол молодости"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 470,
+          "right": 836,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 470,
+          "right": 836,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема workflow / шаги: Тест овала: как понять, что контур теряется",
+        "h2_anchor": "Тест овала: как понять, что контур теряется"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 836,
+          "top": 470,
+          "right": 1672,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 836,
+          "top": 470,
+          "right": 1672,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Комплекс упражнений на 14 дней",
+        "h2_anchor": "Комплекс упражнений на 14 дней"
+      }
+    }
+  },
+  "html_inject": [
+    "removed 3 stale inline-quad figure(s)",
+    "injected inline_1 (cover/inline-01.png) after H2 — Что такое угол молодости",
+    "injected inline_2 (cover/inline-02.png) after H2 — Тест овала: как понять, что контур теряется",
+    "injected inline_3 (cover/inline-03.png) after H2 — Комплекс упражнений на 14 дней"
+  ],
+  "figure_validation": []
+}

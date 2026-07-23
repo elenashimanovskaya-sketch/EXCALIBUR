@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-06-18",
+    "today_ru": "18.06.2026",
+    "year": 2026,
+    "month": 6,
+    "month_name_ru": "июнь",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-03-20",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-06-18 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B10",
+    "priority": "P0",
+    "slug": "ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli",
+    "h1": "Угол молодости: как вернуть четкий контур лица за 2 недели",
+    "primary_query": "угол молодости упражнения",
+    "secondary_queries": [
+      "угол дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B10",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "угол молодости упражнения 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "угол молодости упражнения июнь 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "угол молодости упражнения новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "угол дома 2026",
+      "purpose": "вторичный запрос: угол дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Угол молодости: как вернуть четкий контур лица за 2 недели 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B10-ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

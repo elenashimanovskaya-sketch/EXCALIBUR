@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-04",
+    "today_ru": "04.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "суббота",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-05",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-04 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B16",
+    "priority": "P1",
+    "slug": "koltsa-venery-kak-ubrat-morschiny-na-shee-cherez-rabotu-s-platizmoy",
+    "h1": "Кольца Венеры: как убрать морщины на шее через работу с платизмой",
+    "primary_query": "кольца венеры на шее",
+    "secondary_queries": [
+      "кольца дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B16",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "кольца венеры на шее 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "кольца венеры на шее июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "кольца венеры на шее новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "кольца дома 2026",
+      "purpose": "вторичный запрос: кольца дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Кольца Венеры: как убрать морщины на шее через работу с платизмой 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B16-koltsa-venery-kak-ubrat-morschiny-na-shee-cherez-rabotu-s-platizmoy",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

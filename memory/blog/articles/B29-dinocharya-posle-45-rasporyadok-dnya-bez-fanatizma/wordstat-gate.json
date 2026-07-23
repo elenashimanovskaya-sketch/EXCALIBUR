@@ -1,0 +1,42 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B29",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma",
+  "status": "PASS",
+  "primary_query": "утренний ритуал",
+  "primary_shows": 4264,
+  "title_hook": "Как составить распорядок дня после 45",
+  "title_hook_shows": null,
+  "approved_title_phrase": "распорядок дня",
+  "approved_title_shows": 63108,
+  "top_phrases": [
+    {
+      "phrase": "распорядок дня",
+      "shows": 63108
+    },
+    {
+      "phrase": "утренний ритуал",
+      "shows": 4264
+    },
+    {
+      "phrase": "распорядок дня для женщины",
+      "shows": 141
+    },
+    {
+      "phrase": "утренние и вечерние ритуалы",
+      "shows": 38
+    },
+    {
+      "phrase": "утренние ритуалы для продуктивного дня",
+      "shows": 36
+    },
+    {
+      "phrase": "режим дня для кожи",
+      "shows": 23
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "title hook «Как составить распорядок дня после 45» — нет данных Wordstat; проверь вручную"
+  ]
+}

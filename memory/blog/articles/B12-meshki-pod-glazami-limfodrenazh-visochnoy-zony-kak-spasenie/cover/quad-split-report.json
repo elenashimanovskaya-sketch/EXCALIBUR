@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B12-meshki-pod-glazami-limfodrenazh-visochnoy-zony-kak-spasenie/cover/canvas-quad.png",
+    "source_size_px": [
+      1672,
+      941
+    ],
+    "panel_size_px": [
+      832,
+      468
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 468,
+        "end": 475
+      },
+      "v_gutter_px": {
+        "start": 832,
+        "end": 840
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 832,
+          "bottom": 468
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 832,
+          "bottom": 468
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Мешки под глазами: лимфодренаж височной зоны как спасение",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 840,
+          "top": 0,
+          "right": 1672,
+          "bottom": 468
+        },
+        "raw_box_px": {
+          "left": 840,
+          "top": 0,
+          "right": 1672,
+          "bottom": 468
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Разберите отёк и мешки: в чём разница",
+        "h2_anchor": "Разберите отёк и мешки: в чём разница"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 475,
+          "right": 832,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 475,
+          "right": 832,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема workflow / шаги: Сделайте лимфодренаж височной зоны пошагово",
+        "h2_anchor": "Сделайте лимфодренаж височной зоны пошагово"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 840,
+          "top": 475,
+          "right": 1672,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 840,
+          "top": 475,
+          "right": 1672,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Проведите утренний протокол за 5-7 минут",
+        "h2_anchor": "Проведите утренний протокол за 5-7 минут"
+      }
+    }
+  },
+  "html_inject": [
+    "injected inline_1 (cover/inline-01.png) after H2 — Разберите отёк и мешки: в чём разница",
+    "injected inline_2 (cover/inline-02.png) after H2 — Сделайте лимфодренаж височной зоны пошагово",
+    "injected inline_3 (cover/inline-03.png) after H2 — Проведите утренний протокол за 5-7 минут"
+  ],
+  "figure_validation": []
+}

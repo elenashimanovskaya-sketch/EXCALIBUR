@@ -3,8 +3,9 @@
   "description": "Типы inline-иллюстраций для Excalibur BLOG. Обложка — отдельно (мем + герой). Inline — полезность по H2.",
   "selection_rules": [
     "Один visual_type на inline; без повторов в одной статье, если есть альтернатива с score > 0",
-    "При равном score — приоритет: comparison_table_ui > workflow_diagram > checklist_board > schema_faq_ui > tool_screenshot > infographic_card",
-    "scene_hint дополняет шаблон типа конкретикой из H2 и lead статьи"
+    "При равном score — приоритет: exercise_steps_host (если статья про упражнение) > comparison_table_ui > workflow_diagram > checklist_board > schema_faq_ui > tool_screenshot > infographic_card",
+    "scene_hint дополняет шаблон типа конкретикой из H2 и lead статьи",
+    "exercise_steps_host: только для H2 с пошаговой техникой упражнения; Елена на фото делает движение, как в домашнем уроке"
   ],
   "types": {
     "comparison_table_ui": {
@@ -15,11 +16,19 @@
       "negative": "meme impact font, cartoon mascot, watermark, English UI labels, blurry text"
     },
     "workflow_diagram": {
-      "label_ru": "Схема workflow / шаги",
-      "keywords": ["структур", "longread", "семантик", "outline", "шаг", "как писать", "workflow", "процесс"],
+      "label_ru": "Схема шагов",
+      "keywords": ["структур", "longread", "семантик", "outline", "как писать", "процесс"],
       "prompt_prefix": "Clean Russian infographic workflow diagram, numbered steps connected by arrows, editorial blog style, colors #FAFAF7 #1A1A2E #E85D4C #FFD93D, 16:9,",
       "prompt_suffix": "readable Cyrillic step titles on torn-paper workflow strip, marker arrows, taped checklist scrap, practical how-to, no meme faces",
       "negative": "meme, face closeup, watermark, chaotic collage, English text"
+    },
+    "exercise_steps_host": {
+      "label_ru": "Упражнение пошагово с ведущей",
+      "keywords": ["упражнен", "пошагово", "техника", "ковш", "рамка", "как делать", "шаг", "расслаблен", "проработ"],
+      "allow_host_face": true,
+      "prompt_prefix": "Russian wellness blog step-by-step exercise tutorial panel, 16:9 widescreen, fuchsia pink accents #e91e8c #ff2d95, torn paper collage, numbered steps 1-5, Cyrillic H2 title at top,",
+      "prompt_suffix": "Blog host Elena (face yoga master, preserve EXACT face from reference) demonstrates the exercise in each step photo — matching yoga set leggings + sports top, NEW outfit color not copied from reference. Home lesson style: preparation, posture, movement, hold, repeat. Cyrillic captions. Pink arrows. Sticky note «3-5 минут ежедневно».",
+      "negative": "generic stock model not Elena, meme impact font, English text, botox syringe, aggressive grimace, watermark, cartoon mascot, diagram without human demo"
     },
     "checklist_board": {
       "label_ru": "Чеклист / printable board",

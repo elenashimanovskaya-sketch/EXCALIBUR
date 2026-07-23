@@ -1,0 +1,50 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B20",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B20-sutulost-i-litso-kak-vasha-spina-risuet-vam-morschiny",
+  "status": "PASS",
+  "primary_query": "упражнения от сутулости",
+  "primary_shows": 2798,
+  "title_hook": "Упражнения от сутулости",
+  "title_hook_shows": 2798,
+  "approved_title_phrase": "упражнения для осанки",
+  "approved_title_shows": 18961,
+  "top_phrases": [
+    {
+      "phrase": "упражнения для осанки",
+      "shows": 18961
+    },
+    {
+      "phrase": "сутулость упражнения",
+      "shows": 4471
+    },
+    {
+      "phrase": "как исправить осанку",
+      "shows": 3615
+    },
+    {
+      "phrase": "упражнения от сутулости",
+      "shows": 2798
+    },
+    {
+      "phrase": "упражнения от сутулости спины",
+      "shows": 888
+    },
+    {
+      "phrase": "упражнение от сутулости для женщин",
+      "shows": 441
+    },
+    {
+      "phrase": "сутулость и лицо",
+      "shows": 13
+    },
+    {
+      "phrase": "сутулость и морщины на лице",
+      "shows": 13
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "title/h1 не содержит топ-фразу Wordstat «упражнения для осанки» (18961/мес)"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source": "memory/blog/articles/B12-meshki-pod-glazami-limfodrenazh-visochnoy-zony-kak-spasenie/article.html",
+  "total_links": 3,
+  "failed_count": 2,
+  "verdict": "fail",
+  "links": [
+    {
+      "url": "https://naturallift.store/kak-rasslabit-liczo-za-5-minut-i-ubrat/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/teypy-na-noch-kak-prosnutsya-bez-morschin-na-lbu-bez-kosmetologa/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/diagnostika-kozhi/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    }
+  ]
+}

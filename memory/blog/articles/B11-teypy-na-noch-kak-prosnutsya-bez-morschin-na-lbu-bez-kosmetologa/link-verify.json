@@ -1,0 +1,26 @@
+{
+  "source": "memory/blog/articles/B11-teypy-na-noch-kak-prosnutsya-bez-morschin-na-lbu-bez-kosmetologa/article.html",
+  "total_links": 2,
+  "failed_count": 2,
+  "verdict": "fail",
+  "links": [
+    {
+      "url": "https://naturallift.store/2026/06/18/ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/diagnostika-kozhi/",
+      "status": 404,
+      "ok": false,
+      "method": "HEAD",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "internal_absolute",
+      "skipped": false
+    }
+  ]
+}

@@ -49,6 +49,12 @@
     "title_aeo_must_be_question": true,
     "title_ctr_must_have_emoji_or_hook": true
   },
+  "wordstat_gate": {
+    "min_primary_shows_block": 200,
+    "min_primary_shows_warn": 500,
+    "min_title_hook_shows_block": 200,
+    "require_research_wordstat_json": true
+  },
   "recommendation_markers_ru": [
     "сделайте",
     "не делайте",
@@ -60,7 +66,15 @@
     "избегайте",
     "ориентир",
     "чеклист",
-    "workflow"
+    "workflow",
+    "проработайте",
+    "погладьте",
+    "массируйте",
+    "дышите",
+    "упражнение",
+    "нанесите",
+    "не давите",
+    "остановитесь"
   ],
   "water_phrases_ru": [
     "в современном мире",
@@ -90,6 +104,13 @@
     "сравнен",
     " vs ",
     "выбор ",
-    "workflow"
+    "workflow",
+    "почему",
+    "что делать",
+    "ошиб",
+    "упражн",
+    "с чего",
+    "протокол",
+    "признак"
   ]
 }

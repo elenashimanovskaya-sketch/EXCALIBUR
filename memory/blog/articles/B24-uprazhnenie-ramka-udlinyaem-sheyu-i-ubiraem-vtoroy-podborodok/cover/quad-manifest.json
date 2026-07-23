@@ -1,0 +1,46 @@
+{
+  "topic_id": "B24",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "упражнение рамка",
+  "cover_problem": "упражнение рамка",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": true,
+  "exercise_inline_slot": "inline_1",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: Упражнение рамка: удлиняем шею и убираем второй подбородок - пошагово дома",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план зоны проблемы статьи: упражнение рамка. Жест показывает зону, чистый studio фон."
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Что такое упражнение Рамка и зачем оно шее",
+      "visual_type": "exercise_steps_host",
+      "scene_hint": "Елена пошагово показывает упражнение из секции «Что такое упражнение \"Рамка\" и зачем оно шее»: 4-5 numbered steps, на каждом шаге она сама делает движение (как снимает домашний урок), короткие подписи на русском, розовые стрелки направления, sticky note «3-5 минут ежедневно»",
+      "alt": "Упражнение пошагово с ведущей: Что такое упражнение \"Рамка\" и зачем оно шее"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Почему Рамка влияет на овал и второй подбородок",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица «ошибка / что происходит / как исправить» по теме секции — «Почему \"Рамка\" влияет на овал и второй подбородок»",
+      "alt": "Сравнительная таблица / UI-мокап: Почему \"Рамка\" влияет на овал и второй подбородок"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Кому подходит Рамка (и когда остановиться)",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема с стрелками и номерами по теме секции — «Кому подходит \"Рамка\" (и когда остановиться)»",
+      "alt": "Схема шагов: Кому подходит \"Рамка\" (и когда остановиться)"
+    }
+  }
+}

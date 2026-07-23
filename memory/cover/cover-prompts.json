@@ -2,9 +2,50 @@
   "topics": {
     "B01": {
       "topic_id": "B01",
-      "slug": "primer-seo-stati",
-      "topic_scene_descriptor": "writer at laptop with notebook and coffee, warm editorial light, abstract SEO graph shapes, brand collage layers",
-      "cover_alt_text": "Обложка: автор готовит SEO-статью за ноутбуком",
+      "slug": "oteki-po-utram-chto-delat",
+      "topic_scene_descriptor": "early morning bathroom mirror, puffy eyes, Elena pointing at reflection, sticky note 10 minutes, soft rose light, lymph massage gesture, premium wellness collage",
+      "cover_alt_text": "Обложка: как убрать утренние отёки на лице за 10 минут",
+      "cover_hook_ru": "УТРО. ОПЯТЬ ОТЁК?",
+      "archetype": "how_to"
+    },
+    "B02": {
+      "topic_id": "B02",
+      "slug": "sheya-starit-litso",
+      "topic_scene_descriptor": "Elena touching neck and jawline, phone neck posture crossed out, gentle neck stretch, oval face diagram sketch on sticky note, rose-gold wellness collage",
+      "cover_alt_text": "Обложка: как шея влияет на овал лица и что делать",
+      "cover_hook_ru": "ШЕЯ ТЯНЕТ ОВАЛ?",
+      "archetype": "how_to"
+    },
+    "B03": {
+      "topic_id": "B03",
+      "slug": "pochemu-krem-ne-rabotaet",
+      "topic_scene_descriptor": "skincare bottles with red X marks, wrong order layers sticky note, Elena showing correct cream application, soft natural light, not clinical",
+      "cover_alt_text": "Обложка: 7 ошибок в уходе из-за которых крем не работает",
+      "cover_hook_ru": "КРЕМ НЕ РАБОТАЕТ?",
+      "archetype": "how_to"
+    },
+    "B04": {
+      "topic_id": "B04",
+      "slug": "feis-yoga-posle-50-s-chego-nachat",
+      "topic_scene_descriptor": "Elena 55+ doing gentle face yoga at home, calendar week 1, calm smile, yoga mat corner, beginner friendly, warm tones",
+      "cover_alt_text": "Обложка: фейс-йога после 50 с чего начать безопасно",
+      "cover_hook_ru": "ПОСЛЕ 50. С ЧЕГО?",
+      "archetype": "how_to"
+    },
+    "B05": {
+      "topic_id": "B05",
+      "slug": "ayurveda-i-uhod-za-kozhej",
+      "topic_scene_descriptor": "ayurveda dosha sticky notes vata pitta kapha simplified, herbs and face oil, Elena explaining calmly, no mystic clichés, elegant flat collage",
+      "cover_alt_text": "Обложка: аюрведа и уход за кожей как понять свой тип",
+      "cover_hook_ru": "ВАШ ТИП КОЖИ?",
+      "archetype": "parent_guide"
+    },
+    "B06": {
+      "topic_id": "B06",
+      "slug": "silver-cream-i-feis-yoga",
+      "topic_scene_descriptor": "Silver Cream jar and gentle face massage, Elena hands on cheeks, synergy diagram cream plus movement arrows, rose-gold product glow",
+      "cover_alt_text": "Обложка: как Silver Cream и фейс-йога усиливают друг друга",
+      "cover_hook_ru": "КРЕМ + ДВИЖЕНИЕ",
       "archetype": "how_to"
     }
   }

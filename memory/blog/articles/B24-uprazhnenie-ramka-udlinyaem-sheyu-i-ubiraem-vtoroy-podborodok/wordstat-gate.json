@@ -1,0 +1,50 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B24",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B24-uprazhnenie-ramka-udlinyaem-sheyu-i-ubiraem-vtoroy-podborodok",
+  "status": "PASS",
+  "primary_query": "упражнение рамка",
+  "primary_shows": 1448,
+  "title_hook": "Упражнение рамка",
+  "title_hook_shows": 1448,
+  "approved_title_phrase": "упражнения для шеи",
+  "approved_title_shows": 59777,
+  "top_phrases": [
+    {
+      "phrase": "упражнения для шеи",
+      "shows": 59777
+    },
+    {
+      "phrase": "шейная гимнастика шишонина",
+      "shows": 5615
+    },
+    {
+      "phrase": "упражнения от второго подбородка",
+      "shows": 2540
+    },
+    {
+      "phrase": "упражнение рамка",
+      "shows": 1448
+    },
+    {
+      "phrase": "упражнения чтобы убрать второй подбородок",
+      "shows": 1034
+    },
+    {
+      "phrase": "упражнения шея второй подбородок",
+      "shows": 255
+    },
+    {
+      "phrase": "упражнение рамка для шеи",
+      "shows": 168
+    },
+    {
+      "phrase": "упражнение рамка техника",
+      "shows": 119
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "title/h1 не содержит топ-фразу Wordstat «упражнения для шеи» (59777/мес)"
+  ]
+}

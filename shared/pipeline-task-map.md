@@ -21,6 +21,7 @@
   │
   ├─ ⑤ Task(excalibur-blog-indexer)
   └─ ⑥ Task(excalibur-blog-publish)   ← автоматически после Indexer (skip только publish:no)
+       shell fallback: scripts/excalibur_blog_quad_publish.py (live publish по умолчанию)
 ```
 
 ## Таблица распределения
@@ -84,7 +85,7 @@
 ```text
 Ты excalibur-blog-writer. topic_id: {ID}.
 Прочитай agents/excalibur-blog-writer.md + skills/writer-excalibur-blog/SKILL.md + shared/editorial-utility-only.md.
-Только режим B: шаги, рекомендации, без воды. 8500–9500 символов.
+Только режим B: шаги, рекомендации, без воды. **12 000–14 000** символов (naturallift фаза 2).
 Блок === EXCALIBUR BLOG WRITER ===. Не запускай QA и cover.
 ```
 

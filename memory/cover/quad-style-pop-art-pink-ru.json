@@ -1,0 +1,33 @@
+{
+  "style_id": "pop_art_pink_comic_ru",
+  "label_ru": "Pop-art pink comic · Dzen scroll-stop · RU · 16:9 quad",
+  "cover_family": "pop_art_hook",
+  "design_code": "memory/cover/cover-design-code.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "global_prompt_prefix": "Russian wellness blog 2x2 quad canvas, POP ART COMIC BOOK style like neon magazine illustration, heavy black ink outlines cross-hatching, saturated hot pink magenta #ff1493 #e91e8c #ff2d95 dominant palette with electric purple shadows #9b0599 and acid yellow accents #ffe600, mature woman 45-55 face close-up expressive NOT teenage, stylized illustration NOT photorealistic, candy sweets lollipops donuts as graphic props when topic fits sugar skin aging, high contrast scroll-stopping Dzen feed thumbnail energy, Cyrillic infographic panels on other three quadrants,",
+  "global_prompt_suffix": "single canvas 2048x1152 pixels exact 2x2 grid four equal 16:9 panels 1024x576 each thin white gutters, top-left cover panel NO text on photo face only pop-art illustration, other panels readable Cyrillic wellness infographic same pink palette family, bold comic aesthetic throughout all four panels",
+  "global_negative_prompt": "photorealistic stock photo, cold blue hospital, English text, watermark, logo, botox syringe, surgery, teenage model, generic corporate ad, muted beige only, Drake meme, Wordstat dashboard, extra fingers, blurry",
+  "meme_formats_ru": [
+    "pop-art лицо крупным планом",
+    "неоновые конфеты/сладости как графика",
+    "кислотно-розовый фон",
+    "comic cross-hatching тени"
+  ],
+  "color_lock": {
+    "background": "#ff1493",
+    "accent_primary": "#e91e8c",
+    "accent_secondary": "#9b0599",
+    "gold_accent": "#ffe600",
+    "highlight_pink": "#ff69b4"
+  },
+  "composition_lock": {
+    "layout": "2x2_quad",
+    "recommended_canvas_px": "2048x1152",
+    "panel_aspect": "16:9",
+    "panel_size_px": "1024x576",
+    "gutter_px_hint": 8,
+    "text_on_cover_panel": "no_text_on_face_panel",
+    "inline_panels": "utility_infographic_same_palette"
+  },
+  "tone_ru": "яркий scroll-stop для ленты Дзена, pop-art как у женских медиа, без стыда возраста, розовая гамма бренда Natural Lift"
+}

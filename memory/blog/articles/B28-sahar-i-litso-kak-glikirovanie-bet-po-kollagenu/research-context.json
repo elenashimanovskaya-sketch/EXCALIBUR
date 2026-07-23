@@ -1,0 +1,69 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-22",
+    "today_ru": "22.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-23",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-22 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B28",
+    "priority": "P2",
+    "slug": "sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+    "h1": "Сахар и лицо: как гликирование бьёт по коллагену",
+    "primary_query": "сахар и морщины на лице",
+    "secondary_queries": [
+      "гликирование коллагена"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B28",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "сахар и морщины на лице 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "сахар и морщины на лице июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "сахар и морщины на лице новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "гликирование коллагена 2026",
+      "purpose": "вторичный запрос: гликирование коллагена"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Сахар и лицо: как гликирование бьёт по коллагену 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B28-sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

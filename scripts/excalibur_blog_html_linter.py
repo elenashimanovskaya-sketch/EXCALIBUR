@@ -144,7 +144,7 @@ def main() -> int:
     # Whitelist tags based on excalibur contract
     allowed_tags = {
         "h2", "h3", "p", "b", "i", "a", "ul", "ol", "li", "blockquote",
-        "table", "thead", "tbody", "tr", "th", "td", "img", "br"
+        "table", "thead", "tbody", "tr", "th", "td", "img", "br", "figure"
     }
 
     report = lint_html_file(args.html, allowed_tags)

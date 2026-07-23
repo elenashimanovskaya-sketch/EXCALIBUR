@@ -1,0 +1,50 @@
+{
+  "topic_id": "B18",
+  "slug": "uprazhnenie-kovsh-moy-sekret-idealnogo-podborodka-v-53-goda",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Упражнение «Ковш»: мой секрет идеального подбородка в 53 года",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-07T17:31:18+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Упражнение «Ковш»: мой секрет идеального подбородка в 53 года",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Почему подбородок меняется раньше, чем кажется",
+      "h2_anchor": "Почему подбородок меняется раньше, чем кажется",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Техника «Ковш» пошагово",
+      "h2_anchor": "Техника «Ковш» пошагово",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Когда «Ковш» помогает, а когда сначала нужен отдых",
+      "h2_anchor": "Когда «Ковш» помогает, а когда сначала нужен отдых",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

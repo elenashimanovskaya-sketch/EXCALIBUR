@@ -342,6 +342,74 @@ def build_registry(article_dir: Path, manifest: dict[str, Any], split_info: dict
     }
 
 
+INLINE_QUAD_FIGURE_RE = re.compile(
+    r'\n?<figure class="inline-quad"[^>]*>.*?</figure>\n?',
+    re.I | re.S,
+)
+
+
+def _normalize_h2_text(raw: str) -> str:
+    text = re.sub(r"<[^>]+>", "", raw)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def strip_inline_quad_figures(html: str) -> tuple[str, int]:
+    removed = len(INLINE_QUAD_FIGURE_RE.findall(html))
+    return INLINE_QUAD_FIGURE_RE.sub("\n", html), removed
+
+
+def validate_quad_figures(html: str, split_info: dict[str, Any]) -> list[str]:
+    """Проверка: inline_N → inline-0N.png; H2 из manifest заменён figure (без дубля заголовка над картинкой)."""
+    errors: list[str] = []
+    for slot_key in ("inline_1", "inline_2", "inline_3"):
+        item = split_info["outputs"][slot_key]
+        h2_anchor = (item.get("h2_anchor") or "").strip()
+        expected_file = INLINE_FILES[slot_key]
+        expected_src = item["file"]
+
+        slot_re = re.compile(
+            rf'<figure class="inline-quad" data-slot="{re.escape(slot_key)}"[^>]*>\s*'
+            rf'<img src="([^"]+)"[^>]*>',
+            re.I | re.S,
+        )
+        match = slot_re.search(html)
+        if not match:
+            errors.append(f"{slot_key}: нет <figure data-slot={slot_key}>")
+            continue
+
+        src = match.group(1).replace("\\", "/")
+        if not src.endswith(expected_file) and expected_src.replace("\\", "/") not in src:
+            errors.append(f"{slot_key}: src={src!r}, ожидался {expected_src}")
+
+        figure_open = re.search(
+            rf'<figure class="inline-quad" data-slot="{re.escape(slot_key)}"[^>]*>',
+            html,
+            re.I,
+        )
+        if figure_open and h2_anchor:
+            tag = figure_open.group(0)
+            anchor_m = re.search(r'data-h2-anchor="([^"]*)"', tag, re.I)
+            if anchor_m and anchor_m.group(1).strip() != h2_anchor:
+                errors.append(
+                    f"{slot_key}: data-h2-anchor={anchor_m.group(1)!r}, ожидался {h2_anchor!r}"
+                )
+
+        before = html[: match.start()]
+        h2_matches = list(re.finditer(r"<h2[^>]*>(.*?)</h2>", before, re.I | re.S))
+        if h2_matches:
+            last_h2 = _normalize_h2_text(h2_matches[-1].group(1))
+            gap = before[h2_matches[-1].end() :].strip()
+            if last_h2 == h2_anchor and len(gap) < 80:
+                errors.append(
+                    f"{slot_key}: дублирующий H2 «{h2_anchor}» над картинкой — inject должен заменять H2 на figure"
+                )
+
+    found = len(INLINE_QUAD_FIGURE_RE.findall(html))
+    if found != 3:
+        errors.append(f"ожидается 3 inline-quad figure, найдено {found}")
+    return errors
+
+
 def inject_figures(article_html: Path, split_info: dict[str, Any], dry_run: bool) -> list[str]:
     if not article_html.is_file():
         return ["article.html not found — skip inject"]
@@ -349,30 +417,46 @@ def inject_figures(article_html: Path, split_info: dict[str, Any], dry_run: bool
     html = article_html.read_text(encoding="utf-8")
     changes: list[str] = []
 
+    html, removed = strip_inline_quad_figures(html)
+    if removed:
+        changes.append(f"removed {removed} stale inline-quad figure(s)")
+
     for slot_key in ("inline_1", "inline_2", "inline_3"):
         item = split_info["outputs"][slot_key]
         src = item["file"]
         alt = item.get("alt") or ""
         h2 = item.get("h2_anchor")
         if not h2:
+            changes.append(f"skip {slot_key}: no h2_anchor in manifest")
             continue
         figure = (
-            f'\n<figure class="inline-quad" data-slot="{slot_key}">\n'
+            f'\n<figure class="inline-quad" data-slot="{slot_key}" data-h2-anchor="{h2}">\n'
             f'  <img src="{src}" alt="{alt}" loading="lazy">\n'
             f"</figure>\n"
         )
-        pattern = re.compile(rf"(<h2[^>]*>\s*{re.escape(h2)}\s*</h2>)", re.I | re.S)
-        if f'data-slot="{slot_key}"' in html:
-            changes.append(f"skip {slot_key}: already injected")
-            continue
-        if not pattern.search(html):
-            changes.append(f"skip {slot_key}: H2 not found — {h2}")
-            continue
-        html = pattern.sub(r"\1" + figure, html, count=1)
-        changes.append(f"injected {slot_key} after H2 — {h2}")
+        h2_pattern = re.compile(rf"<h2[^>]*>\s*{re.escape(h2)}\s*</h2>", re.I | re.S)
+        existing_figure = re.compile(
+            rf'<figure class="inline-quad" data-slot="{re.escape(slot_key)}"[\s\S]*?</figure>\s*',
+            re.I,
+        )
+        if h2_pattern.search(html):
+            html = h2_pattern.sub(figure, html, count=1)
+            changes.append(f"replaced H2 with {slot_key} ({src}) — {h2}")
+        elif existing_figure.search(html):
+            html = existing_figure.sub(figure, html, count=1)
+            changes.append(f"updated {slot_key} figure ({src}) — {h2}")
+        else:
+            changes.append(f"FAIL {slot_key}: H2 not found — {h2}")
 
-    if not dry_run and changes:
+    validation = validate_quad_figures(html, split_info)
+    if validation:
+        for err in validation:
+            changes.append(f"VALIDATION FAIL: {err}")
+
+    if not dry_run and changes and not any(c.startswith("VALIDATION FAIL") or c.startswith("FAIL ") for c in changes):
         article_html.write_text(html, encoding="utf-8", newline="\n")
+    elif not dry_run and any(c.startswith("VALIDATION FAIL") or c.startswith("FAIL ") for c in changes):
+        changes.append("article.html NOT saved — fix H2/manifest mismatch")
     return changes
 
 
@@ -417,7 +501,7 @@ def main() -> int:
         default="",
         help=argparse.SUPPRESS,
     )
-    ap.add_argument("--inject-html", action="store_true", help="Insert <figure> after matched H2 in article.html")
+    ap.add_argument("--inject-html", action="store_true", help="Replace matched H2 with <figure> in article.html (no duplicate heading above image)")
     ap.add_argument(
         "--demo-canvas",
         action="store_true",
@@ -501,7 +585,26 @@ def main() -> int:
         "split": split_info,
     }
     if args.inject_html:
-        report["html_inject"] = inject_figures(article_dir / "article.html", split_info, dry_run=False)
+        inject_log = inject_figures(article_dir / "article.html", split_info, dry_run=False)
+        report["html_inject"] = inject_log
+        if any(
+            line.startswith("VALIDATION FAIL") or line.startswith("FAIL ")
+            for line in inject_log
+        ):
+            report["status"] = "FAIL"
+            report["figure_validation"] = [
+                line.split(": ", 1)[-1]
+                for line in inject_log
+                if line.startswith("VALIDATION FAIL")
+            ]
+            save_json(cover_dir / "quad-split-report.json", report)
+            print("❌ QUAD FIGURE BLOCKER: inline image / H2 mismatch", file=sys.stderr)
+            for line in inject_log:
+                if line.startswith("VALIDATION FAIL") or line.startswith("FAIL "):
+                    print(f"  {line}", file=sys.stderr)
+            return 1
+        html_after = (article_dir / "article.html").read_text(encoding="utf-8")
+        report["figure_validation"] = validate_quad_figures(html_after, split_info)
     save_json(cover_dir / "quad-split-report.json", report)
 
     print(f"OK cover={cover_dir / 'cover.png'}")

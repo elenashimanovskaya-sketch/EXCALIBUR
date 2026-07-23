@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-02",
+    "today_ru": "02.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-03",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-02 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B15",
+    "priority": "P1",
+    "slug": "kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+    "h1": "Кисетные морщины: как вернуть объем губам без филлеров",
+    "primary_query": "кисетные морщины губ",
+    "secondary_queries": [
+      "кисетные дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B15",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "кисетные морщины губ 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "кисетные морщины губ июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "кисетные морщины губ новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "кисетные дома 2026",
+      "purpose": "вторичный запрос: кисетные дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Кисетные морщины: как вернуть объем губам без филлеров 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B15-kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

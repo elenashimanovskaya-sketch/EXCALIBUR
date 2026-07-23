@@ -1,0 +1,28 @@
+Russian wellness blog cover thumbnail 16:9, 1200x675, premium but SIMPLE (not zine collage).
+
+REFERENCE FACE: preserve EXACT likeness of blog host Elena (mature woman 40+, warm, natural skin) from input reference photo — ONLY on the right side demo panel.
+
+LAYOUT — YouTube beauty thumbnail split (scheme S6):
+- LEFT 42%: typography ONLY on dark warm blurred background (#2a1a1f → #4a3336 gradient). NO photo on left.
+  - Line 1 huge bold sans-serif ALL CAPS fuchsia #e91e8c: «КАК УБРАТЬ»
+  - Line 2 huge bold sans-serif ALL CAPS white: «МОРЩИНЫ НА ЛБУ»
+  - Small pink brushstroke banner below: «без ботокса» handwritten Cyrillic
+  - Tiny caption bottom-left white: «7 минут дома»
+- RIGHT 58%: Elena waist-up, soft studio light, dark blur bedroom background.
+  - POSE: one flat palm gently resting on forehead (relax brow), eyebrows down, calm half-smile, eyes to camera.
+  - Second hand relaxed at side or on collarbone — NOT at temples, NOT symmetric face massage.
+  - White or soft beige top (NOT same pink yoga set as other blog covers).
+
+WORDSTAT HOOK source: top query «как убрать морщины на лбу без ботокса» (128 shows/mo).
+
+STRICT FORBIDDEN:
+- NO before/after panels, NO «до/после» labels, NO twin mini-portraits
+- NO hands on temples, NO fingers at both temples
+- NO torn paper collage, NO sticky notes grid, NO fake phone screenshots
+- NO syringe, NO clinic, NO botox needle
+- NO duplicate Elena face in small inserts
+- NO English text
+
+Style reference: clean competitor YouTube beauty thumbnail — bold text left, one clear technique demo right. Readable at small size in blog feed.
+
+Negative: meme collage, zine scrapbook, mirror selfie grid, identical before-after same person, temple massage pose, stock plastic skin, watermark, English UI

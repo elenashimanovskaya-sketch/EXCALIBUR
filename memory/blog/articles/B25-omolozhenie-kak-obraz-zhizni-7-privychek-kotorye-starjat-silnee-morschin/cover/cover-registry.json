@@ -1,0 +1,50 @@
+{
+  "topic_id": "B25",
+  "slug": "omolozhenie-kak-obraz-zhizni-7-privychek-kotorye-starjat-silnee-morschin",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Омоложение лица: 7 привычек, которые старят сильнее морщин - с чего начать дома",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-21T18:27:40+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Омоложение лица: 7 привычек, которые старят сильнее морщин - с чего начать дома",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Почему одна процедура не работает без системы",
+      "h2_anchor": "Почему одна процедура не работает без системы",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: 7 привычек, которые старят сильнее морщин",
+      "h2_anchor": "7 привычек, которые старят сильнее морщин",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Чем заменить каждую привычку - мягко и дома",
+      "h2_anchor": "Чем заменить каждую привычку - мягко и дома",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

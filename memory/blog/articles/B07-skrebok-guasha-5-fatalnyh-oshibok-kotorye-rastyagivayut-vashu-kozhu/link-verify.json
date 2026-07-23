@@ -1,0 +1,26 @@
+{
+  "source": "memory/blog/articles/B07-skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/article.html",
+  "total_links": 2,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "https://naturallift.store/2026/05/25/ty-uhazhivaesh-za-liczom-a-ono-stareet-5-skrytyh-oshibok/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://naturallift.store/2026/05/25/oteki-po-utram-eto-ne-vozrast-vot-chto/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    }
+  ]
+}

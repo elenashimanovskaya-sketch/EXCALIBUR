@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B19-vtoroy-podborodok-pochemu-dieta-ne-pomogaet-i-pri-chem-tut-yazyk/cover/canvas-quad.png",
+    "source_size_px": [
+      1672,
+      941
+    ],
+    "panel_size_px": [
+      832,
+      467
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 467,
+        "end": 475
+      },
+      "v_gutter_px": {
+        "start": 832,
+        "end": 840
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 832,
+          "bottom": 467
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 832,
+          "bottom": 467
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Второй подбородок: почему диета не помогает и при чем тут язык?",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 840,
+          "top": 0,
+          "right": 1672,
+          "bottom": 467
+        },
+        "raw_box_px": {
+          "left": 840,
+          "top": 0,
+          "right": 1672,
+          "bottom": 467
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Почему диета не убирает второй подбородок",
+        "h2_anchor": "Почему диета не убирает второй подбородок"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 475,
+          "right": 832,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 475,
+          "right": 832,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: При чем тут язык и почему это не модная «кнопка»",
+        "h2_anchor": "При чем тут язык и почему это не модная «кнопка»"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 840,
+          "top": 475,
+          "right": 1672,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 840,
+          "top": 475,
+          "right": 1672,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Упражнение пошагово с ведущей: Упражнения для второго подбородка пошагово",
+        "h2_anchor": "Упражнения для второго подбородка пошагово"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Почему диета не убирает второй подбородок",
+    "replaced H2 with inline_2 (cover/inline-02.png) — При чем тут язык и почему это не модная «кнопка»",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Упражнения для второго подбородка пошагово"
+  ],
+  "figure_validation": []
+}

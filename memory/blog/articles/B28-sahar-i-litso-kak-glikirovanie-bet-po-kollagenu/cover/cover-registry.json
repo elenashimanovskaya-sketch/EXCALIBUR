@@ -1,0 +1,50 @@
+{
+  "topic_id": "B28",
+  "slug": "sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Сахар и кожа: как гликирование бьёт по коллагену — план на 14 дней дома",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-22T19:28:09+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Сахар и кожа: как гликирование бьёт по коллагену — план на 14 дней дома",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Что такое гликирование простыми словами",
+      "h2_anchor": "Что такое гликирование простыми словами",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Сахар и коллаген: что ломается в коже",
+      "h2_anchor": "Сахар и коллаген: что ломается в коже",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Как сладкое видно на лице",
+      "h2_anchor": "Как сладкое видно на лице",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

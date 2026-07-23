@@ -1,0 +1,43 @@
+{
+  "topic_id": "B10",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Овал держит тонус, не крем",
+  "cover_scheme_id": "S5_point_at_sticky",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Обложка: Угол молодости: как вернуть четкий контур лица за 2 недели",
+      "scene_hint": "Елена в йога-костюме показывает упражнение угол молодости у зеркала, rose-gold интерьер, таймер 14 дней, без SEO.",
+      "meme_caption_ru": "14 дней по плану"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Что такое угол молодости",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица: чёткий угол молодости vs смягчённый контур vs отёк — анатомия нижней челюсти и платизмы, без гуаша",
+      "alt": "Сравнительная таблица / UI-мокап: Что такое угол молодости"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Тест овала: как понять, что контур теряется",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Схема самотеста овала: 4 шага (профиль у зеркала, линия челюсть-шея, фото, отметки день 1/7/14), силуэт лица со стрелками",
+      "alt": "Схема workflow / шаги: Тест овала: как понять, что контур теряется"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Комплекс упражнений на 14 дней",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде «Комплекс на 14 дней»: неделя 1 — платизма, O-губы, скольжение по челюсти, язык к нёбу; неделя 2 — лимфа к ключицам; 5–6 раз/нед, 8–10 мин, давление 2–3/10. Розовый стикер «Мой план на 14 дней». Реквизит: зеркало, таймер. БЕЗ скребка гуаша, БЕЗ масла для гуаша.",
+      "alt": "Чеклист / printable board: Комплекс упражнений на 14 дней"
+    }
+  }
+}

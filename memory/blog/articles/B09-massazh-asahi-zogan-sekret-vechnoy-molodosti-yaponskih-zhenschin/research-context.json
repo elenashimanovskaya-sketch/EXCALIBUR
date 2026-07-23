@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-06-18",
+    "today_ru": "18.06.2026",
+    "year": 2026,
+    "month": 6,
+    "month_name_ru": "июнь",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-03-20",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-06-18 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B09",
+    "priority": "P0",
+    "slug": "massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin",
+    "h1": "Массаж Асахи (Зоган): секрет вечной молодости японских женщин",
+    "primary_query": "массаж асahi зogan как делать",
+    "secondary_queries": [
+      "массаж дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B09",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "массаж асahi зogan как делать 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "массаж асahi зogan как делать июнь 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "массаж асahi зogan как делать новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "массаж дома 2026",
+      "purpose": "вторичный запрос: массаж дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Массаж Асахи (Зоган): секрет вечной молодости японских женщин 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B09-massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

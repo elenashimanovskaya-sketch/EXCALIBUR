@@ -38,7 +38,7 @@ inject <figure> after H2 in article.html
 | `memory/cover/assets/blog-hero-reference.png` | локальный эталон лица |
 | `memory/cover/cover-design-code.json` | human hook collage, fake скрины, мемы |
 | `memory/cover/quad-style-digital-meme-collage-ru.json` | style preset + design_code link |
-| `memory/cover/inline-visual-types.json` | типы inline-панелей |
+| `memory/cover/cover-schemes.json` | 5 схем cover-позы, чередование `(Bnn-1)%5` |
 | `memory/brief/site-brief.md` | blog_hero_id, обложка = крючок |
 
 ---
@@ -48,17 +48,20 @@ inject <figure> after H2 in article.html
 | Квадрант | Слот | Содержание |
 |----------|------|------------|
 | top-left | cover | hook + meme_caption_ru + **герой (reference face)** + design code |
-| top-right | inline_1 | visual_type по H2 #1, **без героя** |
-| bottom-left | inline_2 | visual_type по H2 #2 |
-| bottom-right | inline_3 | visual_type по H2 #3 |
+| top-right | inline_1 | visual_type по H2 #1, **без героя** → `inline-01.png` |
+| bottom-left | inline_2 | visual_type по H2 #2 → `inline-02.png` |
+| bottom-right | inline_3 | visual_type по H2 #3 → `inline-03.png` |
+
+**H2↔картинка:** `h2_anchor` в manifest = точный текст `<h2>` в статье. `scene_hint` и визуал панели описывают **эту же** секцию. `--inject-html` пересобирает `<figure>` и валидирует match; иначе `QUAD FIGURE BLOCKER`.
 
 ---
 
 ## Герой (blog-host)
 
 **Lock (reference i2i):** очки, quiff, борода — то же лицо.  
-**Free (агент):** одежда, поза, реквизит, мем-костюм — по `cover_hook` и `scene_hint`.  
-**Не** копировать костюм с reference-фото, если scene_hint не просит.
+**Free (агент):** одежда, поза, реквизит — по `cover_hook`, `scene_hint` и **`cover_scheme_id`** из `cover-schemes.json`.  
+**Поза cover:** скрипт подставляет схему S1–S5 по номеру темы; **запрещены** симметричные руки у висков на обложке.  
+**Не** копировать жест с reference-фото.
 
 ---
 
@@ -80,7 +83,7 @@ inject <figure> after H2 in article.html
 ### Шаг 0 — прочитать статью
 
 - H2 (до FAQ): первые 3 → inline anchors
-- lead, primary query → cover_hook
+- lead, **primary_query из Ядрышко/Wordstat** → cover_hook (не выдуманные метафоры)
 - `article.meta.json`: h1, topic_id
 
 ### Шаг 1 — reference URL

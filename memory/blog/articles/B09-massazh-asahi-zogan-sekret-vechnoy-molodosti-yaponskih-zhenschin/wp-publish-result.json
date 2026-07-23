@@ -1,0 +1,14 @@
+{
+  "slug": "massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin",
+  "topic_id": "B09",
+  "permalink": "https://naturallift.store/?p=287",
+  "cover_evidence": {
+    "path": "memory/blog/articles/B09-massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin/cover/cover.png",
+    "source": "existing_file",
+    "decode_verified": true,
+    "bytes": 1311210,
+    "detected_format": "png"
+  },
+  "raw_output": "OK post=287 slug=massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin\nOK featured_image=288\nOK schema_meta=1\nOK skip_theme_faq_meta=1\nOK seo_meta=1 title=66 desc=234\nOK inline_image_upload=289 src=cover/inline-01.png url=https://naturallift.store/wp-content/uploads/2026/06/massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin-inline-01.jpg\nOK inline_image_upload=290 src=cover/inline-02.png url=https://naturallift.store/wp-content/uploads/2026/06/massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin-inline-02.jpg\nOK inline_image_upload=291 src=cover/inline-03.png url=https://naturallift.store/wp-content/uploads/2026/06/massazh-asahi-zogan-sekret-vechnoy-molodosti-yaponskih-zhenschin-inline-03.jpg\npermalink=https://naturallift.store/?p=287\n",
+  "verdict": "pass"
+}

@@ -73,6 +73,11 @@ python scripts/excalibur_blog_wp_publish.py \
 
 ### 5. Post-publish артефакты
 
+SEO (Rank Math / Yoast) заполняется скриптом из `article.meta.json`:
+- `meta_ab.title_seo` → SEO title
+- `meta_ab.description_seo` + `description` → meta + excerpt
+- `primary_query` → focus keyword
+
 | Файл | Действие |
 |------|----------|
 | `wp-publish-result.json` | создаёт скрипт (verdict pass/fail) |

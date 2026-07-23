@@ -1,0 +1,50 @@
+{
+  "topic_id": "B21",
+  "slug": "kompyuternaya-sheya-kak-gadzhety-ubivayut-vashu-molodost",
+  "cover_family": "problem_hero",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Компьютерная шея: как гаджеты убивают вашу молодость",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-17T21:32:16+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Компьютерная шея: как гаджеты убивают вашу молодость",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Синдром компьютерной шеи: что происходит с шеей и лицом",
+      "h2_anchor": "Синдром компьютерной шеи: что происходит с шеей и лицом",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Упражнение пошагово с ведущей: Разминка для шеи пошагово",
+      "h2_anchor": "Разминка для шеи пошагово",
+      "visual_type": "exercise_steps_host",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Схема шагов: Эргономика рабочего места без ремонта кабинета",
+      "h2_anchor": "Эргономика рабочего места без ремонта кабинета",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

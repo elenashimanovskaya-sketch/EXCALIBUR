@@ -1,0 +1,28 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B27",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B27-pochemu-pit-2-litra-ne-uvlazhnyaet-kozhu-voda-mineraly-i-ph",
+  "status": "PASS",
+  "primary_query": "как увлажнить кожу",
+  "primary_shows": 3292,
+  "title_hook": "Как увлажнить кожу",
+  "title_hook_shows": 3292,
+  "approved_title_phrase": "как увлажнить кожу",
+  "approved_title_shows": 3292,
+  "top_phrases": [
+    {
+      "phrase": "как увлажнить кожу",
+      "shows": 3292
+    },
+    {
+      "phrase": "как увлажнить кожу лица",
+      "shows": 891
+    },
+    {
+      "phrase": "как увлажнить кожу изнутри",
+      "shows": 137
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

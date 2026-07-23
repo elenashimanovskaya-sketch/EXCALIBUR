@@ -1,0 +1,46 @@
+{
+  "topic_id": "B25",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "омоложение лица",
+  "cover_problem": "омоложение лица",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": true,
+  "exercise_inline_slot": null,
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: Омоложение лица: 7 привычек, которые старят сильнее морщин - с чего начать дома",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план зоны проблемы статьи: омоложение лица. Жест показывает зону, чистый studio фон."
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Почему одна процедура не работает без системы",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица «ошибка / что происходит / как исправить» по теме секции — «Почему одна процедура не работает без системы»",
+      "alt": "Сравнительная таблица / UI-мокап: Почему одна процедура не работает без системы"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "7 привычек, которые старят сильнее морщин",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема с стрелками и номерами по теме секции — «7 привычек, которые старят сильнее морщин»",
+      "alt": "Схема шагов: 7 привычек, которые старят сильнее морщин"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Чем заменить каждую привычку - мягко и дома",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде по теме секции (без чужих инструментов) — «Чем заменить каждую привычку - мягко и дома»",
+      "alt": "Чеклист / printable board: Чем заменить каждую привычку - мягко и дома"
+    }
+  }
+}

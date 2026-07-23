@@ -1,0 +1,43 @@
+{
+  "topic_id": "B11",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Тейп на ночь — без заломов на лбу",
+  "cover_scheme_id": "S1_mirror_selfie",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Обложка: Тейпы на ночь: как проснуться без морщин на лбу без косметолога",
+      "scene_hint": "Елена 55+ в домашней одежде, косметические тейпы на лбу перед сном, rose-gold спальня, без SEO и клиники.",
+      "meme_caption_ru": "Снять утром мягко"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Когда тейпы реально помогают",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица: когда тейп помогает (мимические заломы, привычка морщить лоб) vs когда не поможет (отёк, жирная кожа, раздражение) — без гуаша",
+      "alt": "Сравнительная таблица / UI-мокап: Когда тейпы реально помогают"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Схема на ночь для лба",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Workflow 5 шагов: умывание → сухая кожа → нарезка ленты → наклейка без натяжения → утро снять по росту волос. Схема лица с полосками тейпа на лбу",
+      "alt": "Схема workflow / шаги: Схема на ночь для лба"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Как клеить без раздражения",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде «Перед наклеиванием тейпа»: чистая сухая кожа; без кислот и ретинола вечером; гипоаллергенная лента для лица; подрезать под зону; без натяжения; не клеить на раздражение. Реквизит: рулон косметического тейпа, ножницы. БЕЗ гуаша, БЕЗ скребка.",
+      "alt": "Чеклист / printable board: Как клеить без раздражения"
+    }
+  }
+}

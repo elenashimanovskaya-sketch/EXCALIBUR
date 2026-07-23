@@ -1,0 +1,55 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "fetched_at": "2026-07-22",
+  "phrases": [
+    "сахар и кожа",
+    "отказ от сахара",
+    "гликирование коллагена",
+    "сахар и морщины на лице"
+  ],
+  "runs": [
+    {
+      "phrase": "сахар и кожа",
+      "ok": true,
+      "response": {
+        "totalCount": 776,
+        "results": [
+          {"phrase": "сахар и кожа", "count": 776},
+          {"phrase": "сахар и кожа лица", "count": 53},
+          {"phrase": "сахар и старение кожи", "count": 16}
+        ]
+      }
+    },
+    {
+      "phrase": "отказ от сахара",
+      "ok": true,
+      "response": {
+        "totalCount": 5163,
+        "results": [
+          {"phrase": "отказ от сахара", "count": 5163},
+          {"phrase": "польза отказа от сахара", "count": 221}
+        ]
+      }
+    },
+    {
+      "phrase": "гликирование коллагена",
+      "ok": true,
+      "response": {
+        "totalCount": 44,
+        "results": [
+          {"phrase": "гликирование коллагена", "count": 44}
+        ]
+      }
+    },
+    {
+      "phrase": "сахар и морщины на лице",
+      "ok": true,
+      "response": {
+        "totalCount": 0,
+        "results": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B13-morschiny-na-lbu-pochemu-botoks-eto-tolko-vremennaya-maskirovka/cover/canvas-quad.png",
+    "source_size_px": [
+      1672,
+      941
+    ],
+    "panel_size_px": [
+      845,
+      481
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 481,
+        "end": 490
+      },
+      "v_gutter_px": {
+        "start": 845,
+        "end": 865
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 3,
+          "right": 845,
+          "bottom": 478
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 845,
+          "bottom": 481
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: морщины на лбу без ботокса - расслабление лобной мышцы",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 865,
+          "top": 13,
+          "right": 1672,
+          "bottom": 467
+        },
+        "raw_box_px": {
+          "left": 865,
+          "top": 0,
+          "right": 1672,
+          "bottom": 481
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица: ботокс vs домашний протокол для лба",
+        "h2_anchor": "Поймите, почему лоб морщинится"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 21,
+          "top": 490,
+          "right": 823,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 490,
+          "right": 845,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист: 5 привычек, которые усугубляют морщины на лбу",
+        "h2_anchor": "Отловите привычки, которые усугубляют заломы"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 867,
+          "top": 490,
+          "right": 1669,
+          "bottom": 941
+        },
+        "raw_box_px": {
+          "left": 865,
+          "top": 490,
+          "right": 1672,
+          "bottom": 941
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: упражнения и расслабление лба",
+        "h2_anchor": "Сделайте упражнения и расслабление лба пошагово"
+      }
+    }
+  },
+  "html_inject": [
+    "removed 3 stale inline-quad figure(s)",
+    "replaced H2 with inline_1 (cover/inline-01.png) — Поймите, почему лоб морщинится",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Отловите привычки, которые усугубляют заломы",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Сделайте упражнения и расслабление лба пошагово"
+  ],
+  "figure_validation": []
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli",
+  "topic_id": "B10",
+  "permalink": "https://naturallift.store/?p=293",
+  "cover_evidence": {
+    "path": "memory/blog/articles/B10-ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli/cover/cover.png",
+    "source": "existing_file",
+    "decode_verified": true,
+    "bytes": 1235729,
+    "detected_format": "png"
+  },
+  "raw_output": "OK post=293 slug=ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli\nOK featured_image=303\nOK schema_meta=1\nOK skip_theme_faq_meta=1\nOK seo_meta=1 title=66 desc=212\nOK inline_image_upload=304 src=cover/inline-01.png url=https://naturallift.store/wp-content/uploads/2026/06/ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli-inline-01.jpg\nOK inline_image_upload=305 src=cover/inline-02.png url=https://naturallift.store/wp-content/uploads/2026/06/ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli-inline-02.jpg\nOK inline_image_upload=306 src=cover/inline-03.png url=https://naturallift.store/wp-content/uploads/2026/06/ugol-molodosti-kak-vernut-chetkiy-kontur-litsa-za-2-nedeli-inline-03.jpg\npermalink=https://naturallift.store/?p=293\n",
+  "verdict": "pass"
+}

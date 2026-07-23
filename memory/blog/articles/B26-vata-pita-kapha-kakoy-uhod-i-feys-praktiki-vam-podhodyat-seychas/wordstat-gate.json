@@ -1,0 +1,43 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B26",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B26-vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas",
+  "status": "PASS",
+  "primary_query": "как определить дошу",
+  "primary_shows": 320,
+  "title_hook": "Как определить дошу по коже",
+  "title_hook_shows": null,
+  "approved_title_phrase": "как определить дошу",
+  "approved_title_shows": 320,
+  "top_phrases": [
+    {
+      "phrase": "как определить дошу",
+      "shows": 320
+    },
+    {
+      "phrase": "вата пита капха",
+      "shows": 198
+    },
+    {
+      "phrase": "как определить свою дошу",
+      "shows": 123
+    },
+    {
+      "phrase": "как определить дошу по аюрведе",
+      "shows": 105
+    },
+    {
+      "phrase": "как определить дошу тест",
+      "shows": 98
+    },
+    {
+      "phrase": "пита вата капха как определить",
+      "shows": 23
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "primary_query «как определить дошу» = 320/мес — ниже целевых 500+ для Дзена",
+    "title hook «Как определить дошу по коже» — нет данных Wordstat; проверь вручную"
+  ]
+}

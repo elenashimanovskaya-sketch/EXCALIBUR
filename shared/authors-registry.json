@@ -1,22 +1,20 @@
 {
-  "registry_version": "1.0",
-  "comment": "E-E-A-T Authors Registry for Maya AI / Ковчег blog. Provides authoritative profiles for article attribution and sameAs schema.org generation.",
+  "registry_version": "1.1",
+  "comment": "E-E-A-T Authors Registry for naturallift.store / Natural Lift blog.",
   "authors": [
     {
-      "id": "artur-horoshev",
-      "name_ru": "Артур Хорошев",
-      "name_en": "Artur Horoshev",
-      "job_title_ru": "CEO Maya AI, автор курса по Make.com и вайбкодингу",
-      "job_title_en": "CEO at Maya AI, Make.com & Vibecoding Course Author",
-      "bio_short_ru": "Эксперт по автоматизации бизнес-процессов на Make.com, вайбкодингу и AI-агентам. Тестировщик нейросетей Microsoft и Google, основатель сообщества «Ковчег».",
-      "bio_long_ru": "Артур Хорошев — ведущий российский эксперт по Make.com, вайбкодингу и AI-контент-заводам. Автор флагманского курса на kv-ai.ru (159+ уроков), спикер Московского Политеха, neuro-дизайнер и digital-маркетолог. Обучает создавать сложные автоматизации, кастомные модули и AI-агентов без знания программирования — через Cursor AI, OpenClaw и MCP.",
-      "expertise_tags": ["make_integromat", "vibecoding", "cursor_ai", "openclaw", "mcp", "ai_agents", "content_factory", "prompt_engineering", "geo", "seo", "telegram_bots", "marketing_automation"],
-      "avatar_url": "https://kv-ai.ru/artur-horosheff",
+      "id": "elena-shimanovskaya",
+      "name_ru": "Елена Шимановская",
+      "name_en": "Elena Shimanovskaya",
+      "job_title_ru": "Практик фейс-йоги, создатель Silver Cream, автор naturallift.store",
+      "job_title_en": "Face yoga practitioner, Silver Cream founder, naturallift.store author",
+      "bio_short_ru": "Елена Шимановская — практик гимнастики для лица и автор натуральной косметики Silver Cream. Ведёт журнал Natural Lift о мягком омоложении без инъекций.",
+      "bio_long_ru": "Елена Шимановская — практик фейс-йоги 55+, создатель линии натуральной косметики Silver Cream и автор сайта naturallift.store. Пишет о связке движения лица, ухода за зрелой кожей и естественных ритуалах для женщин 35–65. Без агрессивного anti-age и медицинских обещаний.",
+      "expertise_tags": ["face_yoga", "natural_skincare", "silver_cream", "lymph_drainage", "mature_skin", "ayurveda_skincare", "wellness"],
+      "avatar_url": "https://naturallift.store/wp-content/uploads/2026/05/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%814-%E2%80%94-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png",
       "sameAs": [
-        "https://kv-ai.ru/artur-horosheff",
-        "https://mayai.ru/obo-mne/",
-        "https://t.me/maya_pro",
-        "https://t.me/horosheff"
+        "https://naturallift.store/",
+        "https://naturallift.store/page-about/"
       ]
     }
   ]

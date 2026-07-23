@@ -1,0 +1,48 @@
+{
+  "gate": "wordstat",
+  "topic_id": "B23",
+  "article_dir": "C:\\Cursor\\EXCALIBUR\\memory\\blog\\articles\\B23-bukkalnyy-massazh-pochemu-nuzhno-massirovat-litso-iznutri",
+  "status": "PASS",
+  "primary_query": "буккальный массаж лица",
+  "primary_shows": 6414,
+  "title_hook": "Буккальный массаж",
+  "title_hook_shows": 11502,
+  "approved_title_phrase": "буккальный массаж",
+  "approved_title_shows": 11502,
+  "top_phrases": [
+    {
+      "phrase": "буккальный массаж",
+      "shows": 11502
+    },
+    {
+      "phrase": "буккальный массаж лица",
+      "shows": 6414
+    },
+    {
+      "phrase": "скульптурно буккальный массаж",
+      "shows": 1185
+    },
+    {
+      "phrase": "скульптурно буккальный массаж лица",
+      "shows": 853
+    },
+    {
+      "phrase": "буккальный массаж лица отзывы",
+      "shows": 341
+    },
+    {
+      "phrase": "как делать буккальный массаж лица",
+      "shows": 116
+    },
+    {
+      "phrase": "техника буккального массажа лица",
+      "shows": 114
+    },
+    {
+      "phrase": "буккальный массаж лица самостоятельно",
+      "shows": 109
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

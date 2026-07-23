@@ -1,0 +1,299 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-22",
+    "today_ru": "22.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-23",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-22 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B28",
+    "priority": "P2",
+    "slug": "sahar-i-litso-kak-glikirovanie-bet-po-kollagenu",
+    "h1": "Сахар и лицо: как гликирование бьёт по коллагену",
+    "primary_query": "сахар и морщины на лице",
+    "secondary_queries": [
+      "гликирование коллагена"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "сахар и морщины на лице 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+          "url": "https://www.womanhit.ru/health-and-beauty/91338-2026-04-10-glikatsiya-ikozha-kak-snizit-sahar-vratsione-chtobyi-ostanovit-prezhdevremennyie-morschinyi-ipohudet/",
+          "snippet": ""
+        },
+        {
+          "title": "Лицо, как сахар: почему избыток сладостей ухудшает состояние кожи",
+          "url": "https://alldaily.ru/2026/04/17/lico-kak-saxar-pochemu-izbytok-sladostej-uxudshaet-sostoyanie-kozhi/",
+          "snippet": "Гликация (или «сахарное лицо») — это тихий, но мощный процесс, который ускоряет старение кожи изнутри. Снизив потребление сахара, вы не только замедлите появление морщин, но и легко сбросите лишние килограммы, особенно после 40-45, когда метаболизм уже не тот, что раньше."
+        },
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": "Избыток сладостей ускоряет старение кожи, вызывает морщины и теряет упругость. Узнайте, как сбалансировать питание и сохранить молодость кожи эффективно."
+        },
+        {
+          "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+          "url": "https://woman.rambler.ru/beauty/56293149-glikatsiya-i-kozha-kak-snizit-sahar-v-ratsione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet/",
+          "snippet": "Сахар — главный враг молодости. Разбираемся в процессе гликации: как сладости делают вашу кожу хрупкой и как остановить старение изнутри с помощью диеты."
+        },
+        {
+          "title": "Как снизить сахар в рационе, чтобы остановить преждевременные морщины и ...",
+          "url": "https://all-for-woman.com/2026/04/kak-snizit-sahar-v-racione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet.html",
+          "snippet": "Гликация (или «сахарное лицо») — это тихий, но мощный процесс, который ускоряет старение кожи изнутри. Снизив потребление сахара, вы не только замедлите появление морщин, но и легко сбросите лишние килограммы, особенно после 40-45, когда метаболизм уже не тот, что раньше."
+        },
+        {
+          "title": "Врач объяснила, какая пища меняет внешность, \"поджаривая\" изнутри - мед ...",
+          "url": "https://rg.ru/2026/04/17/vrach-obiasnila-kakaia-pishcha-meniaet-vneshnost-podzharivaia-iznutri-med-v-spiske.html",
+          "snippet": "Вместе с экспертами разберемся, почему сахар крадет молодость и как вернуть ее с помощью вкусных, но умных изменений в рационе."
+        }
+      ],
+      "searched_at": "2026-07-22"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "сахар и морщины на лице июль 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": ""
+        },
+        {
+          "title": "Что значит «сахарное» лицо и как оно выглядит? | АиФ Барнаул",
+          "url": "https://altai.aif.ru/society/chto-znachit-saharnoe-lico-i-kak-ono-vyglyadit",
+          "snippet": "Сахар — главный враг молодости. Разбираемся в процессе гликации: как сладости делают вашу кожу хрупкой и как остановить старение изнутри с помощью диеты."
+        },
+        {
+          "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+          "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+          "snippet": "Есть такое понятие - «сахарное» лицо. Оно бывает у людей, которые злоупотребляют лимонадами, конфетами, выпечкой и прочими вредными сладостями."
+        },
+        {
+          "title": "Сахарное лицо: признаки, лечение и эффективные процедуры для красивой кожи",
+          "url": "https://ubeautiful.ru/saharnoe-liczo-vliyanie-sladkogo-na-kozhu-i-effektivnye-proczedury/",
+          "snippet": "Разберемся, как избыток быстрых углеводов влияет на коллаген и ускоряет старение кожи, рассказала Елена Желянина, диетолог, эксперт по активному долголетию."
+        },
+        {
+          "title": "Сахар, фастфуд и старение кожи: какие продукты вызывают морщины и гликацию",
+          "url": "https://uteka.ru/articles/zdorovoe-pitanie/produkti-uskoryayushchie-starenie-kozhi-ot-chego-stoit-otkazatsya/",
+          "snippet": "Узнайте, что такое сахарное лицо и как избавиться от его признаков! Проверенные методы лечения, сахарные скрабы, массаж и пилинги для лица."
+        },
+        {
+          "title": "Гликация (Сахарное лицо): как сладкое разрушает коллаген и вызывает ...",
+          "url": "https://miin.ru/blog/saharnoe-liczo-kak-glikacziya-uskoryaet-starenie-kozhi-i-chto-s-etim-delat",
+          "snippet": "Разбираем, что такое гликация, какие продукты разрушают коллаген и ускоряют старение, и какие БАДы и кремы помогут вернуть коже упругость."
+        }
+      ],
+      "searched_at": "2026-07-22"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "сахар и морщины на лице новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": ""
+        },
+        {
+          "title": "Врач объяснила, какая пища меняет внешность, \"поджаривая\" изнутри - мед ...",
+          "url": "https://rg.ru/2026/04/17/vrach-obiasnila-kakaia-pishcha-meniaet-vneshnost-podzharivaia-iznutri-med-v-spiske.html",
+          "snippet": "Сахар — главный враг молодости. Разбираемся в процессе гликации: как сладости делают вашу кожу хрупкой и как остановить старение изнутри с помощью диеты."
+        },
+        {
+          "title": "Не возраст, а сахар рисует морщины на лице: продукты, которые крадут ...",
+          "url": "https://www.pravda.ru/news/recipes/2266870-anti-aging-diet/",
+          "snippet": "Ранние морщины, дряблость кожи, сероватый оттенок, снижение тонуса могут быть следствием избытка глюкозы в крови. Феномен получил название \"сахарное лицо\". Как объяснила врач-диетолог Елена..."
+        },
+        {
+          "title": "Сладости и красота кожи: как сахар влияет на молодость",
+          "url": "https://cafe-krona.ru/news/2026/03/16/1448.html",
+          "snippet": "Сахар старит кожу быстрее, чем солнце и стресс. Узнайте, какие продукты бьют по молодости и как простая замена в рационе разглаживает морщины."
+        },
+        {
+          "title": "Сахарный скраб превращает лицо в «наждачку» с сосудистой сеткой ...",
+          "url": "https://mosaica.ru/ru/ul/news/2026/04/23/sakharnyi-skrab-prevrashchaet-litso-v-nazhdachku-s-sosudistoi-setkoi-dermatologi-byut-trevogu-iz-za-mody-na-domashnii-ukhod",
+          "snippet": "Это проявляется в дряблости кожи, появлении морщин и снижении тонуса. При этом, если в рационе много сахара, данная ситуация только усугубляется."
+        },
+        {
+          "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+          "url": "https://www.womanhit.ru/health-and-beauty/91338-2026-04-10-glikatsiya-ikozha-kak-snizit-sahar-vratsione-chtobyi-ostanovit-prezhdevremennyie-morschinyi-ipohudet/",
+          "snippet": "В домашних условиях эта манипуляция превратилась в лотерею. Основная опасность кроется в неправильном угле наклона лезвия и чрезмерном давлении."
+        }
+      ],
+      "searched_at": "2026-07-22"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "гликирование коллагена 2026",
+      "purpose": "вторичный запрос: гликирование коллагена",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Гликирование коллагена: почему сахар — главный враг молодости кожи? Вы ...",
+          "url": "https://vk.com/wall-205864377_3251",
+          "snippet": ""
+        },
+        {
+          "title": "Гликирование коллагена: почему сахар — главный враг молодости кожи? Вы ...",
+          "url": "https://vk.com/wall-117507498_381",
+          "snippet": "Используйте SPF ежедневно — защита от солнца замедляет гликирование. Высыпайтесь: во время сна кожа активно восстанавливается и синтезирует новый коллаген."
+        },
+        {
+          "title": "Профессор Корякин раскрыл, какая популярная еда «сшивает» белки и ...",
+          "url": "https://curavita.ru/professor-koryakin-raskryl-kakaya-populyarnaya-eda-2026-05-05",
+          "snippet": "Что такое гликирование? Это химическая реакция, при которой молекулы сахара (глюкозы или фруктозы) «прилипают» к белкам — в том числе к коллагену."
+        },
+        {
+          "title": "Можно ли остановить гликацию? Как защитить коллаген и замедлить ...",
+          "url": "https://probiolab.ru/2026/03/23/is-it-possible-to-stop-glycation-how-to-protect-collagen-and-slow-down-skin-aging/",
+          "snippet": "Узнайте, какие продукты ускоряют старение кожи и разрушают коллаген. Врач назвал еду, вызывающую гликирование. Сахар, трансжиры и алкоголь вредят молодости."
+        },
+        {
+          "title": "Гликация кожи и анти-эйдж: как остановить «сахарное старение»",
+          "url": "https://professionals.beauty/blog/glikirovanie-kozhi-20-kak-sostavit-anti-eidzh-ratsion-i-kakie-syvorotki-skleivaiut-povrezhdennye-volokna-kollagena/",
+          "snippet": "Коллаген — основной структурный белок кожи, который обеспечивает её прочность и эластичность. Гликация приводит к образованию поперечных сшивок между молекулами коллагена, что изменяет его структуру и механические свойства."
+        },
+        {
+          "title": "Клинические исследования коллагена: научные доказательства ...",
+          "url": "https://seacollagen.ru/blog/pomogaet-li-kollagen-kozhe-polnyj-razbor-klinicheskih-issledovanij-2024-2026",
+          "snippet": "Гликация (гликирование) — это неферментативная реакция между сахарами и белками (коллагеном и эластином), в результате которой образуются «сшивки», лишающие ткани эластичности и запускающие каскад преждевременного старения."
+        }
+      ],
+      "searched_at": "2026-07-22"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Сахар и лицо: как гликирование бьёт по коллагену 2026",
+      "purpose": "SERP по H1",
+      "result_count": 0,
+      "results": [],
+      "searched_at": "2026-07-22"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://www.womanhit.ru/health-and-beauty/91338-2026-04-10-glikatsiya-ikozha-kak-snizit-sahar-vratsione-chtobyi-ostanovit-prezhdevremennyie-morschinyi-ipohudet/",
+      "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://alldaily.ru/2026/04/17/lico-kak-saxar-pochemu-izbytok-sladostej-uxudshaet-sostoyanie-kozhi/",
+      "title": "Лицо, как сахар: почему избыток сладостей ухудшает состояние кожи",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+      "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://woman.rambler.ru/beauty/56293149-glikatsiya-i-kozha-kak-snizit-sahar-v-ratsione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet/",
+      "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://all-for-woman.com/2026/04/kak-snizit-sahar-v-racione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet.html",
+      "title": "Как снизить сахар в рационе, чтобы остановить преждевременные морщины и ...",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://rg.ru/2026/04/17/vrach-obiasnila-kakaia-pishcha-meniaet-vneshnost-podzharivaia-iznutri-med-v-spiske.html",
+      "title": "Врач объяснила, какая пища меняет внешность, \"поджаривая\" изнутри - мед ...",
+      "from_query": "сахар и морщины на лице 2026"
+    },
+    {
+      "url": "https://altai.aif.ru/society/chto-znachit-saharnoe-lico-i-kak-ono-vyglyadit",
+      "title": "Что значит «сахарное» лицо и как оно выглядит? | АиФ Барнаул",
+      "from_query": "сахар и морщины на лице июль 2026"
+    },
+    {
+      "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+      "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+      "from_query": "сахар и морщины на лице июль 2026"
+    },
+    {
+      "url": "https://ubeautiful.ru/saharnoe-liczo-vliyanie-sladkogo-na-kozhu-i-effektivnye-proczedury/",
+      "title": "Сахарное лицо: признаки, лечение и эффективные процедуры для красивой кожи",
+      "from_query": "сахар и морщины на лице июль 2026"
+    },
+    {
+      "url": "https://uteka.ru/articles/zdorovoe-pitanie/produkti-uskoryayushchie-starenie-kozhi-ot-chego-stoit-otkazatsya/",
+      "title": "Сахар, фастфуд и старение кожи: какие продукты вызывают морщины и гликацию",
+      "from_query": "сахар и морщины на лице июль 2026"
+    },
+    {
+      "url": "https://miin.ru/blog/saharnoe-liczo-kak-glikacziya-uskoryaet-starenie-kozhi-i-chto-s-etim-delat",
+      "title": "Гликация (Сахарное лицо): как сладкое разрушает коллаген и вызывает ...",
+      "from_query": "сахар и морщины на лице июль 2026"
+    },
+    {
+      "url": "https://www.pravda.ru/news/recipes/2266870-anti-aging-diet/",
+      "title": "Не возраст, а сахар рисует морщины на лице: продукты, которые крадут ...",
+      "from_query": "сахар и морщины на лице новости 2026"
+    },
+    {
+      "url": "https://cafe-krona.ru/news/2026/03/16/1448.html",
+      "title": "Сладости и красота кожи: как сахар влияет на молодость",
+      "from_query": "сахар и морщины на лице новости 2026"
+    },
+    {
+      "url": "https://mosaica.ru/ru/ul/news/2026/04/23/sakharnyi-skrab-prevrashchaet-litso-v-nazhdachku-s-sosudistoi-setkoi-dermatologi-byut-trevogu-iz-za-mody-na-domashnii-ukhod",
+      "title": "Сахарный скраб превращает лицо в «наждачку» с сосудистой сеткой ...",
+      "from_query": "сахар и морщины на лице новости 2026"
+    },
+    {
+      "url": "https://vk.com/wall-205864377_3251",
+      "title": "Гликирование коллагена: почему сахар — главный враг молодости кожи? Вы ...",
+      "from_query": "гликирование коллагена 2026"
+    },
+    {
+      "url": "https://vk.com/wall-117507498_381",
+      "title": "Гликирование коллагена: почему сахар — главный враг молодости кожи? Вы ...",
+      "from_query": "гликирование коллагена 2026"
+    },
+    {
+      "url": "https://curavita.ru/professor-koryakin-raskryl-kakaya-populyarnaya-eda-2026-05-05",
+      "title": "Профессор Корякин раскрыл, какая популярная еда «сшивает» белки и ...",
+      "from_query": "гликирование коллагена 2026"
+    },
+    {
+      "url": "https://probiolab.ru/2026/03/23/is-it-possible-to-stop-glycation-how-to-protect-collagen-and-slow-down-skin-aging/",
+      "title": "Можно ли остановить гликацию? Как защитить коллаген и замедлить ...",
+      "from_query": "гликирование коллагена 2026"
+    },
+    {
+      "url": "https://professionals.beauty/blog/glikirovanie-kozhi-20-kak-sostavit-anti-eidzh-ratsion-i-kakie-syvorotki-skleivaiut-povrezhdennye-volokna-kollagena/",
+      "title": "Гликация кожи и анти-эйдж: как остановить «сахарное старение»",
+      "from_query": "гликирование коллагена 2026"
+    },
+    {
+      "url": "https://seacollagen.ru/blog/pomogaet-li-kollagen-kozhe-polnyj-razbor-klinicheskih-issledovanij-2024-2026",
+      "title": "Клинические исследования коллагена: научные доказательства ...",
+      "from_query": "гликирование коллагена 2026"
+    }
+  ]
+}

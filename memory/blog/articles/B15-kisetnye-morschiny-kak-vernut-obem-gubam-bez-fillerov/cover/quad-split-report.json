@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B15-kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1017,
+      545
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 545,
+        "end": 553
+      },
+      "v_gutter_px": {
+        "start": 1017,
+        "end": 1025
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 24,
+          "top": 0,
+          "right": 993,
+          "bottom": 545
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1017,
+          "bottom": 545
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: B15-kisetnye-morschiny-kak-vernut-obem-gubam-bez-fillerov",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1052,
+          "top": 0,
+          "right": 2021,
+          "bottom": 545
+        },
+        "raw_box_px": {
+          "left": 1025,
+          "top": 0,
+          "right": 2048,
+          "bottom": 545
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Поймите, почему над губой появляются кисетные морщинки",
+        "h2_anchor": "Поймите, почему над губой появляются кисетные морщинки"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 566,
+          "right": 1017,
+          "bottom": 1138
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 553,
+          "right": 1017,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Пройдите тест: морщины или сухость",
+        "h2_anchor": "Пройдите тест: морщины или сухость"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1025,
+          "top": 565,
+          "right": 2048,
+          "bottom": 1140
+        },
+        "raw_box_px": {
+          "left": 1025,
+          "top": 553,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Сделайте мягкий массаж периоральной зоны с кремом",
+        "h2_anchor": "Сделайте мягкий массаж периоральной зоны с кремом"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Поймите, почему над губой появляются кисетные морщинки",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Пройдите тест: морщины или сухость",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Сделайте мягкий массаж периоральной зоны с кремом"
+  ],
+  "figure_validation": []
+}

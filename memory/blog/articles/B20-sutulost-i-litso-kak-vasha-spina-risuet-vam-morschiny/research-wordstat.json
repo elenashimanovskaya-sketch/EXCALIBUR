@@ -1,0 +1,50 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "phrases": [
+    "упражнения от сутулости",
+    "как исправить осанку",
+    "осанка и лицо"
+  ],
+  "runs": [
+    {
+      "phrase": "сутулость упражнения",
+      "ok": true,
+      "response": {
+        "totalCount": 4471,
+        "results": [
+          {"phrase": "упражнения от сутулости", "count": 2798},
+          {"phrase": "упражнения от сутулости спины", "count": 888},
+          {"phrase": "упражнение от сутулости для женщин", "count": 441}
+        ],
+        "associations": [
+          {"phrase": "как исправить осанку", "count": 3615},
+          {"phrase": "упражнения для осанки", "count": 18961}
+        ]
+      }
+    },
+    {
+      "phrase": "сутулость и лицо",
+      "ok": true,
+      "response": {
+        "totalCount": 13,
+        "results": [{"phrase": "сутулость и лицо", "count": 13}],
+        "associations": [
+          {"phrase": "упражнения для осанки", "count": 18961},
+          {"phrase": "как исправить осанку", "count": 3615}
+        ]
+      }
+    },
+    {
+      "phrase": "сутулость и морщины на лице",
+      "ok": true,
+      "response": {
+        "totalCount": 13,
+        "results": [{"phrase": "сутулость и лицо", "count": 13}]
+      }
+    }
+  ],
+  "errors": [],
+  "note": "2026-07-19 title retitle. primary «упражнения от сутулости» 2834/мес. hook PASS."
+}

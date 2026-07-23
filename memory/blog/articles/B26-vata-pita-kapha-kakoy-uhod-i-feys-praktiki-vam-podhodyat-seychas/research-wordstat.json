@@ -1,0 +1,36 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "fetched_at": "2026-07-21",
+  "phrases": [
+    "как определить дошу",
+    "вата пита капха",
+    "как определить дошу по аюрведе"
+  ],
+  "runs": [
+    {
+      "phrase": "как определить дошу",
+      "ok": true,
+      "response": {
+        "totalCount": 320,
+        "results": [
+          {"phrase": "как определить свою дошу", "count": 123},
+          {"phrase": "как определить дошу по аюрведе", "count": 105},
+          {"phrase": "как определить дошу тест", "count": 98}
+        ]
+      }
+    },
+    {
+      "phrase": "вата пита капха",
+      "ok": true,
+      "response": {
+        "totalCount": 198,
+        "results": [
+          {"phrase": "вата пита капха", "count": 198},
+          {"phrase": "пита вата капха как определить", "count": 23}
+        ]
+      }
+    }
+  ]
+}

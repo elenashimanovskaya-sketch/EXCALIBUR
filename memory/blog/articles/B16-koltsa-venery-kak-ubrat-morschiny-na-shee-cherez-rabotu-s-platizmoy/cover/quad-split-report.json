@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B16-koltsa-venery-kak-ubrat-morschiny-na-shee-cherez-rabotu-s-platizmoy/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1034,
+      564
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 564,
+        "end": 581
+      },
+      "v_gutter_px": {
+        "start": 1034,
+        "end": 1048
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 15,
+          "top": 0,
+          "right": 1018,
+          "bottom": 564
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1034,
+          "bottom": 564
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Кольца Венеры: как убрать морщины на шее через работу с платизмой",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1048,
+          "top": 0,
+          "right": 2048,
+          "bottom": 564
+        },
+        "raw_box_px": {
+          "left": 1048,
+          "top": 0,
+          "right": 2048,
+          "bottom": 564
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Выполните комплекс упражнений для шеи без перетяжки",
+        "h2_anchor": "Выполните комплекс упражнений для шеи без перетяжки"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 9,
+          "top": 581,
+          "right": 1024,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 581,
+          "right": 1034,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Встройте ежедневные привычки против колец на шее",
+        "h2_anchor": "Встройте ежедневные привычки против колец на шее"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1048,
+          "top": 585,
+          "right": 2048,
+          "bottom": 1147
+        },
+        "raw_box_px": {
+          "left": 1048,
+          "top": 581,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Настройте уход за зоной шеи без раздражения",
+        "h2_anchor": "Настройте уход за зоной шеи без раздражения"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Выполните комплекс упражнений для шеи без перетяжки",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Встройте ежедневные привычки против колец на шее",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Настройте уход за зоной шеи без раздражения"
+  ],
+  "figure_validation": []
+}

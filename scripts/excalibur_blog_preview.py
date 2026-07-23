@@ -8,8 +8,14 @@ import html
 import json
 import os
 import re
+import sys
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from excalibur_blog_article_format import format_article_html
 
 
 def project_root() -> Path:
@@ -46,7 +52,7 @@ def build_preview(article_dir: Path, root: Path) -> Path:
 
     meta = read_json(meta_path)
     cover = read_json(cover_registry)
-    body = article_html.read_text(encoding="utf-8").strip()
+    body = format_article_html(article_html.read_text(encoding="utf-8").strip())
 
     title = meta.get("title") or meta.get("h1") or "Preview"
     h1 = meta.get("h1") or title

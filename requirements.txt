@@ -1,0 +1,2 @@
+# Excalibur BLOG — минимальные зависимости для Cloud VM (scripts используют stdlib + zoneinfo)
+# При расширении publish/research добавлять сюда явно.

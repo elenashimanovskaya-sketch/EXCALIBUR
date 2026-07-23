@@ -172,3 +172,63 @@ OK inline_image_upload=13372 src=cover/inline-02.png url=https://mayai.ru/wp-con
 OK inline_image_upload=13373 src=cover/inline-03.png url=https://mayai.ru/wp-content/uploads/2026/06/avtonomnyj-kontent-zavod-nejroseti-inline-03.jpg
 permalink=https://mayai.ru/avtonomnyj-kontent-zavod-nejroseti/
 ```
+
+---
+
+## 2026-06-17 — B07 skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu — **PASS**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B07 |
+| slug | skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu |
+| verdict | **PASS** |
+| post_id | 265 |
+| featured_image_id | 266 |
+| inline_images | 267, 268, 269 |
+| permalink | https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/ |
+| FTP_ROOT | `/` |
+
+### Fix applied
+
+- `FTP_ROOT=/public_html/` → `FTP_ROOT=/` (wp-load.php в корне FTP после login)
+
+### Result
+
+```
+OK post=265 slug=skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu
+OK featured_image=266
+OK schema_meta=1
+OK skip_theme_faq_meta=1
+OK inline_image_upload=267 src=cover/inline-01.png
+OK inline_image_upload=268 src=cover/inline-03.png
+OK inline_image_upload=269 src=cover/inline-02.png
+permalink=https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/
+```
+
+---
+
+## 2026-06-17 — B08 nosogubnye-skladki — **PASS**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B08 |
+| slug | nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa |
+| verdict | **PASS** |
+| post_id | 274 |
+| featured_image_id | 275 |
+| inline_images | 276, 277, 278 |
+| permalink | https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/ |
+| seo_meta | ok (rank_math + excerpt) |
+
+### Result
+
+```
+OK post=274 slug=nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa
+OK featured_image=275
+OK schema_meta=1
+OK seo_meta=1
+OK inline_image_upload=276 src=cover/inline-01.png
+OK inline_image_upload=277 src=cover/inline-02.png
+OK inline_image_upload=278 src=cover/inline-03.png
+permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
+```

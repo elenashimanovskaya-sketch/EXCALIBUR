@@ -1,0 +1,75 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "UTC",
+    "today_iso": "2026-07-06",
+    "today_ru": "06.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "понедельник",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-07",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-06 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B17",
+    "priority": "P1",
+    "slug": "revitonika-vs-feys-yoga-chto-vybrat-dlya-bystrogo-rezultata",
+    "h1": "Ревитоника vs Фейс-йога: что выбрать для быстрого результата?",
+    "primary_query": "ревитоника или фейс йога",
+    "secondary_queries": [
+      "ревитоника дома",
+      "как делать правильно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B17",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "ревитоника или фейс йога 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "ревитоника или фейс йога июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "ревитоника или фейс йога новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "ревитоника дома 2026",
+      "purpose": "вторичный запрос: ревитоника дома"
+    },
+    {
+      "id": "secondary_2",
+      "query": "как делать правильно 2026",
+      "purpose": "вторичный запрос: как делать правильно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Ревитоника vs Фейс-йога: что выбрать для быстрого результата? 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B17-revitonika-vs-feys-yoga-chto-vybrat-dlya-bystrogo-rezultata",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

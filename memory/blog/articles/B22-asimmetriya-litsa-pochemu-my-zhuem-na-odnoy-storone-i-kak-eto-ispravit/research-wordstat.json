@@ -1,0 +1,24 @@
+{
+  "source": "mcp-kv-wordstat",
+  "endpoint": "wordstat_get_top_requests",
+  "region": "225",
+  "phrases": ["асимметрия лица упражнения", "асимметрия лица"],
+  "runs": [
+    {
+      "phrase": "асимметрия лица упражнения",
+      "ok": true,
+      "response": {
+        "totalCount": 533,
+        "results": [
+          {"phrase": "упражнения от асимметрии лица", "count": 206},
+          {"phrase": "как убрать асимметрию лица упражнениями", "count": 112}
+        ],
+        "associations": [
+          {"phrase": "фейсбилдинг", "count": 2625}
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "note": "2026-07-18 MCP-KV. primary 533/мес — WARN borderline. approved: «упражнения от асимметрии лица» 206."
+}

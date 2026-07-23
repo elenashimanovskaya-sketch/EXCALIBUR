@@ -1,0 +1,42 @@
+{
+  "topic_id": "B07",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "natural_lift_wellness_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Давить гуаша «до результата» — кожа так не прощает",
+  "mcp_note": "ONE gpt-image-2 call with reference_urls_hosted, then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Обложка: гуаша без ошибок — мягкое давление и йога-образ",
+      "scene_hint": "Елена 55+ в современном йога-костюме (пыльно-розовый или бежевый set, НЕ объёмный вязаный свитер), держит скребок гуаша у щеки, уютная спальня/ванная с утренним светом, rose-gold палитра #fdf6f5 #d4a3a5. Стикер на зеркале, таймер 7 мин, без ноутбука и Wordstat.",
+      "meme_caption_ru": "Сила 3 из 10, не 10"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Ошибка 1. Давить скребком \"до результата\"",
+      "visual_type": "infographic_card",
+      "scene_hint": "Русская инфографика в 3 колонки (как wellness-постер): колонка ОШИБКА «давить скребком до результата» с иконкой сильного давления; колонка ПРОЦЕСС «спазм, застой лимфы, микротравма кожи»; колонка РЕЗУЛЬТАТ «краснота, отёк, усталый овал». Стрелки между колонками, мягкие пастельные блоки #fdf6f5 #f5e6e8 #d4a3a5, только кириллица, 16:9, БЕЗ SEO и Wordstat.",
+      "alt": "Инфографика: ошибка давления гуаша → процесс → результат на лице"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "7-минутный домашний протокол: как делать правильно",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема гуаша на 7 минут: подготовка кожи → масло → мягкое давление → скулы → челюсть → шея → завершение. Стрелки, номера 1-7, кириллица, rose-gold wellness стиль, 16:9.",
+      "alt": "Схема 7-минутного протокола гуаша"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Сверьте технику по таблице перед каждой сессией",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист перед гуаша на клипборде: скольжение есть, давление 3/10, таймер 7 мин, маршрут лимфы, нет раздражения. Ручные пометки красной ручкой, стикер «проверь перед стартом», rose-gold палитра, 16:9.",
+      "alt": "Чеклист перед сеансом гуаша"
+    }
+  }
+}
