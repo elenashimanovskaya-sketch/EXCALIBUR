@@ -28,3 +28,4 @@
 | 2026-07-22 | B27 | pochemu-pit-2-litra-ne-uvlazhnyaet-kozhu-voda-mineraly-i-ph | https://naturallift.store/pochemu-pit-2-litra-ne-uvlazhnyaet-kozhu-voda-mineraly-i-ph/ | published |
 | 2026-07-22 | B28 | sahar-i-litso-kak-glikirovanie-bet-po-kollagenu | https://naturallift.store/sahar-i-litso-kak-glikirovanie-bet-po-kollagenu/ | published |
 | 2026-07-23 | B29 | dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma | https://naturallift.store/dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/ | published |
+| 2026-07-23 | B30 | breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob | [REDACTED]/breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob/ | published |

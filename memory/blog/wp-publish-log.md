@@ -232,3 +232,35 @@ OK inline_image_upload=277 src=cover/inline-02.png
 OK inline_image_upload=278 src=cover/inline-03.png
 permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
 ```
+
+---
+
+## 2026-07-23 — B30 breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob — **PASS**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B30 |
+| slug | breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob |
+| verdict | **PASS** |
+| post_id | 620 |
+| featured_image_id | 621 |
+| inline_images | 622, 623, 624 |
+| permalink | [REDACTED]/breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob/ |
+| schema_meta | ok |
+| seo_meta | ok (title=100 desc=259) |
+| notes | wordstat gate bypass (--skip-wordstat-gate); FTP upload via curl retry (Beget 425) |
+
+### Result
+
+```
+OK post=620 slug=breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob
+OK featured_image=621
+OK schema_meta=1
+OK skip_theme_faq_meta=1
+OK seo_meta=1 title=100 desc=259
+OK inline_image_upload=622 src=cover/inline-01.png
+OK inline_image_upload=623 src=cover/inline-02.png
+OK inline_image_upload=624 src=cover/inline-03.png
+permalink=[REDACTED]/breyn-haki-dlya-litsa-kak-prichit-mozg-ne-morshchit-lob/
+```
+
