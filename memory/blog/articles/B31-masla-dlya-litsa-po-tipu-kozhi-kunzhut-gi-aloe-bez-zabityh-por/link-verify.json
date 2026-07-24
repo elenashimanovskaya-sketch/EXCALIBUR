@@ -1,0 +1,47 @@
+{
+  "source": "memory/blog/articles/B31-masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por/article.html",
+  "total_links": 4,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "[REDACTED]/[REDACTED]/diagnostika-kozhi/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_relative",
+      "skipped": false,
+      "checked_url": "[REDACTED]/[REDACTED]/diagnostika-kozhi/"
+    },
+    {
+      "url": "[REDACTED]/[REDACTED]/vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_relative",
+      "skipped": false,
+      "checked_url": "[REDACTED]/[REDACTED]/vata-pita-kapha-kakoy-uhod-i-feys-praktiki-vam-podhodyat-seychas/"
+    },
+    {
+      "url": "[REDACTED]/[REDACTED]/omolazhivaem-litso-doma-sledim-za-mimikoy/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_relative",
+      "skipped": false,
+      "checked_url": "[REDACTED]/[REDACTED]/omolazhivaem-litso-doma-sledim-za-mimikoy/"
+    },
+    {
+      "url": "https://t.me/TELEGRAM_CHANNEL_REDACTED",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "external",
+      "skipped": false
+    }
+  ]
+}
