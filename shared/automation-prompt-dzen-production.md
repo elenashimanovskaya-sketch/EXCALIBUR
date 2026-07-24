@@ -14,8 +14,8 @@
 ОБЯЗАТЕЛЬНО: PUBLIC_SITE_URL=https://naturallift.store — publish на mayai.ru ЗАПРЕЩЁН (скрипт exit 4).
 Никогда не передавай --site-base https://mayai.ru (legacy репо учителя).
 
-Writer: Task(excalibur-blog-writer) — Cursor subagent по memory/brief/elena-dzen-writer-prompt.md.
-НЕ запускай excalibur_blog_gemini_writer.py без явного fallback и GEMINI_API_KEY.
+Writer: Task(excalibur-blog-writer) — subagent **cursor-grok-4.5-medium** (.cursor/agents/excalibur-blog-writer.md).
+НЕ inherit Director model для writer. НЕ excalibur_blog_gemini_writer.py без GEMINI_API_KEY.
 Протоколы — HTML <table>, эталон B29. Запрещены title с «брейн-хаки» (0 запросов Wordstat).
 
 0. Прочитай AGENTS.md и shared/agent-pipeline-pitfalls.md.

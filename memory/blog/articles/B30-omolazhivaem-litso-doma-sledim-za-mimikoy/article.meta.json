@@ -17,7 +17,7 @@
   "writer_model": "composer-2.5-fast",
   "article_mode": "B",
   "author_id": "elena-shimanovskaya",
-  "post_status": "draft",
+  "post_status": "publish",
   "has_exercise": true,
   "cover_scheme_id": "S7_problem_hero",
   "cover_scene_hint": "Женщина 45-55 у зеркала дома, мягкий свет, расслабляет лоб ладонями. Без текста на cover.",
@@ -35,5 +35,6 @@
     "description_ctr": "Показываю короткий план для лба - без «брейн-хаков» и простыней текста.",
     "description_aeo": "Как перестать морщить лоб дома через полезные привычки для мимики?"
   },
-  "format_reference": "memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/article.html"
+  "format_reference": "memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/article.html",
+  "wp_post_id": 632
 }
