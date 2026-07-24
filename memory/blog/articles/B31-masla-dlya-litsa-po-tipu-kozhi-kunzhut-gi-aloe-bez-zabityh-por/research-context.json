@@ -1,0 +1,69 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-24",
+    "today_ru": "24.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "пятница",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-25",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-24 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B31",
+    "priority": "P2",
+    "slug": "masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por",
+    "h1": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор",
+    "primary_query": "масла для лица аюрведа",
+    "secondary_queries": [
+      "кунжутное масло для лица"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B31",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "масла для лица аюрведа 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "масла для лица аюрведа июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "масла для лица аюрведа новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "кунжутное масло для лица 2026",
+      "purpose": "вторичный запрос: кунжутное масло для лица"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B31-masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

@@ -185,7 +185,7 @@ permalink=https://mayai.ru/avtonomnyj-kontent-zavod-nejroseti/
 | post_id | 265 |
 | featured_image_id | 266 |
 | inline_images | 267, 268, 269 |
-| permalink | https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/ |
+| permalink | [REDACTED]/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/ |
 | FTP_ROOT | `/` |
 
 ### Fix applied
@@ -202,7 +202,7 @@ OK skip_theme_faq_meta=1
 OK inline_image_upload=267 src=cover/inline-01.png
 OK inline_image_upload=268 src=cover/inline-03.png
 OK inline_image_upload=269 src=cover/inline-02.png
-permalink=https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/
+permalink=[REDACTED]/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok-kotorye-rastyagivayut-vashu-kozhu/
 ```
 
 ---
@@ -217,7 +217,7 @@ permalink=https://naturallift.store/2026/06/17/skrebok-guasha-5-fatalnyh-oshibok
 | post_id | 274 |
 | featured_image_id | 275 |
 | inline_images | 276, 277, 278 |
-| permalink | https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/ |
+| permalink | [REDACTED]/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/ |
 | seo_meta | ok (rank_math + excerpt) |
 
 ### Result
@@ -230,5 +230,40 @@ OK seo_meta=1
 OK inline_image_upload=276 src=cover/inline-01.png
 OK inline_image_upload=277 src=cover/inline-02.png
 OK inline_image_upload=278 src=cover/inline-03.png
-permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
+permalink=[REDACTED]/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
+```
+
+---
+
+## 2026-07-24 — B31 masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por — **PASS (draft)**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B31 |
+| slug | masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por |
+| verdict | **PASS** |
+| post_status | draft |
+| post_id | 652 |
+| featured_image_id | 653 |
+| inline_images | 654, 655, 656 |
+| permalink | [REDACTED]/?p=652 |
+| schema_meta | ok |
+| seo_meta | ok (rank_math + yoast) |
+
+### Fix applied
+
+- Default FTP host DNS resolution failed in Cloud Agent → publish via site IP override
+
+### Result
+
+```
+OK post=652 slug=masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por
+OK featured_image=653
+OK schema_meta=1
+OK skip_theme_faq_meta=1
+OK seo_meta=1 title=80 desc=167
+OK inline_image_upload=654 src=cover/inline-01.png
+OK inline_image_upload=655 src=cover/inline-02.png
+OK inline_image_upload=656 src=cover/inline-03.png
+permalink=[REDACTED]/?p=652
 ```
