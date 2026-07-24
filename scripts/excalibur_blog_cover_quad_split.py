@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import html as html_module
 import json
 import os
 import re
@@ -389,7 +390,7 @@ def validate_quad_figures(html: str, split_info: dict[str, Any]) -> list[str]:
         if figure_open and h2_anchor:
             tag = figure_open.group(0)
             anchor_m = re.search(r'data-h2-anchor="([^"]*)"', tag, re.I)
-            if anchor_m and anchor_m.group(1).strip() != h2_anchor:
+            if anchor_m and html_module.unescape(anchor_m.group(1).strip()) != h2_anchor:
                 errors.append(
                     f"{slot_key}: data-h2-anchor={anchor_m.group(1)!r}, ожидался {h2_anchor!r}"
                 )
@@ -429,9 +430,11 @@ def inject_figures(article_html: Path, split_info: dict[str, Any], dry_run: bool
         if not h2:
             changes.append(f"skip {slot_key}: no h2_anchor in manifest")
             continue
+        h2_attr = html_module.escape(h2, quote=True)
+        alt_attr = html_module.escape(alt, quote=True)
         figure = (
-            f'\n<figure class="inline-quad" data-slot="{slot_key}" data-h2-anchor="{h2}">\n'
-            f'  <img src="{src}" alt="{alt}" loading="lazy">\n'
+            f'\n<figure class="inline-quad" data-slot="{slot_key}" data-h2-anchor="{h2_attr}">\n'
+            f'  <img src="{src}" alt="{alt_attr}" loading="lazy">\n'
             f"</figure>\n"
         )
         h2_pattern = re.compile(rf"<h2[^>]*>\s*{re.escape(h2)}\s*</h2>", re.I | re.S)

@@ -1003,7 +1003,7 @@ Run: `naturallift.store-2026-06-11`
 | Поле | Значение |
 |------|----------|
 | topic_id | B32 |
-| h1 | Противовоспалительное питание для кожи: что убрать на 14 дней |
+| h1 | Противовоспалительная диета для кожи: что убрать на 14 дней - протокол |
 | slug | protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney |
 | search_intent | how_to |
 | article_mode | B |

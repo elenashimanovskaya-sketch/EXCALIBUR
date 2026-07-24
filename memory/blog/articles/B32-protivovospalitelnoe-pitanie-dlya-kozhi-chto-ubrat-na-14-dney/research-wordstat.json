@@ -1,0 +1,18 @@
+{
+  "source": "excalibur_wordstat.py",
+  "endpoint": "searchapi.api.cloud.yandex.net/v2/wordstat/topRequests",
+  "region": "225",
+  "phrases": [
+    "противовоспалительное питание для кожи"
+  ],
+  "runs": [
+    {
+      "phrase": "противовоспалительное питание для кожи",
+      "ok": true,
+      "response": {
+        "totalCount": "2"
+      }
+    }
+  ],
+  "errors": []
+}
