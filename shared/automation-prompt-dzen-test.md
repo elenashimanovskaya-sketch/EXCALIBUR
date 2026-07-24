@@ -55,7 +55,11 @@ Writer: Task(excalibur-blog-writer) — модель subagent cursor-grok-4.5-me
 8. python3 scripts/excalibur_blog_html_linter.py <article.html> — PASS
 9. Task(excalibur-blog-geo-qa) → PASS
 10. ПАРАЛЛЕЛЬНО Task(excalibur-blog-cover) + Task(excalibur-blog-schema)
-    Cover: ONE MCP gpt-image-2 quad → split → inject
+    Cover SCRIPT GATE (обязательно):
+      hero_reference_url.py → quad_manifest.py --merge → cover_quad_prompt.py --write-batch
+      ONE MCP gpt-image-2 ТОЛЬКО jobs[0].mcp_args из cover/quad-mcp-batch.json
+      quad_apply.py --inject-html → quad-split-report.json status PASS
+    S7 cover: NO Cyrillic on cover.png. comparison_table_ui в inline → prefer infographic_card.
 11. Task(excalibur-blog-indexer)
 12. Task(excalibur-blog-publish) — draft (--draft или EXCALIBUR_BLOG_PUBLISH_DRAFT=yes)
 

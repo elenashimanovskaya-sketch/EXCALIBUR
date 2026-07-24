@@ -126,9 +126,15 @@ def build_prompt(manifest: dict, style: dict, hero: dict, types_catalog: dict, d
             "",
             f"Bottom-right — {inline_panel_prompt(i3, types_catalog, design_code, hero, topic_id)}",
             "",
-            style.get("global_prompt_suffix", "").strip(),
         ]
     )
+    if use_problem_hero:
+        lines.append(
+            "single canvas 2048x1152 pixels, exact 2x2 grid, four equal 16:9 panels (1024x576 each), "
+            "thin white gutters, high detail. Top-left cover: editorial photo ONLY — NO Cyrillic hook, NO meme text."
+        )
+    else:
+        lines.append(style.get("global_prompt_suffix", "").strip())
     exercise_slot = (manifest.get("exercise_inline_slot") or "").strip()
     has_exercise_host = exercise_slot in {"inline_1", "inline_2", "inline_3"} or any(
         (slots.get(k) or {}).get("visual_type") == "exercise_steps_host" for k in ("inline_1", "inline_2", "inline_3")
@@ -209,12 +215,20 @@ def main() -> int:
         return 1
 
     prompt = build_prompt(manifest, style, hero, types_catalog, design_code, root)
+    scheme = resolve_cover_scheme(manifest, root)
+    use_s7 = (scheme.get("scheme_id") or "").startswith("S7")
     if primary_ref:
-        prompt += (
-            f"\n\nHOST REFERENCE (face only): {primary_ref}\n"
-            f"{yoga_master_outfit_prompt(topic_id)}\n"
-            "One rotated portrait reference per article — do not reuse same outfit as previous covers."
-        )
+        if use_s7:
+            prompt += (
+                f"\n\ni2i reference URL (lighting/style anchor only): {primary_ref}\n"
+                "Do NOT copy Elena/blog-host face onto top-left cover — generic woman 45-55 only."
+            )
+        else:
+            prompt += (
+                f"\n\nHOST REFERENCE (face only): {primary_ref}\n"
+                f"{yoga_master_outfit_prompt(topic_id)}\n"
+                "One rotated portrait reference per article — do not reuse same outfit as previous covers."
+            )
     prompt_path = article_dir / "cover" / "quad-mcp-prompt.txt"
     prompt_path.write_text(prompt + "\n", encoding="utf-8")
     print(f"OK prompt={prompt_path}")

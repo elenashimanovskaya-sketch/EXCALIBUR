@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B31-masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1019,
+      573
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 573,
+        "end": 581
+      },
+      "v_gutter_px": {
+        "start": 1019,
+        "end": 1027
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1019,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1027,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "raw_box_px": {
+          "left": 1027,
+          "top": 0,
+          "right": 2048,
+          "bottom": 573
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Инфографика рецептов смесей: Соберите домашнюю смесь за 2 минуты",
+        "h2_anchor": "Соберите домашнюю смесь за 2 минуты"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 581,
+          "right": 1019,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 581,
+          "right": 1019,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Нанесите и снимите излишки правильно",
+        "h2_anchor": "Нанесите и снимите излишки правильно"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1030,
+          "top": 581,
+          "right": 2045,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1027,
+          "top": 581,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Чеклист на 7 дней: масла без забитых пор",
+        "h2_anchor": "Чеклист на 7 дней: масла без забитых пор"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Соберите домашнюю смесь за 2 минуты",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Нанесите и снимите излишки правильно",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Чеклист на 7 дней: масла без забитых пор"
+  ],
+  "figure_validation": []
+}

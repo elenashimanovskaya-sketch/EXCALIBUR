@@ -29,7 +29,9 @@ Writer: Task(excalibur-blog-writer) — subagent **cursor-grok-4.5-medium** (.cu
 8. python3 scripts/excalibur_blog_html_linter.py <article.html> — PASS до GEO QA.
 9. Task(excalibur-blog-geo-qa) → PASS + QA JSON.
 10. ПАРАЛЛЕЛЬНО Task(excalibur-blog-cover) + Task(excalibur-blog-schema).
-   Cover: MCP gpt-image-2 quad → split → inject figures.
+   Cover SCRIPT GATE: hero_reference_url → quad_manifest --merge → cover_quad_prompt --write-batch
+   → ONE MCP gpt-image-2 только jobs[0].mcp_args из quad-mcp-batch.json → quad_apply --inject-html (PASS).
+   S7: NO Cyrillic on cover.png. Inline: avoid comparison_table_ui gibberish — infographic_card/workflow.
 11. Task(excalibur-blog-indexer).
 12. Task(excalibur-blog-publish) — WP upload с --draft (или env EXCALIBUR_BLOG_PUBLISH_DRAFT=yes), обнови shared/published-articles.md.
 

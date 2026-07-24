@@ -1,0 +1,46 @@
+{
+  "topic_id": "B31",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "масла для лица аюрведа",
+  "cover_problem": "масла для лица и забитые поры",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": false,
+  "exercise_inline_slot": null,
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: Масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план Т-зоны и щеки: женщина 45-55 смотрит в зеркало, на кончиках пальцев 2-3 капли масла, лёгкий блеск без «масляной маски». Studio beige фон, мягкий свет."
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Соберите домашнюю смесь за 2 минуты",
+      "visual_type": "infographic_card",
+      "scene_hint": "3 карточки рецептов смесей: Вата (гхи+алоэ), Пита (алоэ+жожоба), Капха (жожоба) — иконки масел, короткие подписи 2-3 слова, без длинной таблицы",
+      "alt": "Инфографика рецептов смесей: Соберите домашнюю смесь за 2 минуты"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Нанесите и снимите излишки правильно",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема с стрелками и номерами по теме секции — «Нанесите и снимите излишки правильно»",
+      "alt": "Схема шагов: Нанесите и снимите излишки правильно"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Чеклист на 7 дней: масла без забитых пор",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде по теме секции (без чужих инструментов) — «Чеклист на 7 дней: масла без забитых пор»",
+      "alt": "Чеклист / printable board: Чеклист на 7 дней: масла без забитых пор"
+    }
+  }
+}

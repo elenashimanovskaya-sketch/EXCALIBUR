@@ -25,3 +25,10 @@
 
 - Шаг cover||schema **только после** GEO QA PASS.
 - MCP URLs в production article.html → fix перед publish.
+
+## Cover / quad
+
+- Cover **без скриптов** (`quad_manifest` → `cover_quad_prompt` → `quad_apply`) → мусорные PNG (кириллица на cover, gibberish-таблицы). **BLOCKER**.
+- MCP prompt **только** из `cover/quad-mcp-batch.json` → `jobs[0].mcp_args`.
+- Default cover: **S7_problem_hero** — editorial photo, **без текста** на cover; hook только на сайте над фото.
+- `comparison_table_ui` в inline quad часто ломает кириллицу → prefer `infographic_card` / `workflow_diagram`; таблицы — в HTML статьи.
