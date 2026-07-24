@@ -46,9 +46,9 @@ def parse_env_file(path: Path) -> dict[str, str]:
 
 
 def load_env(root: Path) -> dict[str, str]:
-    """Файл site.env.local, затем переопределение из os.environ (Cloud Secrets)."""
+    """example → site.env.local (локальные секреты перекрывают шаблон), затем os.environ."""
     env: dict[str, str] = {}
-    for name in ("memory/site.env.local", "memory/site.env.local.example"):
+    for name in ("memory/site.env.local.example", "memory/site.env.local"):
         env.update(parse_env_file(root / name))
 
     for key in ENV_KEYS:
