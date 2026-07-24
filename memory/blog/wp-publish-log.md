@@ -232,3 +232,15 @@ OK inline_image_upload=277 src=cover/inline-02.png
 OK inline_image_upload=278 src=cover/inline-03.png
 permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
 ```
+
+## 2026-07-24 — B32 protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney
+
+| Field | Value |
+|-------|-------|
+| topic_id | B32 |
+| post_id | 680 |
+| verdict | PASS (draft, MCP fallback) |
+| permalink | [REDACTED]/?p=680 |
+| featured_image | 676 |
+| inline_images | 677, 679, 678 |
+| schema_meta | pending |

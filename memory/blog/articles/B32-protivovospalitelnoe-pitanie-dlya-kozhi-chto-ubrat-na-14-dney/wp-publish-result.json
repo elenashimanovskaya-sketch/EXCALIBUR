@@ -1,0 +1,35 @@
+{
+  "verdict": "pass",
+  "topic_id": "B32",
+  "slug": "protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney",
+  "article_dir": "memory/blog/articles/B32-protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney",
+  "publish_date": "2026-07-24",
+  "post_id": 680,
+  "post_status": "draft",
+  "permalink": "[REDACTED]/?p=680",
+  "preview_url": "[REDACTED]/?p=680&preview=true",
+  "publish_method": "mcp-fallback",
+  "ftp_blocked": "425 Security: Bad IP connecting (Beget whitelist)",
+  "featured_image": 676,
+  "featured_url": "[REDACTED]/wp-content/uploads/2026/07/cover.jpg",
+  "inline_images": {
+    "inline-01": 677,
+    "inline-02": 679,
+    "inline-03": 678
+  },
+  "schema_meta": "pending",
+  "schema_meta_note": "MCP publish не поддерживает _excalibur_blog_schema_jsonld / _excalibur_blog_skip_theme_faq — нужен FTP publish или ручная meta в WP",
+  "seo_meta": "pending",
+  "seo_meta_note": "Rank Math fields не заполнены MCP; заполнит excalibur_blog_wp_publish.py при FTP",
+  "link_verify": "pass",
+  "allow_publish": "yes",
+  "publish_draft": "yes",
+  "target_site": "[REDACTED]",
+  "target_feed": "/feed/dzen/",
+  "content_chars": 15661,
+  "blockers": [
+    "schema_meta pending (MCP)",
+    "seo_meta pending (MCP)",
+    "minor HTML at chunk joins: inline-02 figure tag, h2 checklist heading — fix on next FTP publish"
+  ]
+}

@@ -29,3 +29,4 @@
 | 2026-07-22 | B28 | sahar-i-litso-kak-glikirovanie-bet-po-kollagenu | https://naturallift.store/sahar-i-litso-kak-glikirovanie-bet-po-kollagenu/ | published |
 | 2026-07-23 | B29 | dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma | https://naturallift.store/dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/ | published |
 | 2026-07-24 | B30 | omolazhivaem-litso-doma-sledim-za-mimikoy | https://naturallift.store/omolazhivaem-litso-doma-sledim-za-mimikoy/ | published |
+| 2026-07-24 | B32 | protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney | [REDACTED]/?p=680 | draft |
