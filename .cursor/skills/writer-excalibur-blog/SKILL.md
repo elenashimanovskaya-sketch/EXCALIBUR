@@ -20,7 +20,7 @@
 7b. После записи: `python3 scripts/excalibur_blog_article_format.py article.html --write` + `excalibur_blog_html_linter.py`.
 8. Каждый H2: рекомендация «делать / не делать».
 9. Body **12 000–14 000** знаков (фаза 2), FAQ 5–7 пар — **ответы-действия**, **один** блок `<h2>Частые вопросы</h2>` (без второго FAQ).
-10. **Финал (после FAQ, последним блоком):** `🔥 <a href="…">Мой Telegram-канал «…»</a>` + `<blockquote><i>❓ 2–4 вопроса по теме … ⤵️</i></blockquote>`. URL/название — `NATURALLIFT_TELEGRAM_URL` / `NATURALLIFT_TELEGRAM_CHANNEL_TITLE` в `memory/site.env.local` (production: `https://t.me/silver_cream`, «Silver Cream»). См. `elena-dzen-writer-prompt.md` § «ФИНАЛ».
+10. **Финал (после FAQ, последним блоком):** `🔥 <a href="…">Мой Telegram-канал «…»</a>` + `<blockquote><i>❓ 2–4 вопроса по теме … ⤵️</i></blockquote>`. URL/название — `NATURALLIFT_TELEGRAM_URL` / `NATURALLIFT_TELEGRAM_CHANNEL_TITLE` (`https://t.me/silver_cream`, «Елена Шим/Фейс йога и Омоложение лица»). См. `elena-dzen-writer-prompt.md` § «ФИНАЛ».
 11. `article.meta.json`: `article_mode: B`, `char_count`, `meta_ab` с A/B/AEO оптимизацией:
    - `title_seo`: 35–75 симв, точный `primary_query` в начале + триггер.
    - `title_ctr`: 40–100 симв, кликабельный крючок, обязательно эмодзи (например 💻, 🚀) или знаки ?, !

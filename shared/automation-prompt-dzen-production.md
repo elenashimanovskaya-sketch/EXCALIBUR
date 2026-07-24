@@ -58,6 +58,8 @@ Fallback: Task(generalPurpose) per role + .cursor/agents/<role>.md + .cursor/ski
 | `PUBLIC_SITE_URL` | `https://naturallift.store` |
 | `FTP_HOST`, `FTP_USER`, `FTP_PASSWORD` | из teya.env.local / site.inv |
 | `YANDEX_CLOUD_FOLDER_ID`, `YANDEX_CLOUD_OAUTH_TOKEN` | Wordstat gate |
+| `NATURALLIFT_TELEGRAM_URL` | `https://t.me/silver_cream` |
+| `NATURALLIFT_TELEGRAM_CHANNEL_TITLE` | `Елена Шим/Фейс йога и Омоложение лица` |
 
 ## GitHub + Cursor Cloud
 

@@ -21,6 +21,7 @@
 | `PUBLIC_SITE_URL` | `https://naturallift.store` | то же |
 | `FTP_*` | из site.env.local | то же |
 | Wordstat | `YANDEX_CLOUD_*` | то же |
+| Telegram | `NATURALLIFT_TELEGRAM_URL`, `NATURALLIFT_TELEGRAM_CHANNEL_TITLE` | то же |
 
 Writer **не** из Director model: subagent `excalibur-blog-writer` в репо с `model: cursor-grok-4.5-medium`.
 

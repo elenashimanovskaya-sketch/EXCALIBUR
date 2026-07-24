@@ -120,7 +120,7 @@ def tg_cta_from_env(env: dict[str, str]) -> tuple[str, str]:
     title = (
         os.environ.get("NATURALLIFT_TELEGRAM_CHANNEL_TITLE", "").strip()
         or env.get("NATURALLIFT_TELEGRAM_CHANNEL_TITLE", "").strip()
-        or "Silver Cream"
+        or "Елена Шим/Фейс йога и Омоложение лица"
     )
     return url, title
 

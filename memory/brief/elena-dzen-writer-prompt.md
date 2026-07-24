@@ -312,11 +312,11 @@
 
 **Обязательный финальный блок (после FAQ, последним в article.html):** синяя ссылка на Telegram + blockquote с вопросами к аудитории (как топ-блоги Дзена).
 
-URL и название канала — из env (`NATURALLIFT_TELEGRAM_URL`, `NATURALLIFT_TELEGRAM_CHANNEL_TITLE`) или conversion-map. Production: `https://t.me/silver_cream`, «Silver Cream».
+URL и название канала — из env (`NATURALLIFT_TELEGRAM_URL`, `NATURALLIFT_TELEGRAM_CHANNEL_TITLE`) или conversion-map. Production: `https://t.me/silver_cream`, «Елена Шим/Фейс йога и Омоложение лица».
 
 ```html
 <p>&nbsp;</p>
-<p>🔥 <a href="https://t.me/silver_cream">Мой Telegram-канал «Silver Cream»</a></p>
+<p>🔥 <a href="https://t.me/silver_cream">Мой Telegram-канал «Елена Шим/Фейс йога и Омоложение лица»</a></p>
 <blockquote><i>❓ Как у вас с осанкой за экраном? Что больше всего «старит» профиль - шея, подбородок или скулы? Что уже пробовали из упражнений или ухода? Напишите в комментариях ⤵️</i></blockquote>
 ```
 
