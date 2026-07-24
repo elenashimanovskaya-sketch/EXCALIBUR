@@ -22,6 +22,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 | Schema | `schema.jsonld` |
 | Credentials | Cloud Secrets или `memory/site.env.local`: `FTP_*`, `FTP_ROOT`, `PUBLIC_SITE_URL` |
 | Allow flag | `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` (латиница, не «нуы») |
+| Draft phase | `EXCALIBUR_BLOG_PUBLISH_DRAFT=yes` → `post_status=draft` (фаза отладки) |
 | **Target site** | **только** `https://naturallift.store` — **никогда** `mayai.ru` |
 
 Если allow flag ≠ yes → **`❌ PUBLISH BLOCKER`** (не silent skip).

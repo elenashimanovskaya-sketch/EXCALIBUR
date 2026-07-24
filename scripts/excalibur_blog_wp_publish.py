@@ -376,6 +376,14 @@ def main() -> int:
     args = ap.parse_args()
     root = project_root()
     article_dir = args.article_dir if args.article_dir.is_absolute() else root / args.article_dir
+    env = load_env(root)
+    draft = args.draft or env.get("EXCALIBUR_BLOG_PUBLISH_DRAFT", "").strip().lower() in (
+        "yes",
+        "1",
+        "true",
+    )
+    if draft and not args.draft:
+        print("INFO: EXCALIBUR_BLOG_PUBLISH_DRAFT=yes → post_status=draft")
 
     if not args.skip_wordstat_gate and not args.dry_run:
         scripts_dir = Path(__file__).resolve().parent
@@ -396,7 +404,7 @@ def main() -> int:
             return 3
 
     payload = load_article(article_dir)
-    if args.draft:
+    if draft:
         payload["post_status"] = "draft"
     php = build_php(payload)
 

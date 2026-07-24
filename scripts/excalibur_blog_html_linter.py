@@ -67,6 +67,65 @@ def detect_duplicate_faq_sections(html: str) -> list[str]:
     return errors
 
 
+def detect_flattened_protocol_tables(html: str) -> list[str]:
+    """Fail when protocol/comparison data is glued into a single <p> instead of <table>."""
+    errors: list[str] = []
+    has_table = bool(re.search(r"<table\b", html, flags=re.IGNORECASE))
+    protocol_h2 = bool(
+        re.search(
+            r"<h2[^>]*>[^<]*(?:протокол|план на|ритуал|чеклист на \d)",
+            html,
+            flags=re.IGNORECASE,
+        )
+    )
+    if protocol_h2 and not has_table:
+        errors.append(
+            "Protocol/checklist H2 without <table>: use HTML table (see B29 article.html), "
+            "not a paragraph stream."
+        )
+
+    flat_markers = (
+        r"Время.*(?:что делать|действие).*зачем",
+        r"Утро.*День.*Вечер",
+        r"что делать.*зачем.*утро",
+    )
+    for m in re.finditer(r"<p>(.*?)</p>", html, flags=re.IGNORECASE | re.DOTALL):
+        inner = m.group(1)
+        if re.search(r"<table\b", inner, flags=re.IGNORECASE):
+            continue
+        text = re.sub(r"<[^>]+>", " ", inner)
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) < 120:
+            continue
+        for pat in flat_markers:
+            if re.search(pat, text, flags=re.IGNORECASE):
+                errors.append(
+                    "Flattened protocol table in <p> (must be <table><thead><tbody>): "
+                    f"…{text[:80]}…"
+                )
+                break
+    return errors
+
+
+def detect_wall_paragraphs(html: str) -> list[str]:
+    """Warn on 5+ short <p> blocks that look like a checklist dumped without structure."""
+    errors: list[str] = []
+    paragraphs = re.findall(r"<p>(.*?)</p>", html, flags=re.IGNORECASE | re.DOTALL)
+    long_plain = 0
+    for raw in paragraphs:
+        if re.search(r"<b>|&nbsp;", raw, flags=re.IGNORECASE):
+            continue
+        text = re.sub(r"<[^>]+>", "", raw).strip()
+        if len(text) > 280:
+            long_plain += 1
+    if long_plain >= 3:
+        errors.append(
+            f"Too many long plain <p> blocks ({long_plain}): split with <b>Метка.</b>, "
+            "<ul>, or <table> per elena-dzen-writer-prompt."
+        )
+    return errors
+
+
 class HTMLTagLinter(HTMLParser):
     def __init__(self, whitelist: set[str]) -> None:
         super().__init__()
@@ -122,6 +181,8 @@ def lint_html_file(html_path: Path, whitelist: set[str]) -> dict[str, Any]:
     linter.check_unclosed_tags()
     linter.errors.extend(detect_anchor_toc(html_content))
     linter.errors.extend(detect_duplicate_faq_sections(html_content))
+    linter.errors.extend(detect_flattened_protocol_tables(html_content))
+    linter.errors.extend(detect_wall_paragraphs(html_content))
 
     return {
         "file": str(html_path.name),

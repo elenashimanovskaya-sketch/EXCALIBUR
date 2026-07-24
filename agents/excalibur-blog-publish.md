@@ -32,7 +32,7 @@ is_background: false
 
 1. **Preflight:** link-verify с `--site-base` из `PUBLIC_SITE_URL`.
 2. **Dry-run:** `excalibur_blog_wp_publish.py --dry-run`.
-3. **Publish:** `excalibur_blog_wp_publish.py` без dry-run.
+3. **Publish:** `excalibur_blog_wp_publish.py` с `--draft` или env `EXCALIBUR_BLOG_PUBLISH_DRAFT=yes`.
 4. **Fallback:** при timeout HTTP-триггера — WebFetch URL из `FALLBACK_TRIGGER_URL` → `memory/webfetch-response.txt`.
 5. **Ledger:** обновить `shared/published-articles.md`.
 6. **Logs:** дописать `memory/blog/wp-publish-log.md`.

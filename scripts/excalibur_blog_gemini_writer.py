@@ -101,6 +101,13 @@ DZEN WRITER PROMPT (обязательно):
 - Минимум 6 h2, 2 blockquote, 2 ul, 4 абзаца с <b>Метка.</b> или <b>Метка:</b>, блок «Миниплан», 3-8 эмодзи.
 - Не больше 4 коротких <p> подряд без h2/ul/blockquote/жирной метки.
 - В конце article.html (после FAQ): блок Telegram — 🔥 <a>Мой Telegram-канал «…»</a> + <blockquote><i>❓ вопросы по теме … ⤵️</i></blockquote>.
+
+ТАБЛИЦЫ (критично — иначе QA/linter FAIL):
+- Протокол «время / что делать / зачем» — ТОЛЬКО <table><thead><tbody><tr><th><td>.
+- Сравнение (тейпы vs расслабление, ошибки) — тоже <table>.
+- ЗАПРЕЩЕНО склеивать «Время 2 минуты — что делать Зачем Утро…» в один <p>.
+- Эталон: memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/article.html строки 95–130.
+- Чеклист на 7 дней — <ol><li><b>День N.</b> …</li></ol>.
 """
 
 

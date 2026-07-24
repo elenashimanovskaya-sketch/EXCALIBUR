@@ -22,6 +22,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 | Schema | `schema.jsonld` |
 | Credentials | Cloud Secrets или `memory/site.env.local`: `FTP_*`, `FTP_ROOT`, `PUBLIC_SITE_URL` |
 | Allow flag | `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` (латиница, не «нуы») |
+| Draft phase | `EXCALIBUR_BLOG_PUBLISH_DRAFT=yes` → `post_status=draft` (фаза отладки) |
 | **Target site** | **только** `https://naturallift.store` — **никогда** `mayai.ru` |
 
 Если allow flag ≠ yes → **`❌ PUBLISH BLOCKER`** (не silent skip).
@@ -50,12 +51,17 @@ python scripts/excalibur_blog_wp_publish.py \
 
 Проверь: slug, title, размер PHP payload без ошибок.
 
-### 3. Publish
+### 3. Publish (draft phase по умолчанию)
 
 ```bash
 python scripts/excalibur_blog_wp_publish.py \
-  --article-dir memory/blog/articles/<topic_id>-<slug>
+  --article-dir memory/blog/articles/<topic_id>-<slug> \
+  --draft
 ```
+
+Или без флага, если в Secrets `EXCALIBUR_BLOG_PUBLISH_DRAFT=yes`.
+
+Live publish — только когда `EXCALIBUR_BLOG_PUBLISH_DRAFT=no` и QA/формат проверены вручную.
 
 Скрипт:
 - создаёт/обновляет WP post;
