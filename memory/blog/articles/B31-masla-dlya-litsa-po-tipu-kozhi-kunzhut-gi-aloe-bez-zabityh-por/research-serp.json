@@ -1,0 +1,365 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-24",
+    "today_ru": "24.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "пятница",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-25",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-24 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B31",
+    "priority": "P2",
+    "slug": "masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por",
+    "h1": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор",
+    "primary_query": "масла для лица аюрведа",
+    "secondary_queries": [
+      "кунжутное масло для лица"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "масла для лица аюрведа 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Аюрведические масла Devi Oils - официальный интернет-магазин",
+          "url": "https://devi-oils.ru/",
+          "snippet": ""
+        },
+        {
+          "title": "Аюрведа Масло Купить На Ozon По Низкой Цене",
+          "url": "https://www.ozon.ru/category/ayurveda-maslo/",
+          "snippet": "Купить аюрвидические масла Devi Oils для волос, лица и тела можно в нашем фирменном интернет-магазине. Вся продукция сертифицирована."
+        },
+        {
+          "title": "Товары категории Аюрведа для возрастной кожи лица купить в магазине ...",
+          "url": "https://www.ayurveda-shop.ru/category/dlja-vozrastnoj-kozhi-lica/",
+          "snippet": "Аюрведа масло - покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей."
+        },
+        {
+          "title": "Аюрведа - для Лица - ИНДИЙСКИЕ СПЕЦИИ, магазин \"Виджай\" - специи ...",
+          "url": "https://www.vijay.ru/katalog/ayurveda/ayurveda-dlya-litsa.html",
+          "snippet": "Товары категории Аюрведа для возрастной кожи лица купить с доставкой по Москве и России в интернет магазине Ayurveda-Shop.ru. Честные цены, большой выбор, скидки, гарантия возврата 30 дней"
+        },
+        {
+          "title": "Товары категории Аюрведа омоложение кожи лица купить в магазине аюрведы ...",
+          "url": "https://www.ayurveda-shop.ru/category/omolozhenie-kozhi-lica/",
+          "snippet": "Масло для лица Кумкумади \"Trichup\" Производитель: Индия Объем: 25 мл Артикул: VET10973 Штрихкод: 8904023001162 Срок годности товара: 25.12.2027 Подробнее"
+        },
+        {
+          "title": "МАСЛО КУМКУМАДИ - АЮРВЕДА",
+          "url": "https://www.evaveda.com/ayurvedicheskie-sredstva/maslo-kumkumadi/",
+          "snippet": "Товары категории Аюрведа омоложение кожи лица купить с доставкой по Москве и России в интернет магазине Ayurveda-Shop.ru. Честные цены, большой выбор, скидки, гарантия возврата 30 дней"
+        }
+      ],
+      "searched_at": "2026-07-24"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "масла для лица аюрведа июль 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Аюрведические масла Devi Oils - официальный интернет-магазин",
+          "url": "https://devi-oils.ru/",
+          "snippet": ""
+        },
+        {
+          "title": "Аюрведа Масло Купить На Ozon По Низкой Цене",
+          "url": "https://www.ozon.ru/category/ayurveda-maslo/",
+          "snippet": "Купить аюрвидические масла Devi Oils для волос, лица и тела можно в нашем фирменном интернет-магазине. Вся продукция сертифицирована."
+        },
+        {
+          "title": "Крем Для Лица Аюрведа - Купить В ... - Ozon",
+          "url": "https://www.ozon.ru/category/krem-dlya-litsa-ayurveda/",
+          "snippet": "Аюрведа масло - покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей."
+        },
+        {
+          "title": "МАСЛО КУМКУМАДИ - АЮРВЕДА",
+          "url": "https://www.evaveda.com/ayurvedicheskie-sredstva/maslo-kumkumadi/",
+          "snippet": "Крем для Лица Аюрведа в интернет-магазине OZON по низким ценам! Большой выбор, скидки и акции! Рассрочка и быстрая доставка! Настоящие отзывы покупателей!"
+        },
+        {
+          "title": "Аюрведические масла для лица - купить в интернет-магазине индийских ...",
+          "url": "https://ashaindia.ru/ayurveda/ayurvedicheskaya-kosmetika/kosmetika-dlya-litsa/masla-dlya-litsa/",
+          "snippet": "Масло Кумкумади (полное название Kumkumaadi thailam) - классический препарат Аюрведы. Оно восстанавливает и поддерживает кожу в наилучшем естественном состоянии. Масло Кумкумади тайлам является одним из сильнейших в Аюрведе омолаживающих средств для кожи."
+        },
+        {
+          "title": "Аюрведическое масло для лица с шафраном Кумкумади Тайлам Васу ...",
+          "url": "https://www.ayurveda-shop.ru/product/ajurvedicheskoe-maslo-dlja-lica-s-shafranom-kumkumadi-tajlam-vasu-kumkumadi-tailam-vasu-50-ml/",
+          "snippet": "Аюрведические масла для лица - интернет-магазин индийских товаров Ашанти в Москве. 🚚Доставка по всей РФ. 100% возврат денег 👍. Система скидок — экономия до 12%. Вперед за покупками! ☎ +7 (495) 324-77-70."
+        }
+      ],
+      "searched_at": "2026-07-24"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "масла для лица аюрведа новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Индийские секреты молодости: массаж лица маслами #экокосметика #аюрведа ...",
+          "url": "https://www.youtube.com/watch?v=FCzrdTC52z8",
+          "snippet": ""
+        },
+        {
+          "title": "#Аюрведа_knel Уход За Кожей: Домашние Средства Травы И Масла ...",
+          "url": "https://vk.com/wall-100426480_85612",
+          "snippet": "Индийские секреты молодости: массаж лица маслами Аюрведа знает толк в сохранении красоты!"
+        },
+        {
+          "title": "Юлия | эфирные масла и женское ... - Instagram",
+          "url": "https://www.instagram.com/reel/Da-qb6lNypN/",
+          "snippet": "Прежде чем приступить к процедуре, удалите с лица все остатки макияжа. Для этого смочите ватный тампон в гхи или чистом растительном (не эфирном!) масле и мягко протрите лицо."
+        },
+        {
+          "title": "Маски с куркумой и масла кунжута: как аюрведа превращает уход в искусство?",
+          "url": "https://lady.pravda.ru/news/beautiful/body/3132-ayurvedic-skin-care-secrets/",
+          "snippet": "499 likes, 48 comments - julia_fedorr on July 19, 2026: \" Уже давно пользуетесь эфирными маслами или только открываете для себя мир ароматерапии? Тогда вам точно будет интересна практика Печоти (Набхи Чикитса) — древний аюрведический ритуал ..."
+        },
+        {
+          "title": "ayurloka.ru | Аюрведа, косметика и другая красота напрямую из Индии ...",
+          "url": "https://vk.com/ayurlokamagazin",
+          "snippet": "Аюрведический уход за кожей обещает не только сияющий цвет лица, но и гармонию всего организма. Он строится на древней системе знаний о доша-балансе — Вата, Питта и Капха."
+        },
+        {
+          "title": "Индия снова меняет мировой рынок растительных масел. Что происходит в ...",
+          "url": "https://vc.ru/marketing/3043807-indiya-menyaet-rynok-rastitelnyh-masel",
+          "snippet": "Организм человека сразу «отзывается» на благотворное действие аюрведических веществ. Глубокий и стойкий оздоравливающий эффект заметно проявляется после двух-трех недель ежедневного ..."
+        }
+      ],
+      "searched_at": "2026-07-24"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "кунжутное масло для лица 2026",
+      "purpose": "вторичный запрос: кунжутное масло для лица",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Лучшее кунжутное масло 2026: какое купить, рейтинг топ-10 кунжутных ...",
+          "url": "https://lady.mail.ru/compilations/567410-luchshee-kunzhutnoe-maslo/",
+          "snippet": ""
+        },
+        {
+          "title": "В России появится ГОСТ на кунжутное масло",
+          "url": "https://lenta.ru/news/2026/04/14/v-rossii-poyavitsya-gost-na-kunzhutnoe-maslo/",
+          "snippet": "Чтобы помочь вам с выбором лучшего кунжутного масла в 2026 году, мы сделали обзор популярных марок, рассказали про критерии, на которые нужно обратить внимание при покупке."
+        },
+        {
+          "title": "PDF Скачать ГОСТ 8990-2026 Масло кунжутное. Технические условия",
+          "url": "https://files.stroyinf.ru/Data/870/87051.pdf",
+          "snippet": "ГОСТ на кунжутное масло, разработанный Масложировым союзом России, начнет действовать в РФ с 1 мая 2027 года. Об этом со ссылкой на материалы Росстандарта сообщает ТАСС."
+        },
+        {
+          "title": "Вышел новый межгосударственный стандарт - ГОСТ 8990-2026 «Масло ...",
+          "url": "https://mzhsr.ru/news/novosti-soyuza/vyishel-novyij-mezhgosudarstvennyij-standart-%E2%80%93-gost-8990%E2%80%932026-%C2%ABmaslo-kunzhutnoe.-texnicheskie-usloviya%C2%BB",
+          "snippet": "Настоящий стандарт распространяется на кунжутное масло, извлекаемое из семян кунжута (Sesamum indicum LJ, предназначенное для непосредственного употребления в пищу, применения в различных ..."
+        },
+        {
+          "title": "Кунжутное масло для лица: применение, рецепты от морщин, отзывы",
+          "url": "https://bkclinika.com/blog/uhod-za-litsom-s-pomoshhyu-kunzhutnogo-masla",
+          "snippet": "Стандарт устанавливает актуализированные требования к кунжутному маслу, которое начинает набирать популярность среди потребителей."
+        },
+        {
+          "title": "Масло для лица 2026 Gentle Daily Care For Healthy Skin yds",
+          "url": "https://aliexpress.ru/item/1005011871079588.html",
+          "snippet": "Кунжутное масло подходит для всех типов кожи, но особенно для сухой кожи. Хорошо увлажняет, смягчает кожу, насыщает ее полезными веществами и является хорошим антиоксидантом."
+        }
+      ],
+      "searched_at": "2026-07-24"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026",
+      "purpose": "SERP по H1",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Косметические масла для лица: как выбрать идеальное по типу кожи — блог ...",
+          "url": "https://expertclinics.ru/articles/kakie-kosmeticheskie-masla-luchshe-vsego-podkhodyat-dlya-kozhi-litsa/",
+          "snippet": ""
+        },
+        {
+          "title": "Какое масло для лица выбрать: подбор по типу кожи и рейтинг лучших",
+          "url": "https://nhshop.ru/blog-o-zdorovie/kakoe-maslo-vybrat-dlya-litsa-gid-po-tipam-kozhi-i-luchshim-sredstvam/",
+          "snippet": "Расскажем, как они работают, какие масла полезны для кожи, и на что обратить внимание при выборе - узнайте в блоге Expert Clinics."
+        },
+        {
+          "title": "Масла для лица: полный гид по выбору и применению в 2026 году",
+          "url": "https://professionals.beauty/blog/maslianaia-likhoradka-kak-vybrat-eliksir-molodosti-i-ne-prevratit-litso-v-maslianyi-blin/",
+          "snippet": "Разбираемся, какое масло для лица подойдет для сухой, жирной или чувствительной кожи. Полный гид: как выбрать, правильно наносить и избежать ошибок."
+        },
+        {
+          "title": "Как выбрать масло для лица по типу кожи: полный гид от А до Я",
+          "url": "https://belopole.com/kak-vybrat-maslo-dlya-lica-po-tipu-kozhi-gid/",
+          "snippet": "Разбираемся, какие натуральные масла действительно эффективны, а какие забивают поры. Советы по уходу за кожей, мифы и правила использования масел."
+        },
+        {
+          "title": "Масло для лица: секрет сияющей кожи",
+          "url": "https://professionals.beauty/blog/maslo-dlia-litsa-kak-podobrat-po-tipu-kozhi-i-ispolzovat-bez-oshibok/",
+          "snippet": "Как выбрать масло для лица по типу кожи: сухой, жирной, возрастной. Полный гид с таблицей комедогенности, рецептами смесей и ответами на частые вопросы."
+        },
+        {
+          "title": "Лучшие масла для лица: как выбрать и правильно использовать",
+          "url": "https://www.repeat.ru/article/luchshiye-masla-dlya-litsa-kak-vybrat-i-pravilno-ispolzovat",
+          "snippet": "Масло для лица — универсальный инструмент красоты, если использовать его грамотно. Оно может стать вашим секретом сияющей кожи, но только при правильном выборе и применении."
+        }
+      ],
+      "searched_at": "2026-07-24"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://devi-oils.ru/",
+      "title": "Аюрведические масла Devi Oils - официальный интернет-магазин",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.ozon.ru/category/ayurveda-maslo/",
+      "title": "Аюрведа Масло Купить На Ozon По Низкой Цене",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.ayurveda-shop.ru/category/dlja-vozrastnoj-kozhi-lica/",
+      "title": "Товары категории Аюрведа для возрастной кожи лица купить в магазине ...",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.vijay.ru/katalog/ayurveda/ayurveda-dlya-litsa.html",
+      "title": "Аюрведа - для Лица - ИНДИЙСКИЕ СПЕЦИИ, магазин \"Виджай\" - специи ...",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.ayurveda-shop.ru/category/omolozhenie-kozhi-lica/",
+      "title": "Товары категории Аюрведа омоложение кожи лица купить в магазине аюрведы ...",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.evaveda.com/ayurvedicheskie-sredstva/maslo-kumkumadi/",
+      "title": "МАСЛО КУМКУМАДИ - АЮРВЕДА",
+      "from_query": "масла для лица аюрведа 2026"
+    },
+    {
+      "url": "https://www.ozon.ru/category/krem-dlya-litsa-ayurveda/",
+      "title": "Крем Для Лица Аюрведа - Купить В ... - Ozon",
+      "from_query": "масла для лица аюрведа июль 2026"
+    },
+    {
+      "url": "https://ashaindia.ru/ayurveda/ayurvedicheskaya-kosmetika/kosmetika-dlya-litsa/masla-dlya-litsa/",
+      "title": "Аюрведические масла для лица - купить в интернет-магазине индийских ...",
+      "from_query": "масла для лица аюрведа июль 2026"
+    },
+    {
+      "url": "https://www.ayurveda-shop.ru/product/ajurvedicheskoe-maslo-dlja-lica-s-shafranom-kumkumadi-tajlam-vasu-kumkumadi-tailam-vasu-50-ml/",
+      "title": "Аюрведическое масло для лица с шафраном Кумкумади Тайлам Васу ...",
+      "from_query": "масла для лица аюрведа июль 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FCzrdTC52z8",
+      "title": "Индийские секреты молодости: массаж лица маслами #экокосметика #аюрведа ...",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://vk.com/wall-100426480_85612",
+      "title": "#Аюрведа_knel Уход За Кожей: Домашние Средства Травы И Масла ...",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://www.instagram.com/reel/Da-qb6lNypN/",
+      "title": "Юлия | эфирные масла и женское ... - Instagram",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://lady.pravda.ru/news/beautiful/body/3132-ayurvedic-skin-care-secrets/",
+      "title": "Маски с куркумой и масла кунжута: как аюрведа превращает уход в искусство?",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://vk.com/ayurlokamagazin",
+      "title": "ayurloka.ru | Аюрведа, косметика и другая красота напрямую из Индии ...",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://vc.ru/marketing/3043807-indiya-menyaet-rynok-rastitelnyh-masel",
+      "title": "Индия снова меняет мировой рынок растительных масел. Что происходит в ...",
+      "from_query": "масла для лица аюрведа новости 2026"
+    },
+    {
+      "url": "https://lady.mail.ru/compilations/567410-luchshee-kunzhutnoe-maslo/",
+      "title": "Лучшее кунжутное масло 2026: какое купить, рейтинг топ-10 кунжутных ...",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://lenta.ru/news/2026/04/14/v-rossii-poyavitsya-gost-na-kunzhutnoe-maslo/",
+      "title": "В России появится ГОСТ на кунжутное масло",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://files.stroyinf.ru/Data/870/87051.pdf",
+      "title": "PDF Скачать ГОСТ 8990-2026 Масло кунжутное. Технические условия",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://mzhsr.ru/news/novosti-soyuza/vyishel-novyij-mezhgosudarstvennyij-standart-%E2%80%93-gost-8990%E2%80%932026-%C2%ABmaslo-kunzhutnoe.-texnicheskie-usloviya%C2%BB",
+      "title": "Вышел новый межгосударственный стандарт - ГОСТ 8990-2026 «Масло ...",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://bkclinika.com/blog/uhod-za-litsom-s-pomoshhyu-kunzhutnogo-masla",
+      "title": "Кунжутное масло для лица: применение, рецепты от морщин, отзывы",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://aliexpress.ru/item/1005011871079588.html",
+      "title": "Масло для лица 2026 Gentle Daily Care For Healthy Skin yds",
+      "from_query": "кунжутное масло для лица 2026"
+    },
+    {
+      "url": "https://expertclinics.ru/articles/kakie-kosmeticheskie-masla-luchshe-vsego-podkhodyat-dlya-kozhi-litsa/",
+      "title": "Косметические масла для лица: как выбрать идеальное по типу кожи — блог ...",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    },
+    {
+      "url": "https://nhshop.ru/blog-o-zdorovie/kakoe-maslo-vybrat-dlya-litsa-gid-po-tipam-kozhi-i-luchshim-sredstvam/",
+      "title": "Какое масло для лица выбрать: подбор по типу кожи и рейтинг лучших",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    },
+    {
+      "url": "https://professionals.beauty/blog/maslianaia-likhoradka-kak-vybrat-eliksir-molodosti-i-ne-prevratit-litso-v-maslianyi-blin/",
+      "title": "Масла для лица: полный гид по выбору и применению в 2026 году",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    },
+    {
+      "url": "https://belopole.com/kak-vybrat-maslo-dlya-lica-po-tipu-kozhi-gid/",
+      "title": "Как выбрать масло для лица по типу кожи: полный гид от А до Я",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    },
+    {
+      "url": "https://professionals.beauty/blog/maslo-dlia-litsa-kak-podobrat-po-tipu-kozhi-i-ispolzovat-bez-oshibok/",
+      "title": "Масло для лица: секрет сияющей кожи",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    },
+    {
+      "url": "https://www.repeat.ru/article/luchshiye-masla-dlya-litsa-kak-vybrat-i-pravilno-ispolzovat",
+      "title": "Лучшие масла для лица: как выбрать и правильно использовать",
+      "from_query": "Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор 2026"
+    }
+  ]
+}

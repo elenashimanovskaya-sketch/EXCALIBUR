@@ -970,7 +970,7 @@ Run: `naturallift.store-2026-06-11`
 | Поле | Значение |
 |------|----------|
 | topic_id | B31 |
-| h1 | Масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор |
+| h1 | Как выбрать масла для лица по типу кожи: кунжут, ги, алоэ — без забитых пор |
 | slug | masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por |
 | search_intent | how_to |
 | article_mode | B |
