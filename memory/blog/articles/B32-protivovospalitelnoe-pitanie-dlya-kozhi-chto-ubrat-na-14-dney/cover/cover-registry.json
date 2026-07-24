@@ -1,0 +1,50 @@
+{
+  "topic_id": "B32",
+  "slug": "protivovospalitelnoe-pitanie-dlya-kozhi-chto-ubrat-na-14-dney",
+  "cover_family": "brand_collage",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Женщина 45–55 за кухонным столом с овощами и водой — противовоспалительное питание для кожи",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-24T18:00:48+00:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Женщина 45–55 за кухонным столом с овощами и водой — противовоспалительное питание для кожи",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Чеклист признаков «горящей» кожи перед стартом 14-дневного протокола",
+      "h2_anchor": "Проверьте признаки \"горящей\" кожи перед стартом",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Инфографика: что убрать, чем заменить и что можно на 14 дней противовоспалительной диеты",
+      "h2_anchor": "Уберите на 14 дней: таблица \"убрать / заменить / можно\"",
+      "visual_type": "infographic_card",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Схема подбора остывающих продуктов при питта-типе для кожи",
+      "h2_anchor": "Подберите остывающие продукты при питта-типе",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}
