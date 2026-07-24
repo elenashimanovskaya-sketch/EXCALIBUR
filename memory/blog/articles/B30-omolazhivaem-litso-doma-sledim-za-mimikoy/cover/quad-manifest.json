@@ -1,0 +1,47 @@
+{
+  "topic_id": "B30",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "морщите лоб, даже когда «просто читаете»?",
+  "cover_problem": "мимика лица и лоб",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": true,
+  "exercise_inline_slot": null,
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: Омолаживаем лицо дома: как следить за мимикой и не морщить лоб",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план лба и переносицы: женщина 45-55 за ноутбуком, лоб напряжён, мягкий домашний свет. Жест - ладoni на лоб (расслабление).",
+      "meme_caption_ru": "это не возраст"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Почему лоб морщится по привычке, а не «от возраста»",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Таблица «ошибка / что происходит / как исправить» по теме секции — «Почему лоб морщится по привычке, а не «от возраста»»",
+      "alt": "Сравнительная таблица / UI-мокап: Почему лоб морщится по привычке, а не «от возраста»"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Внедрите план 2 мин × 3 раза в день",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Пошаговая схема с стрелками и номерами по теме секции — «Внедрите план 2 мин × 3 раза в день»",
+      "alt": "Схема шагов: Внедрите план 2 мин × 3 раза в день"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Тейпы vs осознанное расслабление",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде по теме секции (без чужих инструментов) — «Тейпы vs осознанное расслабление»",
+      "alt": "Чеклист / printable board: Тейпы vs осознанное расслабление"
+    }
+  }
+}

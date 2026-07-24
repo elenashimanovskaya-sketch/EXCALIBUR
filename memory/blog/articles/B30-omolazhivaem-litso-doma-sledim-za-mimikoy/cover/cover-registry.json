@@ -1,0 +1,50 @@
+{
+  "topic_id": "B30",
+  "slug": "omolazhivaem-litso-doma-sledim-za-mimikoy",
+  "cover_family": "brand_collage",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Омолаживаем лицо дома: как следить за мимикой и не морщить лоб",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-07-24T14:53:05+03:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Омолаживаем лицо дома: как следить за мимикой и не морщить лоб",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Почему лоб морщится по привычке, а не «от возраста»",
+      "h2_anchor": "Почему лоб морщится по привычке, а не «от возраста»",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема шагов: Внедрите план 2 мин × 3 раза в день",
+      "h2_anchor": "Внедрите план 2 мин × 3 раза в день",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Тейпы vs осознанное расслабление",
+      "h2_anchor": "Тейпы vs осознанное расслабление",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

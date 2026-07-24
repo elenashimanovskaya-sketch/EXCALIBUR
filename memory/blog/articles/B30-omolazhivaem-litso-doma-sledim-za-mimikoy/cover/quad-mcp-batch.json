@@ -1,0 +1,42 @@
+{
+  "pipeline": "quad_canvas_1x_mcp",
+  "reference_url_hosted": "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg",
+  "reference_urls_hosted": [
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9106.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9123.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9132.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9137.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9022.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9019.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9039.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0472.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0480.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0490.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0522.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0529.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/img_0550.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-8949.jpeg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-8971.jpg",
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9001.jpg"
+  ],
+  "reference_mcp_input_urls": [
+    "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg"
+  ],
+  "output_canvas": "cover/canvas-quad.png",
+  "jobs": [
+    {
+      "slot": "canvas_quad",
+      "tool": "gpt-image-2",
+      "note": "ONE call, ONE portrait ref (rotated by topic_id), then split",
+      "mcp_args": {
+        "prompt": "Russian premium wellness hook collage for mature women 40+, face yoga and natural skincare blog, active palette with fuchsia accents #e91e8c #ff2d95 plus warm neutrals #fdf6f5, natural morning window light, torn paper strips, bright pink sticky notes, marker handwriting in Cyrillic, fake phone screenshots (mirror selfie before after, skincare notes app, 10 min timer), gentle before-after hints NOT plastic surgery, energetic feminine zine DIY aesthetic adapted to 16:9 widescreen,\nSingle canvas 2048x1152 pixels, exact 2x2 grid, four equal 16:9 panels (1024x576 each). Optional thin white gutters ONLY on the exact center lines (x=1024 and y=576); keep all panel content strictly inside its quadrant — no bleed across seams.\nTop-left COVER ONLY — S7 problem hero, variant ghost_correct_overlay.\n\nDo NOT copy Elena from reference on this cover panel. Generic relatable Russian woman 45-55, natural aging visible, premium wellness editorial photo.\nArticle problem zone (visual focus): мимика лица и лоб.\nКрупный план лба и переносицы: женщина 45-55 за ноутбуком, лоб напряжён, мягкий домашний свет. Жест - ладoni на лоб (расслабление).\nFull-bleed inside top-left quadrant, 16:9, clean studio background (beige #d4c4b0 or soft grey).\nCOVER PANEL: photo only — NO Cyrillic, NO Latin headlines, NO logos, NO sticky notes, NO torn paper, NO YouTube typography.\nAll Cyrillic text / UI / checklists / diagrams belong ONLY to the other 3 quad panels (top-right, bottom-left, bottom-right).\nThin yellow directional arrows/lines OK if they show massage direction — without any letters.\nProblem must be VISUALLY READABLE at thumbnail size: wrinkles/lines/folds clearly visible, not airbrushed away.\nPrefer split before/after in one frame when topic is lines/wrinkles: left = problem more visible, right = same woman same angle softer — NOT plastic surgery ad.\nSoft natural light, shallow depth of field on problem zone, human editorial NOT sterile corporate stock.\nFORBIDDEN on cover panel: ['обе руки у висков', 'Cyrillic words', 'Wordstat UI', 'Drake meme', 'copy Elena face from reference unless scene_hint says use host']; Drake; syringe; clinic; English UI.\nTop-right — [Сравнительная таблица / UI-мокап] Professional Russian blog editorial UI mockup, clean SaaS dashboard aesthetic, light background #FAFAF7, accent #E85D4C, readable Cyrillic labels, 16:9 widescreen screenshot style, H2: Почему лоб морщится по привычке, а не от возраста. Таблица ошибка / что происходит / как исправить по теме секции — Почему лоб морщится по привычке, а не от возраста looks like a helpful pasted screenshot with pink sticky note corner and scotch tape, human-made Notion/Google Sheets vibe, subtle shadow, high detail Cyrillic UI, no host face NO blog host face. Subtle sticky note, tape corner, or mini mirror inset — utility diagram or exercise steps underneath Negative: meme impact font, cartoon mascot, watermark, English UI labels, blurry text\nBottom-left — [Схема шагов] Clean Russian infographic workflow diagram, numbered steps connected by arrows, editorial blog style, colors #FAFAF7 #1A1A2E #E85D4C #FFD93D, 16:9, H2: Внедрите план 2 мин × 3 раза в день. Пошаговая схема с стрелками и номерами по теме секции — Внедрите план 2 мин × 3 раза в день readable Cyrillic step titles on torn-paper workflow strip, marker arrows, taped checklist scrap, practical how-to, no meme faces NO blog host face. Subtle sticky note, tape corner, or mini mirror inset — utility diagram or exercise steps underneath Negative: meme, face closeup, watermark, chaotic collage, English text\nBottom-right — [Чеклист / printable board] Russian blog printable checklist board illustration, clipboard or kanban card layout, checkboxes and short Cyrillic items, editorial clean design, 16:9, H2: Тейпы vs осознанное расслабление. Чеклист на клипборде по теме секции (без чужих инструментов) — Тейпы vs осознанное расслабление feels like real pre-publish checklist photo/screenshot on clipboard with red pen marks and tape, no meme character NO blog host face. Subtle sticky note, tape corner, or mini mirror inset — utility diagram or exercise steps underneath Negative: meme, impact font joke, watermark, English text, cartoon host\nsingle canvas 2048x1152 pixels, exact 2x2 grid, four equal 16:9 panels (1024x576 each), thin white gutters, high detail collage illustration, human editor pasted scraps feel, readable Russian hook on cover panel\nInline panels (top-right, bottom-left, bottom-right): editorial UI/diagram only — NO host face on those three panels.\nNegative: English text, Latin UI, watermark, logo, botox syringe, surgery, teenage model, cold hospital blue, generic stock photo, IT SEO meme, Drake meme, Wordstat dashboard, polished corporate ad, extra fingers, vertical carousel 9:16, instagram story, hospital clinic, botox, syringe, english text, watermark, IT SEO meme, Drake, polished corporate banner, extra faces on inline panels\n\nHOST REFERENCE (face only): https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg\nProfessional face-yoga master outfit: matching yoga set (high-waist leggings + fitted sports top/bra), coral accent this article, modern wellness studio look. Preserve EXACT face likeness from reference ONLY — do NOT copy clothing, hairstyle props or background from reference photo.\nOne rotated portrait reference per article — do not reuse same outfit as previous covers.",
+        "input_urls": [
+          "https://naturallift.store/wp-content/uploads/2026/06/mkatrin-9064.jpg"
+        ],
+        "aspect_ratio": "16:9",
+        "resolution": "2K"
+      }
+    }
+  ]
+}

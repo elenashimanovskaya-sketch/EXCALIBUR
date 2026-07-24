@@ -1,0 +1,131 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B30-omolazhivaem-litso-doma-sledim-za-mimikoy/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1016,
+      553
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 553,
+        "end": 569
+      },
+      "v_gutter_px": {
+        "start": 1016,
+        "end": 1032
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 16,
+          "top": 0,
+          "right": 999,
+          "bottom": 553
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1016,
+          "bottom": 553
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Омолаживаем лицо дома: как следить за мимикой и не морщить лоб",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1048,
+          "top": 0,
+          "right": 2031,
+          "bottom": 553
+        },
+        "raw_box_px": {
+          "left": 1032,
+          "top": 0,
+          "right": 2048,
+          "bottom": 553
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Почему лоб морщится по привычке, а не «от возраста»",
+        "h2_anchor": "Почему лоб морщится по привычке, а не «от возраста»"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 574,
+          "right": 1016,
+          "bottom": 1146
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 569,
+          "right": 1016,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема шагов: Внедрите план 2 мин × 3 раза в день",
+        "h2_anchor": "Внедрите план 2 мин × 3 раза в день"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1032,
+          "top": 574,
+          "right": 2048,
+          "bottom": 1146
+        },
+        "raw_box_px": {
+          "left": 1032,
+          "top": 569,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Тейпы vs осознанное расслабление",
+        "h2_anchor": "Тейпы vs осознанное расслабление"
+      }
+    }
+  },
+  "html_inject": [
+    "replaced H2 with inline_1 (cover/inline-01.png) — Почему лоб морщится по привычке, а не «от возраста»",
+    "replaced H2 with inline_2 (cover/inline-02.png) — Внедрите план 2 мин × 3 раза в день",
+    "replaced H2 with inline_3 (cover/inline-03.png) — Тейпы vs осознанное расслабление"
+  ],
+  "figure_validation": []
+}
