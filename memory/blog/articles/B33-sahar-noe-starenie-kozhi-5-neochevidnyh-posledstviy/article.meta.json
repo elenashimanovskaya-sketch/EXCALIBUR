@@ -1,0 +1,40 @@
+{
+  "topic_id": "B33",
+  "slug": "sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+  "h1": "Сахар и кожа: 5 неочевидных последствий и проверка за 3 дня",
+  "title": "Сахар и кожа: 5 неочевидных последствий и проверка за 3 дня",
+  "description": "Сахар и кожа: 5 неочевидных последствий для лица, самопроверка за 3 дня и мягкий протокол на 21 день без полного отказа от сладкого.",
+  "primary_query": "сахар и кожа",
+  "focus_keyword": "сахар и кожа",
+  "secondary_queries": [
+    "сахарное старение кожи",
+    "сахар и кожа лица",
+    "гликация кожи",
+    "сахар и старение кожи"
+  ],
+  "char_count": 13583,
+  "writer_engine": "cursor-subagent",
+  "writer_model": "cursor-grok-4.5-medium",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "draft",
+  "has_exercise": false,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Woman 45-55 at breakfast table, soft morning light, tea without sugar, mirror hint of puffy face vs calm face. Cobalt accents. No text on cover.",
+  "anchor_variants": [
+    "сахар и кожа",
+    "сахарное старение кожи",
+    "5 неочевидных последствий сахара",
+    "проверка сахара и лица за 3 дня"
+  ],
+  "meta_ab": {
+    "title_seo": "Сахар и кожа: 5 неочевидных последствий для лица",
+    "title_ctr": "Сахар и кожа: 5 последствий, которые вы списываете на возраст 🍰",
+    "title_aeo": "Как сахар влияет на кожу лица и что проверить за 3 дня?",
+    "description_seo": "Сахар и кожа: отёк, пятна, капризная кожа, UV. Самопроверка за 3 дня и мягкий протокол на 21 день без запретов.",
+    "description_ctr": "Не только морщины. Показываю 5 последствий сахара на лице и простой тест \"сладкий вечер → утро\".",
+    "description_aeo": "Сахар и кожа связаны через гликацию и отёк: 5 признаков, 3-дневная самопроверка и протокол на 21 день."
+  },
+  "cover_family": "problem_hero",
+  "format_reference": "memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/article.html"
+}

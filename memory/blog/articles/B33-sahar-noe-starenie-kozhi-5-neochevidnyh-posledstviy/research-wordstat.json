@@ -1,0 +1,78 @@
+{
+  "source": "excalibur_wordstat.py",
+  "endpoint": "searchapi.api.cloud.yandex.net/v2/wordstat/topRequests",
+  "region": "225",
+  "phrases": [
+    "сахар и кожа"
+  ],
+  "runs": [
+    {
+      "phrase": "сахар и кожа",
+      "ok": true,
+      "response": {
+        "results": [
+          {
+            "phrase": "сахар и кожа",
+            "count": "740"
+          },
+          {
+            "phrase": "сахар в крови и кожа",
+            "count": "92"
+          },
+          {
+            "phrase": "сахар и кожа лица",
+            "count": "55"
+          },
+          {
+            "phrase": "кожа и повышенный сахар",
+            "count": "41"
+          },
+          {
+            "phrase": "сахар и зуд кожи",
+            "count": "22"
+          },
+          {
+            "phrase": "сахар и старение кожи",
+            "count": "19"
+          },
+          {
+            "phrase": "сахар и состояние кожи",
+            "count": "15"
+          },
+          {
+            "phrase": "отказ от сахара и кожа",
+            "count": "8"
+          }
+        ],
+        "associations": [
+          {
+            "phrase": "смуглая кожа",
+            "count": "33803"
+          },
+          {
+            "phrase": "гликированный сахар",
+            "count": "9683"
+          },
+          {
+            "phrase": "сахар кбжу",
+            "count": "11124"
+          },
+          {
+            "phrase": "кожаные кеды",
+            "count": "12966"
+          },
+          {
+            "phrase": "кожное сало",
+            "count": "4125"
+          },
+          {
+            "phrase": "площадь сахары",
+            "count": "387"
+          }
+        ],
+        "totalCount": "740"
+      }
+    }
+  ],
+  "errors": []
+}

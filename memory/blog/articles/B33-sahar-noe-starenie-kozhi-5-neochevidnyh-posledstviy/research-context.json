@@ -1,0 +1,69 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-26",
+    "today_ru": "26.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "воскресенье",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-27",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-26 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B33",
+    "priority": "P1",
+    "slug": "sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+    "h1": "Как сахар старит кожу: 5 неочевидных последствий",
+    "primary_query": "сахар и кожа",
+    "secondary_queries": [
+      "сахарное старение кожи"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B33",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "сахар и кожа 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "сахар и кожа июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "сахар и кожа новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "сахарное старение кожи 2026",
+      "purpose": "вторичный запрос: сахарное старение кожи"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как сахар старит кожу: 5 неочевидных последствий 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B33-sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}
