@@ -64,6 +64,7 @@ def inline_panel_prompt(
         f"H2: {h2_clean}.",
         sanitize_prompt_fragment(slot.get("scene_hint", "")),
         type_def.get("prompt_suffix", "").strip(),
+        "MANDATORY: ALL visible text labels, table headers, sticky notes, UI captions MUST be Russian Cyrillic ONLY. ZERO English words, ZERO Latin UI.",
         host_rule,
         (design_code.get("inline_human_touch") or "").strip(),
         f"Negative: {type_def.get('negative', '')}",
@@ -152,7 +153,11 @@ def build_prompt(manifest: dict, style: dict, hero: dict, types_catalog: dict, d
     else:
         lines.append("Inline panels (top-right, bottom-left, bottom-right): editorial UI/diagram only — NO host face on those three panels.")
         lines.append(
-            f"Negative: {style.get('global_negative_prompt', '')}, {design_code.get('global_negative', '')}, extra faces on inline panels"
+            "MANDATORY LANGUAGE: every inline panel — ALL visible text in Russian Cyrillic ONLY. "
+            "No English words, no Latin UI labels (Remove/Replace/Allow, Day 1, Checklist, etc.)."
+        )
+        lines.append(
+            f"Negative: {style.get('global_negative_prompt', '')}, {design_code.get('global_negative', '')}, extra faces on inline panels, English text, Latin UI"
         )
     return "\n".join(line for line in lines if line)
 

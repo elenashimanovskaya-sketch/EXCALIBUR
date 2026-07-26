@@ -406,6 +406,8 @@ def main() -> int:
     payload = load_article(article_dir)
     if draft:
         payload["post_status"] = "draft"
+    else:
+        payload["post_status"] = "publish"
     php = build_php(payload)
 
     if args.dry_run:
@@ -435,13 +437,41 @@ def main() -> int:
 
     result_path = article_dir / "wp-publish-result.json"
     permalink = ""
+    post_id = ""
     for line in out.splitlines():
         if line.startswith("permalink="):
             permalink = line.split("=", 1)[1].strip()
+        if line.startswith("OK post="):
+            post_id = line.split("=", 1)[1].split()[0].strip()
+
+    public_base = public.rstrip("/")
+    slug = payload.get("slug") or ""
+    is_draft = payload.get("post_status") == "draft"
+    public_url = f"{public_base}/{slug}/" if slug and not is_draft else ""
+    if not public_url and permalink and not is_draft and "?" not in permalink:
+        public_url = permalink
+
+    admin_url = f"{public_base}/wp-admin/post.php?post={post_id}&action=edit" if post_id else ""
+    preview_url = f"{public_base}/?p={post_id}&preview=true" if post_id and is_draft else ""
+
+    if is_draft:
+        print(f"INFO post_status=draft — публичный URL недоступен гостям.")
+        if admin_url:
+            print(f"admin_edit={admin_url}")
+        if preview_url:
+            print(f"preview={preview_url} (нужен вход в WP Admin)")
+    elif public_url:
+        print(f"public_url={public_url}")
+
     result = {
         "slug": payload["slug"],
         "topic_id": payload["topic_id"],
+        "post_id": post_id,
+        "post_status": payload.get("post_status", "publish"),
         "permalink": permalink,
+        "public_url": public_url,
+        "admin_edit_url": admin_url,
+        "preview_url": preview_url if is_draft else "",
         "cover_evidence": payload.get("cover_evidence", {}),
         "raw_output": out,
         "verdict": "pass" if "OK post=" in out else "fail",

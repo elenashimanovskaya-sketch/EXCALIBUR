@@ -1,0 +1,46 @@
+{
+  "topic_id": "B32",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "противовоспалительная диета для кожи",
+  "cover_problem": "покраснение щёк и воспаление после еды",
+  "cover_scheme_id": "S7_problem_hero",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "exercise_article": false,
+  "exercise_inline_slot": null,
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_problem_hero",
+      "alt": "Обложка: противовоспалительная диета для кожи — покраснение щёк после еды",
+      "host_rule": "generic_woman_45_55",
+      "scene_hint": "Крупный план щёк и Т-зоны: женщина 45-55 с лёгким покраснением и воспалением после еды, рядом тарелка с сладким йогуртом и булочкой (размыто). Split before/after: слева краснее, справа спокойнее. Studio beige фон."
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "Уберите на 14 дней: таблица убрать / заменить / можно",
+      "visual_type": "infographic_card",
+      "scene_hint": "3 колонки кириллицей: УБРАТЬ (сахар, белый хлеб, фастфуд), ЗАМЕНИТЬ (гречка, рыба, овощи), МОЖНО (крупы, фрукты). Короткие подписи, без SaaS UI",
+      "alt": "Инфографика: что убрать, чем заменить и что можно на 14 дней"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "Соберите план на 14 дней: чеклист по дням",
+      "visual_type": "checklist_board",
+      "scene_hint": "Чеклист на клипборде: День 1 без сахара, День 2 гречка вместо хлеба, День 7 фото, День 14 итог — все пункты кириллицей",
+      "alt": "Чеклист на 14 дней противовоспалительного протокола"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "Сравните ошибки и стоп-сигналы: когда протокол нельзя",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Схема: 14 дней элиминация → день 15+ возврат по одному → при вспышке пауза 4 недели → к врачу при обострении. Все подписи кириллицей",
+      "alt": "Схема ошибок и стоп-сигналов протокола"
+    }
+  }
+}

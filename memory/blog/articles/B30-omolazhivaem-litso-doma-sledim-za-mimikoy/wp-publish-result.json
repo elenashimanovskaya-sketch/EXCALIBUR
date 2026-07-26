@@ -2,12 +2,13 @@
   "slug": "omolazhivaem-litso-doma-sledim-za-mimikoy",
   "topic_id": "B30",
   "permalink": "https://naturallift.store/omolazhivaem-litso-doma-sledim-za-mimikoy/",
-  "post_status": "publish",
   "cover_evidence": {
     "path": "memory/blog/articles/B30-omolazhivaem-litso-doma-sledim-za-mimikoy/cover/cover.png",
     "source": "existing_file",
-    "decode_verified": true
+    "decode_verified": true,
+    "bytes": 1137586,
+    "detected_format": "png"
   },
-  "raw_output": "OK post=632 slug=omolazhivaem-litso-doma-sledim-za-mimikoy\nOK featured_image=640\nOK seo_meta=1 title=87 desc=190\nOK inline_image_upload=641..643\npermalink=https://naturallift.store/omolazhivaem-litso-doma-sledim-za-mimikoy/\n",
+  "raw_output": "OK post=632 slug=omolazhivaem-litso-doma-sledim-za-mimikoy\nOK featured_image=646\nOK seo_meta=1 title=87 desc=190\nOK inline_image_upload=647 src=cover/inline-01.png url=https://naturallift.store/wp-content/uploads/2026/07/omolazhivaem-litso-doma-sledim-za-mimikoy-inline-01-2.jpg\nOK inline_image_upload=648 src=cover/inline-02.png url=https://naturallift.store/wp-content/uploads/2026/07/omolazhivaem-litso-doma-sledim-za-mimikoy-inline-02-2.jpg\nOK inline_image_upload=649 src=cover/inline-03.png url=https://naturallift.store/wp-content/uploads/2026/07/omolazhivaem-litso-doma-sledim-za-mimikoy-inline-03-2.jpg\npermalink=https://naturallift.store/omolazhivaem-litso-doma-sledim-za-mimikoy/\n",
   "verdict": "pass"
 }
