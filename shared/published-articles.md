@@ -30,3 +30,4 @@
 | 2026-07-23 | B29 | dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma | https://naturallift.store/dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/ | published |
 | 2026-07-24 | B30 | omolazhivaem-litso-doma-sledim-za-mimikoy | https://naturallift.store/omolazhivaem-litso-doma-sledim-za-mimikoy/ | published |
 | 2026-07-24 | B31 | masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por | https://naturallift.store/masla-dlya-litsa-po-tipu-kozhi-kunzhut-gi-aloe-bez-zabityh-por/ | published |
+| 2026-07-27 | B33 | sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy | [REDACTED]/?p=706 | draft |

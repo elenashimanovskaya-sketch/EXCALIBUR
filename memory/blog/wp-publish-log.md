@@ -232,3 +232,30 @@ OK inline_image_upload=277 src=cover/inline-02.png
 OK inline_image_upload=278 src=cover/inline-03.png
 permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
 ```
+
+---
+
+## 2026-07-27 — B33 sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy — **PASS (draft, MCP)**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B33 |
+| slug | sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy |
+| verdict | **PASS** (draft) |
+| post_id | 706 |
+| featured_image_id | 703 |
+| inline_images | 704, 702, 705 |
+| permalink | [REDACTED]/?p=706 |
+| schema_meta | embed_fallback |
+| publish_method | mcp-kv (FTP DNS fail) |
+
+### Result
+
+```
+OK post=706
+OK featured_image=703
+OK inline_image_upload=704,702,705
+OK schema_meta=embed_fallback
+permalink=[REDACTED]/?p=706
+WARN: re-upload from mcp-publish-final.html for typo-free HTML + full schema.jsonld
+```
