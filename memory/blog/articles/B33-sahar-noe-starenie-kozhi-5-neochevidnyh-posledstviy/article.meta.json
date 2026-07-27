@@ -1,0 +1,39 @@
+{
+  "topic_id": "B33",
+  "slug": "sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+  "h1": "Как сахар старит кожу: 5 неочевидных последствий",
+  "title": "Как сахар старит кожу: 5 неочевидных последствий",
+  "description": "Сахар и кожа: 5 неочевидных последствий на лице, трёхдневный самотест и мягкий протокол без жёсткого отказа от сладкого.",
+  "primary_query": "сахар и кожа",
+  "focus_keyword": "сахар и кожа",
+  "secondary_queries": [
+    "сахарное старение кожи",
+    "сахар и кожа лица",
+    "сахар и старение кожи"
+  ],
+  "char_count": 12304,
+  "writer_engine": "cursor-subagent",
+  "writer_model": "cursor-grok-4.5-medium",
+  "article_mode": "B",
+  "author_id": "elena-shimanovskaya",
+  "post_status": "draft",
+  "has_exercise": false,
+  "cover_scheme_id": "S7_problem_hero",
+  "cover_scene_hint": "Generic woman 45-55: утреннее лицо у зеркала vs сладкий десерт вечером, cobalt yoga set. Без текста на cover.",
+  "anchor_variants": [
+    "сахар и кожа",
+    "сахарное старение кожи",
+    "как сахар старит кожу",
+    "сахар и кожа лица"
+  ],
+  "meta_ab": {
+    "title_seo": "Сахар и кожа: 5 неочевидных последствий для лица",
+    "title_ctr": "Сахар и кожа: почему крем не спасает? 5 признаков 🍬",
+    "title_aeo": "Как сахар старит кожу и какие 5 последствий видны на лице?",
+    "description_seo": "Сахар и кожа: утренний отёк, тусклый тон, сухая+жирная кожа, почему крем бессилен. Тест за 3 дня и мягкий протокол.",
+    "description_ctr": "Показываю 5 неочевидных следов сладкого на лице - и как проверить себя за 3 дня без фанатизма.",
+    "description_aeo": "Как сахар влияет на кожу лица: гликация, отёк утром, воспаление без прыщей и мягкий протокол без отказа от десерта."
+  },
+  "cover_family": "problem_hero",
+  "format_reference": "memory/blog/articles/B29-dinocharya-posle-45-rasporyadok-dnya-bez-fanatizma/article.html"
+}

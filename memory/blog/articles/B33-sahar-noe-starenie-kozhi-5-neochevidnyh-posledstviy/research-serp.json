@@ -1,0 +1,335 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-27",
+    "today_ru": "27.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "понедельник",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-28",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-27 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B33",
+    "priority": "P1",
+    "slug": "sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+    "h1": "Как сахар старит кожу: 5 неочевидных последствий",
+    "primary_query": "сахар и кожа",
+    "secondary_queries": [
+      "сахарное старение кожи"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "сахар и кожа 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+          "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+          "snippet": ""
+        },
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": "Разберемся, как избыток быстрых углеводов влияет на коллаген и ускоряет старение кожи, рассказала Елена Желянина, диетолог, эксперт по активному долголетию."
+        },
+        {
+          "title": "Лицо, как сахар: почему избыток сладостей ухудшает состояние кожи",
+          "url": "https://alldaily.ru/2026/04/17/lico-kak-saxar-pochemu-izbytok-sladostej-uxudshaet-sostoyanie-kozhi/",
+          "snippet": "Сахар — главный враг молодости. Разбираемся в процессе гликации: как сладости делают вашу кожу хрупкой и как остановить старение изнутри с помощью диеты."
+        },
+        {
+          "title": "Сахар и кожа: почему «сладкий вечер» видно утром - МК",
+          "url": "https://www.mk.ru/social/2026/02/27/sakhar-i-kozha-pochemu-sladkiy-vecher-vidno-utrom.html",
+          "snippet": "Избыток сладостей ускоряет старение кожи, вызывает морщины и теряет упругость. Узнайте, как сбалансировать питание и сохранить молодость кожи эффективно."
+        },
+        {
+          "title": "Как сахар влияет на кожу: старение, прыщи, «сахарное лицо» и другие ...",
+          "url": "https://blog.letu.ru/blog/sladkaya-zhizn-kak-sakhar-vliyaet-na-tvoyu-kozhu",
+          "snippet": "Утром смотрите в зеркало и видите: лицо припухло, кожа выглядит уставшей, под глазами синячки. И сразу вопрос: это сахар… или возраст? Давайте разберемся: как сахар сказывается на нашей внешности и обязательно ли отказывать себе «во вкусненьком». Почему сладкое видно на лице."
+        },
+        {
+          "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+          "url": "https://woman.rambler.ru/beauty/56293149-glikatsiya-i-kozha-kak-snizit-sahar-v-ratsione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet/",
+          "snippet": "Дерматологи и косметологи в один голос скажут, что сладкое - враг нашему здоровью. «Сладенькое» не только откладывается на талии, но и существенно влияет на кожу."
+        }
+      ],
+      "searched_at": "2026-07-27"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "сахар и кожа июль 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": ""
+        },
+        {
+          "title": "Избыток сахара и трансжиров ускоряет старение кожи в два раза",
+          "url": "https://cleu.ru/izbytok-sakhara-i-transzhirov-uskoryaet-starenie-2026-06-07",
+          "snippet": "Сахар — главный враг молодости. Разбираемся в процессе гликации: как сладости делают вашу кожу хрупкой и как остановить старение изнутри с помощью диеты."
+        },
+        {
+          "title": "Как сахар влияет на кожу: старение, прыщи, «сахарное лицо» и другие ...",
+          "url": "https://blog.letu.ru/blog/sladkaya-zhizn-kak-sakhar-vliyaet-na-tvoyu-kozhu",
+          "snippet": "Узнайте, какие продукты ускоряют старение кожи. Сахар и трансжиры вредят коллагену. Правильное питание и антиоксиданты помогут замедлить морщины и сохранить упругость лица."
+        },
+        {
+          "title": "Как сахар влияет на нашу кожу - skinclinicvlg.ru",
+          "url": "https://skinclinicvlg.ru/aktsii-i-novosti/tpost/hxjzsodpe1-kak-sahar-vliyaet-na-nashu-kozhu",
+          "snippet": "Дерматологи и косметологи в один голос скажут, что сладкое - враг нашему здоровью. «Сладенькое» не только откладывается на талии, но и существенно влияет на кожу."
+        },
+        {
+          "title": "Сахар и кожа, казалось бы, два разных слова, но какая между ними ...",
+          "url": "https://vk.com/wall-147109350_761",
+          "snippet": "Сахар и кожа: почему лицо стареет быстрее, появляются высыпания и отёки. Многие думают, что сахар влияет только на вес. Но на самом деле избыток сахара очень сильно отражается и на коже. Причём иногда даже раньше, чем на фигуре."
+        },
+        {
+          "title": "Как сахар влияет на кожу: связь сладкого и старения, последствия сахара ...",
+          "url": "https://www.letu.ru/blog/saharnoe-liczo-chto-proishodit-s-kozhej-kogda-my-edim-slishkom-mnogo-sladkogo",
+          "snippet": "Говоря по простому: если человек злоупотребляет сахаром, то его кожа быстро становится дряблой, морщинистой и имеет нездоровый вид, в косметологии даже есть термин «сахарное лицо»."
+        }
+      ],
+      "searched_at": "2026-07-27"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "сахар и кожа новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Диета без сахара: полезный тренд или опасность для молодости кожи",
+          "url": "https://alldaily.ru/2026/03/11/dieta-bez-saxara-poleznyj-trend-ili-opasnost-dlya-molodosti-kozhi/",
+          "snippet": ""
+        },
+        {
+          "title": "Врач назвала продукты, способные вызвать темные пятна на коже",
+          "url": "https://www.gazeta.ru/science/news/2026/04/12/28251913.shtml",
+          "snippet": "Диета без сахара — популярный тренд среди сторонников здорового образа жизни, однако эксперты предупреждают о возможных негативных последствиях для кожи и общего здоровья. Отказ от сахара может привести к ..."
+        },
+        {
+          "title": "Баланс в питании: как ограничение сахара влияет на молодость кожи",
+          "url": "https://alldaily.ru/2026/02/25/balans-v-pitanii-kak-ogranichenie-saxara-vliyaet-na-molodost-kozhi/",
+          "snippet": "«Мелазма — это хроническое состояние, при котором на коже лица появляются темные пятна."
+        },
+        {
+          "title": "Как сахар влияет на нашу кожу - skinclinicvlg.ru",
+          "url": "https://skinclinicvlg.ru/aktsii-i-novosti/tpost/hxjzsodpe1-kak-sahar-vliyaet-na-nashu-kozhu",
+          "snippet": "Эксперт делает акцент на том, что полностью отказаться от сахара или, наоборот, потреблять его без ограничений — риски для кожи. Лучший подход — умеренность и баланс, а не радикальные ..."
+        },
+        {
+          "title": "Сахар и уход за кожей: как сладости влияют на молодость вашей кожи",
+          "url": "https://psyh-portret.ru/news/2026/05/20/4438.html",
+          "snippet": "Сахар и кожа: почему лицо стареет быстрее, появляются высыпания и отёки. Многие думают, что сахар влияет только на вес. Но на самом деле избыток сахара очень сильно отражается и на коже. Причём иногда даже раньше, чем ..."
+        },
+        {
+          "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+          "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+          "snippet": "Каждая ложка сахара — это инвестиция в завтрашнее старение кожи, и, приняв меры уже сегодня, можно значительно улучшить свою внешность и состояние здоровья."
+        }
+      ],
+      "searched_at": "2026-07-27"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "сахарное старение кожи 2026",
+      "purpose": "вторичный запрос: сахарное старение кожи",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+          "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+          "snippet": ""
+        },
+        {
+          "title": "Инсулинорезистентность и кожа: как метаболизм влияет на старение",
+          "url": "https://expertclinics.ru/articles/insulinorezistentnost-i-kozha-puti-korrektsii-metabolizma-dlya-zamedleniya-stareniya/",
+          "snippet": "Разберемся, как избыток быстрых углеводов влияет на коллаген и ускоряет старение кожи, рассказала Елена Желянина, диетолог, эксперт по активному долголетию."
+        },
+        {
+          "title": "Сахарное старение кожи: причины, признаки и эффективные методы борьбы",
+          "url": "https://medinovatech.ru/byuti-sfera/saharnoe-starenie-lica-i-kozhi-prichiny-priznaki-i-metody-borby/",
+          "snippet": "Активации матриксных металлопротеиназ (ММР) — ферментов-«ножниц», которые целенаправленно расщепляют коллаген и эластин, структурные белки, отвечающие за упругость и плотность кожи."
+        },
+        {
+          "title": "Как сахар влияет на кожу: старение, прыщи, «сахарное лицо» и другие ...",
+          "url": "https://blog.letu.ru/blog/sladkaya-zhizn-kak-sakhar-vliyaet-na-tvoyu-kozhu",
+          "snippet": "Сахарное старение кожи лица может проявляться различными симптомами, как видимыми, так и скрытыми. Понимание этих признаков важно для ранней диагностики и выбора правильных методов ухода. Рассмотрим основные проявления, которые помогут распознать сахарное лицо."
+        },
+        {
+          "title": "«Сахарное» старение кожи: 5 неочевидных последствий",
+          "url": "https://dzen.ru/a/aLG8AEux6ALTnFKo",
+          "snippet": "Сахар провоцирует в организме вялотекущий воспалительный процесс, который напрямую ускоряет старение кожи (инфламэйджинг — от английского inflammation — воспаление и aging — старение)."
+        },
+        {
+          "title": "Сахарное лицо: что меняет кожу быстрее, чем возраст",
+          "url": "https://estehub.ru/blog/publikatsii-2/saharnoe-lico-glikaciya-age-prichiny-formirovaniya-16",
+          "snippet": "В программу входят 7 методик массажа для стимуляции кровоснабжения и питания кожи, расслабления мышечных зажимов и проработки морщин, естественной подтяжки лица."
+        }
+      ],
+      "searched_at": "2026-07-27"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как сахар старит кожу: 5 неочевидных последствий 2026",
+      "purpose": "SERP по H1",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Сахар и кожа: как сладкое старит лицо и что делать? | клиника MedEx в ...",
+          "url": "https://mymedex.ru/blog/stati/insulinovaia-cuvstvitelnost-i-glikaciia-naucnyi-vzgliad-na-to-kak-saxar-starit-kozu",
+          "snippet": ""
+        },
+        {
+          "title": "Сахар убивает молодость кожи: 5 скрытых последствий, о которых молчат ...",
+          "url": "https://dzen.ru/a/aMt888bkOFaok7Hb",
+          "snippet": "Узнайте, как избыток сахара и быстрые углеводы запускают гликацию, делают кожу тусклой и ускоряют старение. Экспертное мнение врачей клиники MedEx в Москве."
+        },
+        {
+          "title": "\"Сахар разрушает кожу\" — миф или правда? Учёные объяснили, что ...",
+          "url": "https://dzen.ru/a/akQ9DlQ8cGMaD6Nf",
+          "snippet": "Почему обычный сахар способен так быстро старить кожу? Ответ скрывается глубже, чем просто «калории». Но какая именно сила разрушает ткани — об этом чуть позже."
+        },
+        {
+          "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+          "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+          "snippet": "Сахар не является единственной причиной старения кожи. Но его избыток действительно может влиять на процессы, связанные с состоянием коллагена и эластичностью тканей."
+        },
+        {
+          "title": "Лицо, как сахар: почему избыток сладостей ухудшает состояние кожи",
+          "url": "https://alldaily.ru/2026/04/17/lico-kak-saxar-pochemu-izbytok-sladostej-uxudshaet-sostoyanie-kozhi/",
+          "snippet": "Разберемся, как избыток быстрых углеводов влияет на коллаген и ускоряет старение кожи, рассказала Елена Желянина, диетолог, эксперт по активному долголетию."
+        },
+        {
+          "title": "Как сахар влияет на кожу: связь сладкого и старения, последствия сахара ...",
+          "url": "https://www.letu.ru/blog/saharnoe-liczo-chto-proishodit-s-kozhej-kogda-my-edim-slishkom-mnogo-sladkogo",
+          "snippet": "Избыток сладостей ускоряет старение кожи, вызывает морщины и теряет упругость. Узнайте, как сбалансировать питание и сохранить молодость кожи эффективно."
+        }
+      ],
+      "searched_at": "2026-07-27"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://doctorpiter.ru/zdorove/sakharnoe-lico-kak-izbytok-sladostei-i-vypechki-skleivaet-kollagen-i-podzharivaet-belki-id6956775/",
+      "title": "«Сахарное лицо»: влияние сахара на старение кожи и ее состояние ...",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://lifekhacker.com/news/sakharnaja_lovushka_kak_glikacija_razrushaet_kollagen_i_starit_kozhu/2026-07-06-25725",
+      "title": "Гликация кожи: как сахар разрушает коллаген и вызывает морщины",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://alldaily.ru/2026/04/17/lico-kak-saxar-pochemu-izbytok-sladostej-uxudshaet-sostoyanie-kozhi/",
+      "title": "Лицо, как сахар: почему избыток сладостей ухудшает состояние кожи",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://www.mk.ru/social/2026/02/27/sakhar-i-kozha-pochemu-sladkiy-vecher-vidno-utrom.html",
+      "title": "Сахар и кожа: почему «сладкий вечер» видно утром - МК",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://blog.letu.ru/blog/sladkaya-zhizn-kak-sakhar-vliyaet-na-tvoyu-kozhu",
+      "title": "Как сахар влияет на кожу: старение, прыщи, «сахарное лицо» и другие ...",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://woman.rambler.ru/beauty/56293149-glikatsiya-i-kozha-kak-snizit-sahar-v-ratsione-chtoby-ostanovit-prezhdevremennye-morschiny-i-pohudet/",
+      "title": "Гликация и кожа: как снизить сахар в рационе, чтобы остановить ...",
+      "from_query": "сахар и кожа 2026"
+    },
+    {
+      "url": "https://cleu.ru/izbytok-sakhara-i-transzhirov-uskoryaet-starenie-2026-06-07",
+      "title": "Избыток сахара и трансжиров ускоряет старение кожи в два раза",
+      "from_query": "сахар и кожа июль 2026"
+    },
+    {
+      "url": "https://skinclinicvlg.ru/aktsii-i-novosti/tpost/hxjzsodpe1-kak-sahar-vliyaet-na-nashu-kozhu",
+      "title": "Как сахар влияет на нашу кожу - skinclinicvlg.ru",
+      "from_query": "сахар и кожа июль 2026"
+    },
+    {
+      "url": "https://vk.com/wall-147109350_761",
+      "title": "Сахар и кожа, казалось бы, два разных слова, но какая между ними ...",
+      "from_query": "сахар и кожа июль 2026"
+    },
+    {
+      "url": "https://www.letu.ru/blog/saharnoe-liczo-chto-proishodit-s-kozhej-kogda-my-edim-slishkom-mnogo-sladkogo",
+      "title": "Как сахар влияет на кожу: связь сладкого и старения, последствия сахара ...",
+      "from_query": "сахар и кожа июль 2026"
+    },
+    {
+      "url": "https://alldaily.ru/2026/03/11/dieta-bez-saxara-poleznyj-trend-ili-opasnost-dlya-molodosti-kozhi/",
+      "title": "Диета без сахара: полезный тренд или опасность для молодости кожи",
+      "from_query": "сахар и кожа новости 2026"
+    },
+    {
+      "url": "https://www.gazeta.ru/science/news/2026/04/12/28251913.shtml",
+      "title": "Врач назвала продукты, способные вызвать темные пятна на коже",
+      "from_query": "сахар и кожа новости 2026"
+    },
+    {
+      "url": "https://alldaily.ru/2026/02/25/balans-v-pitanii-kak-ogranichenie-saxara-vliyaet-na-molodost-kozhi/",
+      "title": "Баланс в питании: как ограничение сахара влияет на молодость кожи",
+      "from_query": "сахар и кожа новости 2026"
+    },
+    {
+      "url": "https://psyh-portret.ru/news/2026/05/20/4438.html",
+      "title": "Сахар и уход за кожей: как сладости влияют на молодость вашей кожи",
+      "from_query": "сахар и кожа новости 2026"
+    },
+    {
+      "url": "https://expertclinics.ru/articles/insulinorezistentnost-i-kozha-puti-korrektsii-metabolizma-dlya-zamedleniya-stareniya/",
+      "title": "Инсулинорезистентность и кожа: как метаболизм влияет на старение",
+      "from_query": "сахарное старение кожи 2026"
+    },
+    {
+      "url": "https://medinovatech.ru/byuti-sfera/saharnoe-starenie-lica-i-kozhi-prichiny-priznaki-i-metody-borby/",
+      "title": "Сахарное старение кожи: причины, признаки и эффективные методы борьбы",
+      "from_query": "сахарное старение кожи 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/aLG8AEux6ALTnFKo",
+      "title": "«Сахарное» старение кожи: 5 неочевидных последствий",
+      "from_query": "сахарное старение кожи 2026"
+    },
+    {
+      "url": "https://estehub.ru/blog/publikatsii-2/saharnoe-lico-glikaciya-age-prichiny-formirovaniya-16",
+      "title": "Сахарное лицо: что меняет кожу быстрее, чем возраст",
+      "from_query": "сахарное старение кожи 2026"
+    },
+    {
+      "url": "https://mymedex.ru/blog/stati/insulinovaia-cuvstvitelnost-i-glikaciia-naucnyi-vzgliad-na-to-kak-saxar-starit-kozu",
+      "title": "Сахар и кожа: как сладкое старит лицо и что делать? | клиника MedEx в ...",
+      "from_query": "Как сахар старит кожу: 5 неочевидных последствий 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/aMt888bkOFaok7Hb",
+      "title": "Сахар убивает молодость кожи: 5 скрытых последствий, о которых молчат ...",
+      "from_query": "Как сахар старит кожу: 5 неочевидных последствий 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/akQ9DlQ8cGMaD6Nf",
+      "title": "\"Сахар разрушает кожу\" — миф или правда? Учёные объяснили, что ...",
+      "from_query": "Как сахар старит кожу: 5 неочевидных последствий 2026"
+    }
+  ]
+}
