@@ -1,0 +1,21 @@
+{
+  "topic_id": "B33",
+  "slug": "sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy",
+  "post_id": 706,
+  "post_status": "draft",
+  "permalink": "[REDACTED]/?p=706",
+  "permalink_future": "[REDACTED]/blog/sahar-noe-starenie-kozhi-5-neochevidnyh-posledstviy/",
+  "featured_image": 703,
+  "inline_images": [704, 702, 705],
+  "schema_meta": "embed_fallback",
+  "publish_method": "mcp-kv",
+  "publish_date": "2026-07-27",
+  "verdict": "pass",
+  "warnings": [
+    "FTP publish blocked (DNS fail from cloud); used MCP wordpress_update_post",
+    "Post meta _excalibur_blog_schema_jsonld not set; JSON-LD embedded in content",
+    "Minor MCP copy typos in live HTML (трёхdневный/коллагena/подборodke) — fix via blob re-upload from mcp-publish-final.html",
+    "Embedded schema in content is truncated vs schema.jsonld (7 FAQ); full schema.jsonld on disk"
+  ],
+  "raw_output": "OK post=706 OK featured_image=703 OK inline_image_upload=704,702,705 OK schema_meta=embed_fallback permalink=[REDACTED]/?p=706"
+}
