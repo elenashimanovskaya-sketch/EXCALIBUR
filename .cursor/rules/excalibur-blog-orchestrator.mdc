@@ -32,6 +32,18 @@ Handoff: `shared/excalibur-blog-handoff.md`
 
 Команда: `commands/excalibur-blog-run.md`
 
+## Git sync (Cloud — обязательно)
+
+Cursor Cloud Automation **клонирует репозиторий с GitHub**, не с локального диска.
+
+После **любого** коммита, который должен попасть в Cloud (prompt, agents, skills, scripts, shared, rules):
+1. `git push origin master` — **сразу**, без вопроса пользователю.
+2. В ответе — только факт: `pushed <hash> → origin/master`.
+
+Это не «бэкап ради бэкапа», а **деploy инструкций**: без push Cloud работает со старой версией файлов.
+
+Исключение: секреты, `.env.local`, runtime handoff/fragments — не коммитить и не пушить.
+
 ## Запреты
 
 - `Task(excalibur-blog-director)`

@@ -138,3 +138,12 @@ Copy-Item rules\* .cursor\rules\ -Force
 ```
 
 Или добавь script `scripts/sync_cursor_cloud.ps1` при необходимости.
+
+## Git push = deploy для Cloud
+
+Локальные правки **не видны** Cloud Automation, пока их нет на GitHub.
+
+После commit файлов пайплайна (`shared/`, `scripts/`, `.cursor/agents`, `.cursor/rules`, `AGENTS.md`):
+- **`git push origin master` сразу** — без вопроса пользователю (см. `.cursor/rules/excalibur-blog-orchestrator.mdc`).
+
+Instructions в UI Automation — отдельная копипаста из `shared/automation-prompt-dzen-test.md`; push обновляет репо для агента, но UI-поле Instructions нужно обновлять вручную при изменении prompt.

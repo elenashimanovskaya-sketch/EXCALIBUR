@@ -34,6 +34,8 @@
 
 Writer **не** из Director model: subagent `excalibur-blog-writer` в репо с `model: cursor-grok-4.5-medium`.
 
+**После правки этого файла (или agents/skills/scripts):** commit → `git push origin master` без паузы. Cloud читает GitHub, не локальный диск. Instructions в Dashboard UI — копипаст вручную; файл в репо — источник правды для агента и бэкап.
+
 ---
 
 ## Instructions (скопировать целиком)
