@@ -1,0 +1,69 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-29",
+    "today_ru": "29.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-30",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-29 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B34",
+    "priority": "P1",
+    "slug": "kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov",
+    "h1": "Как замедлить старение кожи: 5 лучших антиоксидантов",
+    "primary_query": "антиоксиданты для кожи",
+    "secondary_queries": [
+      "как замедлить старение кожи"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B34",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "антиоксиданты для кожи 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "антиоксиданты для кожи июль 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "антиоксиданты для кожи новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "secondary_1",
+      "query": "как замедлить старение кожи 2026",
+      "purpose": "вторичный запрос: как замедлить старение кожи"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как замедлить старение кожи: 5 лучших антиоксидантов 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B34-kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

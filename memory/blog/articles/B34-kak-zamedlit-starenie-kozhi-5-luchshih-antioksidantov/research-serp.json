@@ -1,0 +1,304 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-07-29",
+    "today_ru": "29.07.2026",
+    "year": 2026,
+    "month": 7,
+    "month_name_ru": "июль",
+    "weekday_ru": "среда",
+    "freshness_window": {
+      "prefer_sources_after": "2026-04-30",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-07-29 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B34",
+    "priority": "P1",
+    "slug": "kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov",
+    "h1": "Как замедлить старение кожи: 5 лучших антиоксидантов",
+    "primary_query": "антиоксиданты для кожи",
+    "secondary_queries": [
+      "как замедлить старение кожи"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "h2_outline": ""
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "антиоксиданты для кожи 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Антивозрастной уход 2026: новые ингредиенты и подходы",
+          "url": "https://kos-mart.ru/articles/antivozrastnoy_uhod_2026_novye_ingredienty_i_podhody",
+          "snippet": ""
+        },
+        {
+          "title": "Антиоксиданты для кожи: Полное руководство по защите.",
+          "url": "https://santeclinics.com/ru/blog/the-power-of-antioxidants-protecting-your-skin-from-environmental-damage",
+          "snippet": "В 2026 году натуральные антиоксиданты занимают центральное место в антивозрастной косметике, поскольку именно они защищают кожу от повреждений, вызванных воздействием свободных радикалов."
+        },
+        {
+          "title": "Антиоксиданты для кожи: защита вашего лица.",
+          "url": "https://santeclinics.com/ru/blog/antioxidants-for-skin-guide-1",
+          "snippet": "Узнайте, как антиоксиданты борются со стрессовыми факторами окружающей среды, защищая вашу кожу от преждевременного старения и повреждений."
+        },
+        {
+          "title": "Обзор лучших средств с антиоксидантами для лица на 2026 год",
+          "url": "https://vyborok.com/rejting-luchshih-sredstv-s-antioksidantami-dlya-licza/",
+          "snippet": "Узнайте, как антиоксиданты борются со свободными радикалами и защищают вашу кожу. Откройте для себя лучшие антиоксиданты и способы их применения."
+        },
+        {
+          "title": "Антиоксиданты для кожи: лучшие продукты для сияния - Joy-Pup",
+          "url": "https://joy-pup.com/health-beauty/antioksidanty-dlja-kozhi-luchshie-produk/",
+          "snippet": "Предлагаем разобраться в этом вместе и изучить рейтинг лучших средств с антиоксидантами для лица на 2026 год, рассмотреть их достоинства и недостатки."
+        },
+        {
+          "title": "Топ-10 активов 2026: рабочие концентрации для зрелой кожи",
+          "url": "https://www.myglowspace.com/ru/articles/top-10-aktivnyh-ingredientov-2026",
+          "snippet": "Хотите иметь сияющую кожу от природы? Включите в рацион 7 продуктов, богатых антиоксидантами, которые помогут питать вашу кожу."
+        }
+      ],
+      "searched_at": "2026-07-29"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "антиоксиданты для кожи июль 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Антиоксиданты для кожи: подробное руководство.",
+          "url": "https://santeclinics.com/ru/blog/antioxidants-for-skin-guide",
+          "snippet": ""
+        },
+        {
+          "title": "Антиоксиданты — секрет сияющей и молодой кожи! Как сохранить кожу ...",
+          "url": "https://vk.com/wall-165210040_5013",
+          "snippet": "Узнайте, как антиоксиданты защищают кожу от повреждений, вызванных свободными радикалами. Лучшие антиоксиданты для сияющей кожи и как включить их в уход для здорового цвета лица."
+        },
+        {
+          "title": "Обзор лучших средств с антиоксидантами для лица на 2026 год",
+          "url": "https://vyborok.com/rejting-luchshih-sredstv-s-antioksidantami-dlya-licza/",
+          "snippet": "Новое исследование 2026 года в Journal of Dermatological Science подтвердило: продукты, богатые антиоксидантами, замедляют процессы старения кожи, уменьшают воспаления и улучшают её эластичность."
+        },
+        {
+          "title": "Антиоксиданты для кожи: что это такое, зачем нужны в косметике, как ...",
+          "url": "https://www.letu.ru/blog/zachem-nuzhny-antioksidanty-v-kosmetike-i-kakie-komponenty-rabotayut-luchshe-vsego",
+          "snippet": "Рассмотрим обзор популярных антиоксидантных препаратов для лица, востребованных в 2026 году с указанием, сколько стоит каждый, какими характеристиками обладает, в чем его достоинства ..."
+        },
+        {
+          "title": "Антиоксиданты для кожи: Полное руководство по защите.",
+          "url": "https://santeclinics.com/ru/blog/the-power-of-antioxidants-protecting-your-skin-from-environmental-damage",
+          "snippet": "Рассказываем, на что еще способны антиоксиданты, какие виды существуют, действие каких из них подтверждено исследованиями и в какое время суток их лучше использовать."
+        },
+        {
+          "title": "Дерматолог рассказала о способах восстановить кожу после загара",
+          "url": "https://iz.ru/2139452/2026-07-27/dermatolog-rasskazala-o-sposobakh-vosstanovit-kozhu-posle-zagara",
+          "snippet": "Откройте для себя силу антиоксидантов в защите вашей кожи от вредного воздействия окружающей среды и преждевременного старения."
+        }
+      ],
+      "searched_at": "2026-07-29"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "антиоксиданты для кожи новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Антивозрастной уход 2026: новые ингредиенты и подходы",
+          "url": "https://kos-mart.ru/articles/antivozrastnoy_uhod_2026_novye_ingredienty_i_podhody",
+          "snippet": ""
+        },
+        {
+          "title": "Минималистичный уход за кожей становится трендом в 2026 году",
+          "url": "https://ren.tv/news/zdorove/1446096-minimalistichnyi-ukhod-za-kozhei-stanovitsia-trendom-v-2026-godu-rii",
+          "snippet": "В 2026 году натуральные антиоксиданты занимают центральное место в антивозрастной косметике, поскольку именно они защищают кожу от повреждений, вызванных воздействием свободных радикалов."
+        },
+        {
+          "title": "Антиоксиданты в уходе: зачем они нужны коже | РБК Компании",
+          "url": "https://companies.rbc.ru/news/6FnVFfo4YQ/antioksidantyi-v-uhode-zachem-oni-nuzhnyi-kozhe/",
+          "snippet": "В 2026 году все больше людей переходят на минималистичный уход за кожей, отказываясь от многоступенчатых бьюти-рутин."
+        },
+        {
+          "title": "Женщины 40+ переходят на эти средства — кожа становится гладкой как в ...",
+          "url": "https://peterburg2.ru/news/antivozrastnye-formuly-2026-kak-novye-sredstva-menyayut-podhod-k-uhodu-za-kozhey-223689.html",
+          "snippet": "Исследования, опубликованные в British Journal of Dermatology, подтверждают влияние этих компонентов на снижение оксидативного стресса и улучшение состояния кожи. Чтобы получить максимальный эффект от использования антиоксидантов, важно выстроить системный и грамотный уход."
+        },
+        {
+          "title": "Диетолог Поляков: голубика помогает замедлять старение",
+          "url": "https://dnr-news.ru/society/2026/07/27/1444930.html",
+          "snippet": "В 2026 году антивозрастные средства обещают не только свежий вид, но и заметный эффект. Ретинол, гиалурон и антиоксиданты становятся главными героями ухода."
+        },
+        {
+          "title": "Антивозрастной уход: эффективные процедуры и советы 2026",
+          "url": "https://beautywin.ru/blog/10-antivozrastnoy-uhod-chto-realno-rabotaet-v-2026-godu",
+          "snippet": "Донецк, 27 июл — ДАН. В голубике содержатся антиоксиданты, которые помогают замедлять старение и снижают воспалительный фон. Подробнее о пользе этой ягоды в эксклюзивном комментарии aif.ru рассказал врач-эндокринолог ..."
+        }
+      ],
+      "searched_at": "2026-07-29"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "как замедлить старение кожи 2026",
+      "purpose": "вторичный запрос: как замедлить старение кожи",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Врач рассказала, как замедлить старение кожи - Газета.Ru | Новости",
+          "url": "https://www.gazeta.ru/social/news/2026/07/29/28996981.shtml",
+          "snippet": ""
+        },
+        {
+          "title": "Как замедлить старение кожи: привычки, уход и процедуры",
+          "url": "https://www.gruzdevclinic.ru/o-klinike/stati/kak-zamedlit-starenie-koji",
+          "snippet": "Врач Уланкина: ограничение мимики ради замедления старения кожи неэффективно"
+        },
+        {
+          "title": "Как замедлить старение кожи: 10 безопасных и эффективных способов",
+          "url": "https://medaboutme.ru/articles/10_bezopasnykh_sposobov_zamedlit_starenie_kozhi_litsa_i_tela/",
+          "snippet": "В статье разбираем, как замедлить старение кожи лица, а также рассказываем о его признаках и факторах, которые на это влияют."
+        },
+        {
+          "title": "Как замедлить старение кожи: советы косметолога",
+          "url": "https://iris56.ru/blog/kak-zamedlit-starenie-kozhi-sovety-kosmetologa-1050",
+          "snippet": "Старение кожи — это естественная часть жизни, но вы можете попытаться предотвратить ранее проявление возрастных признаков, скорректировав свой уход и повседневные привычки. Рассказываем о наиболее безопасных и действенных способах замедлить старение кожи лица и тела. 1. Не усложняйте бьюти-рутину."
+        },
+        {
+          "title": "Топ-7 процедур против старения кожи: что реально работает в 2026 году",
+          "url": "https://lady.mail.ru/article/582731-7-procedur-pomogayushih-spravitsya-s-vozrastnymi-izmeneniyami/",
+          "snippet": "Процесс старения кожи запускается под воздействием множества факторов, которые условно делятся на внутренние и внешние. Понимание механизмов увядания помогает выстроить эффективную стратегию профилактики возрастных изменений."
+        },
+        {
+          "title": "Как замедлить старение кожи лица и тела: 12 простых способов",
+          "url": "https://medaboutme.ru/articles/12_prostykh_sposobov_zamedlit_starenie_kozhi_litsa_i_tela/",
+          "snippet": "Врач-косметолог рассказала Леди Mail, как работает каждая методика, кому она подходит и какого результата ожидать."
+        }
+      ],
+      "searched_at": "2026-07-29"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как замедлить старение кожи: 5 лучших антиоксидантов 2026",
+      "purpose": "SERP по H1",
+      "result_count": 0,
+      "results": [],
+      "searched_at": "2026-07-29"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://kos-mart.ru/articles/antivozrastnoy_uhod_2026_novye_ingredienty_i_podhody",
+      "title": "Антивозрастной уход 2026: новые ингредиенты и подходы",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://santeclinics.com/ru/blog/the-power-of-antioxidants-protecting-your-skin-from-environmental-damage",
+      "title": "Антиоксиданты для кожи: Полное руководство по защите.",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://santeclinics.com/ru/blog/antioxidants-for-skin-guide-1",
+      "title": "Антиоксиданты для кожи: защита вашего лица.",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://vyborok.com/rejting-luchshih-sredstv-s-antioksidantami-dlya-licza/",
+      "title": "Обзор лучших средств с антиоксидантами для лица на 2026 год",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://joy-pup.com/health-beauty/antioksidanty-dlja-kozhi-luchshie-produk/",
+      "title": "Антиоксиданты для кожи: лучшие продукты для сияния - Joy-Pup",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://www.myglowspace.com/ru/articles/top-10-aktivnyh-ingredientov-2026",
+      "title": "Топ-10 активов 2026: рабочие концентрации для зрелой кожи",
+      "from_query": "антиоксиданты для кожи 2026"
+    },
+    {
+      "url": "https://santeclinics.com/ru/blog/antioxidants-for-skin-guide",
+      "title": "Антиоксиданты для кожи: подробное руководство.",
+      "from_query": "антиоксиданты для кожи июль 2026"
+    },
+    {
+      "url": "https://vk.com/wall-165210040_5013",
+      "title": "Антиоксиданты — секрет сияющей и молодой кожи! Как сохранить кожу ...",
+      "from_query": "антиоксиданты для кожи июль 2026"
+    },
+    {
+      "url": "https://www.letu.ru/blog/zachem-nuzhny-antioksidanty-v-kosmetike-i-kakie-komponenty-rabotayut-luchshe-vsego",
+      "title": "Антиоксиданты для кожи: что это такое, зачем нужны в косметике, как ...",
+      "from_query": "антиоксиданты для кожи июль 2026"
+    },
+    {
+      "url": "https://iz.ru/2139452/2026-07-27/dermatolog-rasskazala-o-sposobakh-vosstanovit-kozhu-posle-zagara",
+      "title": "Дерматолог рассказала о способах восстановить кожу после загара",
+      "from_query": "антиоксиданты для кожи июль 2026"
+    },
+    {
+      "url": "https://ren.tv/news/zdorove/1446096-minimalistichnyi-ukhod-za-kozhei-stanovitsia-trendom-v-2026-godu-rii",
+      "title": "Минималистичный уход за кожей становится трендом в 2026 году",
+      "from_query": "антиоксиданты для кожи новости 2026"
+    },
+    {
+      "url": "https://companies.rbc.ru/news/6FnVFfo4YQ/antioksidantyi-v-uhode-zachem-oni-nuzhnyi-kozhe/",
+      "title": "Антиоксиданты в уходе: зачем они нужны коже | РБК Компании",
+      "from_query": "антиоксиданты для кожи новости 2026"
+    },
+    {
+      "url": "https://peterburg2.ru/news/antivozrastnye-formuly-2026-kak-novye-sredstva-menyayut-podhod-k-uhodu-za-kozhey-223689.html",
+      "title": "Женщины 40+ переходят на эти средства — кожа становится гладкой как в ...",
+      "from_query": "антиоксиданты для кожи новости 2026"
+    },
+    {
+      "url": "https://dnr-news.ru/society/2026/07/27/1444930.html",
+      "title": "Диетолог Поляков: голубика помогает замедлять старение",
+      "from_query": "антиоксиданты для кожи новости 2026"
+    },
+    {
+      "url": "https://beautywin.ru/blog/10-antivozrastnoy-uhod-chto-realno-rabotaet-v-2026-godu",
+      "title": "Антивозрастной уход: эффективные процедуры и советы 2026",
+      "from_query": "антиоксиданты для кожи новости 2026"
+    },
+    {
+      "url": "https://www.gazeta.ru/social/news/2026/07/29/28996981.shtml",
+      "title": "Врач рассказала, как замедлить старение кожи - Газета.Ru | Новости",
+      "from_query": "как замедлить старение кожи 2026"
+    },
+    {
+      "url": "https://www.gruzdevclinic.ru/o-klinike/stati/kak-zamedlit-starenie-koji",
+      "title": "Как замедлить старение кожи: привычки, уход и процедуры",
+      "from_query": "как замедлить старение кожи 2026"
+    },
+    {
+      "url": "https://medaboutme.ru/articles/10_bezopasnykh_sposobov_zamedlit_starenie_kozhi_litsa_i_tela/",
+      "title": "Как замедлить старение кожи: 10 безопасных и эффективных способов",
+      "from_query": "как замедлить старение кожи 2026"
+    },
+    {
+      "url": "https://iris56.ru/blog/kak-zamedlit-starenie-kozhi-sovety-kosmetologa-1050",
+      "title": "Как замедлить старение кожи: советы косметолога",
+      "from_query": "как замедлить старение кожи 2026"
+    },
+    {
+      "url": "https://lady.mail.ru/article/582731-7-procedur-pomogayushih-spravitsya-s-vozrastnymi-izmeneniyami/",
+      "title": "Топ-7 процедур против старения кожи: что реально работает в 2026 году",
+      "from_query": "как замедлить старение кожи 2026"
+    },
+    {
+      "url": "https://medaboutme.ru/articles/12_prostykh_sposobov_zamedlit_starenie_kozhi_litsa_i_tela/",
+      "title": "Как замедлить старение кожи лица и тела: 12 простых способов",
+      "from_query": "как замедлить старение кожи 2026"
+    }
+  ]
+}
