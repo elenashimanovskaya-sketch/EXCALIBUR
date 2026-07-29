@@ -8,7 +8,7 @@
 |------|----------|
 | Repository | `elenashimanovskaya-sketch/EXCALIBUR` |
 | Branch | `master` |
-| Model (Director) | Composer 2.5 или Grok — на выбор |
+| Model (Director) | **Composer 2.5** (Cloud; Grok slug недоступен) |
 | Trigger | Manual / Run now (или cron `0 12 * * *` для разового слота) |
 
 ## Secrets (минимум)
@@ -32,7 +32,7 @@
 
 «Silver Cream» — **косметика**, не название канала. В финале статьи **запрещено** подставлять Silver Cream как title канала.
 
-Writer **не** из Director model: subagent `excalibur-blog-writer` в репо с `model: cursor-grok-4.5-medium`.
+Writer: subagent `excalibur-blog-writer` с **`model: inherit`** — та же модель, что Director (Composer 2.5). Slug `cursor-grok-4.5-medium` в Cloud **не использовать**.
 
 **После правки этого файла (или agents/skills/scripts):** commit → `git push origin master` без паузы. Cloud читает GitHub, не локальный диск. Instructions в Dashboard UI — копипаст вручную; файл в репо — источник правды для агента и бэкап.
 
@@ -53,8 +53,8 @@ Writer **не** из Director model: subagent `excalibur-blog-writer` в реп�
 ОБЯЗАТЕЛЬНО: EXCALIBUR_TOPIC_ID из Secrets (напр. B34) — не бери случайный P0 без env
 ОБЯЗАТЕЛЬНО: MCP-KV подключён в Cloud Integrations (gpt-image-2 + wordstat)
 
-Writer: Task(excalibur-blog-writer) — модель subagent cursor-grok-4.5-medium (frontmatter .cursor/agents/excalibur-blog-writer.md).
-НЕ excalibur_blog_gemini_writer.py. НЕ inherit model Director для writer.
+Writer: Task(excalibur-blog-writer) — subagent model: inherit (модель Director = Composer 2.5 в Automation settings).
+НЕ cursor-grok-4.5-medium — slug недоступен в Cloud. НЕ excalibur_blog_gemini_writer.py без GEMINI_API_KEY.
 Пиши по memory/brief/elena-dzen-writer-prompt.md: короткие абзацы, HTML <table> для протоколов, <ol> для чеклистов. Эталон B29.
 
 0. AGENTS.md + shared/agent-pipeline-pitfalls.md + shared/pipeline-task-map.md
@@ -107,7 +107,7 @@ Pre-finish checklist (Director, все PASS):
 
 Запрещено: single-agent pipeline; cover до QA; live publish; mayai.ru; «плоские» таблицы в <p>; «брейн-хаки» в title; Silver Cream как название TG-канала.
 
-Финал: topic_id, article_dir, QA verdict, post_status=draft, wp_post_id, admin preview hint, writer_model=cursor-grok-4.5-medium.
+Финал: topic_id, article_dir, QA verdict, post_status=draft, wp_post_id, admin preview hint, writer_model=inherit (Director=Composer 2.5).
 ```
 
 ## Черновик vs опубликовано (URLs)
@@ -125,10 +125,11 @@ Pre-finish checklist (Director, все PASS):
 ## Как запустить тест (следующая статья B34)
 
 1. Cursor → **Automations** → открой `naturallift-dzen-test` (или Create).
-2. **Secrets:** `EXCALIBUR_TOPIC_ID=B34`, оба `NATURALLIFT_TELEGRAM_*`, MCP-KV, FTP, Wordstat (см. таблицы выше).
-3. Вставь Instructions из блока выше (если менялся файл — перекопируй целиком).
-4. **Save** → **Run now**.
-5. Run log: writer = **Grok 4.5 Medium**; cover = quad-mcp-batch + quad-split PASS.
-6. WP → **Записи → Черновики** — preview; проверь TG-финал и 3 inline-картинки (кириллица).
+2. **Model (Director):** Composer 2.5 — обязательно для Cloud.
+3. **Secrets:** `EXCALIBUR_TOPIC_ID=B34`, оба `NATURALLIFT_TELEGRAM_*`, MCP-KV, FTP, Wordstat (см. таблицы выше).
+4. Вставь Instructions из блока выше (если менялся файл — перекопируй целиком).
+5. **Save** → **Run now**.
+6. Run log: writer = inherit → Composer 2.5; cover = quad-mcp-batch + quad-split PASS.
+7. WP → **Записи → Черновики** — preview; проверь TG-финал и 3 inline-картинки (кириллица).
 
 Старую `naturallift-dzen-test-2135` с текстом «Брейн-хаки B30 live» — **отключи** или перезапиши prompt.

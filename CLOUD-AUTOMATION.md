@@ -147,3 +147,9 @@ Copy-Item rules\* .cursor\rules\ -Force
 - **`git push origin master` сразу** — без вопроса пользователю (см. `.cursor/rules/excalibur-blog-orchestrator.mdc`).
 
 Instructions в UI Automation — отдельная копипаста из `shared/automation-prompt-dzen-test.md`; push обновляет репо для агента, но UI-поле Instructions нужно обновлять вручную при изменении prompt.
+
+## Cloud models
+
+- **Automation → Model (Director):** `Composer 2.5` — рекомендуется для Cloud.
+- **Writer subagent:** `model: inherit` в `.cursor/agents/excalibur-blog-writer.md` — slug `cursor-grok-4.5-medium` в Cloud **недоступен**.
+- Локальный desktop run может переопределить модель вручную; Cloud curated list ≠ desktop picker.
