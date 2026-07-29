@@ -232,3 +232,33 @@ OK inline_image_upload=277 src=cover/inline-02.png
 OK inline_image_upload=278 src=cover/inline-03.png
 permalink=https://naturallift.store/2026/06/17/nosogubnye-skladki-kak-rasslabit-myshtsy-podnimateli-kryla-nosa/
 ```
+
+---
+
+## 2026-07-29 — B34 kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov — **PASS (draft, MCP)**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B34 |
+| slug | kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov |
+| verdict | **PASS** |
+| post_id | 720 |
+| post_status | draft |
+| featured_image_id | 717 |
+| inline_images | 718, 719, 716 |
+| preview_url | [REDACTED]/?p=720&preview=true |
+| admin_edit_url | [REDACTED]/wp-admin/post.php?post=720&action=edit |
+| publish_method | mcp-blob (FTP blocked: 425 Bad IP from Cloud Agent) |
+| schema_meta | pending |
+
+### Result
+
+```
+OK post=720 status=draft method=mcp-blob
+OK featured_image=717
+OK inline_images=718,719,716
+OK content_reupload=1 bytes=26694
+WARN schema_meta=0 (MCP path)
+preview_url=[REDACTED]/?p=720&preview=true
+telegram_gate=pass
+```
