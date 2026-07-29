@@ -1,0 +1,21 @@
+{
+  "slug": "kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov",
+  "topic_id": "B34",
+  "post_id": "720",
+  "post_status": "draft",
+  "permalink": "[REDACTED]/?p=720",
+  "public_url": "[REDACTED]/?p=720&preview=true",
+  "admin_edit_url": "[REDACTED]/wp-admin/post.php?post=720&action=edit",
+  "preview_url": "[REDACTED]/?p=720&preview=true",
+  "publish_method": "mcp-blob",
+  "featured_image_id": 717,
+  "inline_images": [718, 719, 716],
+  "schema_meta": "pending",
+  "telegram_gate": "pass",
+  "cover_evidence": {
+    "path": "memory/blog/articles/B34-kak-zamedlit-starenie-kozhi-5-luchshih-antioksidantov/cover/cover.png",
+    "featured_media_id": 717
+  },
+  "raw_output": "OK post=720 status=draft method=mcp-blob\nOK featured_image=717\nOK inline_images=718,719,716\nOK content_reupload=1 bytes=26694 sha256=d2d0d8a2836e9a8ea62f2d3fb99b3ee43e0caada9fdc5881e799e01014596ee9\nWARN schema_meta=0 (MCP path; set _excalibur_blog_schema_jsonld manually or via FTP publish)\nWARN ftp_publish=blocked (425 Security: Bad IP connecting from Cloud Agent)\npreview_url=[REDACTED]/?p=720&preview=true\n",
+  "verdict": "pass"
+}
